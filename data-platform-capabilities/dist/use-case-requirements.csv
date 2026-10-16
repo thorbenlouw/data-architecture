@@ -1,0 +1,555 @@
+use_case,title,relation,capability,min_level,why
+usecase-agentic-automation,Agentic process automation,requires,agent-tool-access,3,"Agents read data and act in business systems only through governed, described tools."
+usecase-agentic-automation,Agentic process automation,requires,agent-runtime,3,"Agents run as managed services with durable state, scaling and sandboxed code execution."
+usecase-agentic-automation,Agentic process automation,requires,agent-identity,3,"Each agent has its own identity and acts with scoped, short-lived access on behalf of a named user."
+usecase-agentic-automation,Agentic process automation,requires,foundation-model-access,3,Planning and reasoning use approved models inside the security boundary.
+usecase-agentic-automation,Agentic process automation,requires,retrieval-augmented-generation,2,Agents ground decisions in current policies and procedures.
+usecase-agentic-automation,Agentic process automation,requires,human-oversight,3,"High-impact actions need approval, and people must be able to pause or stop agents."
+usecase-agentic-automation,Agentic process automation,requires,ai-guardrails,3,Inputs and outputs are filtered so injected instructions in emails or documents cannot trigger actions.
+usecase-agentic-automation,Agentic process automation,requires,genai-evaluation,3,Agents are tested on realistic cases for accuracy and safe behaviour before each release.
+usecase-agentic-automation,Agentic process automation,requires,genai-observability,3,"Every step, tool call and decision is traced for debugging and audit."
+usecase-agentic-automation,Agentic process automation,requires,audit-logging,3,Actions taken in business systems must be attributable and tamper-evident.
+usecase-agentic-automation,Agentic process automation,requires,agent-registry,2,"The organisation must know which agents and tools exist, who owns them and what they may do."
+usecase-agentic-automation,Agentic process automation,requires,ai-governance,2,Each agent needs a risk classification and approval before it acts on real cases.
+usecase-agentic-automation,Agentic process automation,requires,ai-spend-controls,2,"Step, token and cost limits stop runaway loops."
+usecase-agentic-automation,Agentic process automation,benefits_from,agent-memory,,Carries context across long-running cases and sessions.
+usecase-agentic-automation,Agentic process automation,benefits_from,ai-red-teaming,,Tests agents against manipulation before attackers try.
+usecase-agentic-automation,Agentic process automation,benefits_from,ai-context-layer,,Helps agents use structured data and business definitions correctly.
+usecase-agentic-automation,Agentic process automation,benefits_from,agent-interoperability,,Lets agents hand work to agents on other platforms.
+usecase-agentic-automation,Agentic process automation,benefits_from,ai-gateway,,"Centralises model routing, quotas and logging across providers."
+usecase-agentic-automation,Agentic process automation,benefits_from,prompt-management,,Versions agent instructions and tool descriptions.
+usecase-agentic-automation,Agentic process automation,benefits_from,ai-incident-management,,Records and reports agent malfunctions in a consistent way.
+usecase-agentic-automation,Agentic process automation,benefits_from,document-processing,,"Extracts fields from invoices, claims and forms that agents work on."
+usecase-agentic-automation,Agentic process automation,benefits_from,permission-aware-retrieval,,Keeps agent answers within what the acting user may see.
+usecase-agentic-automation,Agentic process automation,benefits_from,shadow-deployment,,"Runs a new agent version on real cases with tool calls stubbed, comparing its proposed actions with those of staff or the current version before it acts."
+usecase-application-data-publishing,Application data publishing,requires,event-streaming,3,"Domain events go to durable, replayable topics that many consumers read independently."
+usecase-application-data-publishing,Application data publishing,requires,schema-registry,3,"Every event schema is registered, and incompatible changes are rejected before consumers see them."
+usecase-application-data-publishing,Application data publishing,requires,data-contracts,3,"Meaning, quality and service levels are agreed and checked, not only field types."
+usecase-application-data-publishing,Application data publishing,requires,change-data-capture,2,"Where events are not emitted, agreed tables are captured from the log with measured load on production."
+usecase-application-data-publishing,Application data publishing,requires,schema-change-management,2,"Database changes go through versioned migrations, using expand and contract for anything consumers read."
+usecase-application-data-publishing,Application data publishing,requires,impact-analysis,3,"Producers see, before merging, which pipelines, reports and services use a field they want to change."
+usecase-application-data-publishing,Application data publishing,requires,ci-cd,3,"Compatibility and contract checks run in the producer's own build pipeline, not only downstream."
+usecase-application-data-publishing,Application data publishing,requires,data-ownership,2,Each event and published table has an owning team that answers for it after it leaves the service.
+usecase-application-data-publishing,Application data publishing,requires,event-api-catalogue,2,"Teams find published events with their owner, schema and consumers instead of asking around."
+usecase-application-data-publishing,Application data publishing,requires,streaming-ingestion,2,Published events land in platform tables within minutes for analytics and features.
+usecase-application-data-publishing,Application data publishing,benefits_from,stream-to-table,,Exposes topics as tables without a separate loader to run.
+usecase-application-data-publishing,Application data publishing,benefits_from,bad-data-quarantine,,Holds events that fail contract checks for replay instead of blocking the stream.
+usecase-application-data-publishing,Application data publishing,benefits_from,idempotent-loading,,Replayed or duplicated events are not counted twice.
+usecase-application-data-publishing,Application data publishing,benefits_from,data-slas,,Consumers see freshness and availability targets and their history.
+usecase-application-data-publishing,Application data publishing,benefits_from,behavioural-event-collection,,Tracking plans validate product events from web and mobile SDKs.
+usecase-application-data-publishing,Application data publishing,benefits_from,database-replication,,"Covers tables nobody models as events, without building capture pipelines."
+usecase-application-data-publishing,Application data publishing,benefits_from,column-lineage,,Narrows impact to the fields actually changed rather than whole tables.
+usecase-application-data-publishing,Application data publishing,benefits_from,usage-metadata,,"Shows which consumers still read old versions, so they can be retired."
+usecase-application-data-publishing,Application data publishing,benefits_from,data-product-specification,,Describes published data as a source-aligned data product where the organisation works that way.
+usecase-churn-prediction,Churn prediction,requires,feature-engineering,2,"Raw billing, usage and contact data has to become consistent customer-level features."
+usecase-churn-prediction,Churn prediction,requires,point-in-time-joins,3,"Training features must be as known before each customer left, or the model learns from the future."
+usecase-churn-prediction,Churn prediction,requires,model-training,2,Models are trained and retrained on customer history.
+usecase-churn-prediction,Churn prediction,requires,experiment-tracking,2,"Model versions, features and results must be comparable and reproducible."
+usecase-churn-prediction,Churn prediction,requires,model-evaluation,2,"Models are judged on ranking quality and expected uplift, not only on accuracy."
+usecase-churn-prediction,Churn prediction,requires,model-explainability,2,Retention teams need the main reasons behind each score to choose the right action.
+usecase-churn-prediction,Churn prediction,requires,model-registry,2,The approved model version used for scoring must be clear and reversible.
+usecase-churn-prediction,Churn prediction,requires,batch-inference,3,The whole active customer base is scored on a schedule within a fixed window.
+usecase-churn-prediction,Churn prediction,requires,workflow-orchestration,2,"Feature refresh, scoring and delivery run in order on every cycle."
+usecase-churn-prediction,Churn prediction,requires,reverse-etl,2,Scores are useful only once they reach the CRM and campaign tools where retention teams act.
+usecase-churn-prediction,Churn prediction,requires,model-performance-monitoring,2,Actual churn arrives weeks later and must be compared with past scores to spot decline.
+usecase-churn-prediction,Churn prediction,requires,consent-management,2,Profiling and retention contact must stay within permitted purposes and opt-outs.
+usecase-churn-prediction,Churn prediction,requires,experimentation,2,"Retention uplift is measured against a randomly held-out control group, which the use case names as what good looks like."
+usecase-churn-prediction,Churn prediction,benefits_from,offline-feature-store,,Shares customer features with other models such as upsell and credit risk.
+usecase-churn-prediction,Churn prediction,benefits_from,automl,,Gives a quick baseline to beat.
+usecase-churn-prediction,Churn prediction,benefits_from,pretrained-predictive-models,,Gives usable scores before enough history exists to train a dedicated model.
+usecase-churn-prediction,Churn prediction,benefits_from,drift-detection,,"Warns when customer behaviour shifts, such as after a price change, before outcomes are known."
+usecase-churn-prediction,Churn prediction,benefits_from,champion-challenger,,Tests new models against the current one on live scoring cycles.
+usecase-churn-prediction,Churn prediction,benefits_from,behavioural-event-collection,,Digital engagement is often the earliest signal that a customer is drifting away.
+usecase-churn-prediction,Churn prediction,benefits_from,master-data-management,,One customer record avoids scoring duplicates separately.
+usecase-churn-prediction,Churn prediction,benefits_from,fairness-assessment,,Checks that retention offers are not withheld unfairly from groups of customers.
+usecase-churn-prediction,Churn prediction,benefits_from,continuous-training,,Retrains automatically as products and pricing change.
+usecase-churn-prediction,Churn prediction,benefits_from,streaming-inference,,"An early-warning variant scores customers within minutes of signals such as a cancellation-page visit, a complaint or a failed payment."
+usecase-churn-prediction,Churn prediction,benefits_from,stream-processing,,Keeps rolling engagement and service features current between batch scoring runs.
+usecase-churn-prediction,Churn prediction,benefits_from,online-feature-store,,Serves the latest customer features to event-triggered scoring.
+usecase-churn-prediction,Churn prediction,benefits_from,data-alerting,,Notifies the retention team when a customer's score crosses a threshold instead of waiting for the next campaign cycle.
+usecase-conversational-bi,Conversational analytics for business users,requires,conversational-analytics,3,Questions in plain language are turned into queries and answers within the governed environment.
+usecase-conversational-bi,Conversational analytics for business users,requires,semantic-layer,3,"The model must query business entities and measures, not guess joins across raw tables."
+usecase-conversational-bi,Conversational analytics for business users,requires,metric-definitions,3,Answers must use the same certified KPI logic as the dashboards.
+usecase-conversational-bi,Conversational analytics for business users,requires,ai-context-layer,3,"Synonyms, verified queries and usage notes steer the model to correct queries."
+usecase-conversational-bi,Conversational analytics for business users,requires,business-glossary,2,Business terms in questions must map to defined concepts.
+usecase-conversational-bi,Conversational analytics for business users,requires,foundation-model-access,2,An approved model interprets questions and writes queries inside the security boundary.
+usecase-conversational-bi,Conversational analytics for business users,requires,identity-authentication,3,"Generated queries must run as the asking user, not a shared service account."
+usecase-conversational-bi,Conversational analytics for business users,requires,row-level-security,3,"Users must get only the rows they are entitled to, however they phrase a question."
+usecase-conversational-bi,Conversational analytics for business users,requires,column-masking,3,Sensitive fields stay hidden even if a question asks for them.
+usecase-conversational-bi,Conversational analytics for business users,requires,data-certification,2,Only certified datasets are exposed to conversational queries.
+usecase-conversational-bi,Conversational analytics for business users,requires,genai-evaluation,3,A benchmark of real questions with known answers decides whether a domain is ready for users.
+usecase-conversational-bi,Conversational analytics for business users,requires,genai-observability,2,Question logs and feedback show where answers fail and which context to add.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,semantic-model-interchange,,Reuses the BI semantic model in AI tools without redefining it.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,workload-management,,Limits heavy generated queries.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,ai-spend-controls,,Caps model and query spend per user or team.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,data-catalogue,,Provides descriptions that help the model choose the right dataset.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,usage-metadata,,"Shows which questions people actually ask, to prioritise context work."
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,ai-guardrails,,Blocks requests outside scope and prompt injection.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,augmented-analytics,,Adds automatic explanations of why a figure changed.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,data-consumer-portal,,Puts the assistant alongside the dashboards users already have.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,enterprise-ai-assistant,,Brings data answers into the assistant staff already use.
+usecase-conversational-bi,Conversational analytics for business users,benefits_from,data-trust-indicators,,"Answers show whether the data behind them is current and passing checks, so users can judge them."
+usecase-credit-decisioning,Credit decisioning,requires,feature-engineering,2,"Application, bureau and account data become consistent applicant-level features."
+usecase-credit-decisioning,Credit decisioning,requires,point-in-time-joins,3,Development samples use bureau and account data as known on each application date.
+usecase-credit-decisioning,Credit decisioning,requires,model-training,2,Scorecards and models are redeveloped as portfolios and economic conditions change.
+usecase-credit-decisioning,Credit decisioning,requires,model-evaluation,3,"Discrimination, calibration and stability are tested by segment against the current model on an out-of-time sample."
+usecase-credit-decisioning,Credit decisioning,requires,model-explainability,3,"Every decline needs reasons the applicant can understand, and validators need to see what drives the model."
+usecase-credit-decisioning,Credit decisioning,requires,fairness-assessment,3,Approval and error rates are compared across protected groups before release and in production.
+usecase-credit-decisioning,Credit decisioning,requires,model-registry,3,The approved version used for decisions must be controlled and quick to roll back.
+usecase-credit-decisioning,Credit decisioning,requires,model-governance,3,"Each model has a risk tier, independent validation, committee approval and a review date."
+usecase-credit-decisioning,Credit decisioning,requires,model-lineage,3,"Validators and regulators trace each version to its sample, features, code and parameters."
+usecase-credit-decisioning,Credit decisioning,requires,decision-management,3,"Policy rules, cut-offs and scores combine into approve, decline or refer outcomes through versioned strategies."
+usecase-credit-decisioning,Credit decisioning,requires,inference-logging,3,"Each decision is stored with its inputs, versions and reasons for the life of the agreement and the retention period after it."
+usecase-credit-decisioning,Credit decisioning,requires,model-performance-monitoring,3,Arrears and default rates are tracked by application cohort as outcomes mature over months.
+usecase-credit-decisioning,Credit decisioning,requires,drift-detection,2,"Population stability of applicants and scores is checked monthly, the standard early warning in credit risk."
+usecase-credit-decisioning,Credit decisioning,requires,human-oversight,2,Referred applications go to underwriters whose decisions and overrides are recorded.
+usecase-credit-decisioning,Credit decisioning,requires,ai-impact-assessment,2,Lenders using AI to assess individuals' creditworthiness must assess its impact on applicants' rights before first use.
+usecase-credit-decisioning,Credit decisioning,requires,data-usage-rights,2,Bureau and open banking data may be used only for the purposes their terms permit.
+usecase-credit-decisioning,Credit decisioning,benefits_from,champion-challenger,,"Challenger models and strategies run on a random share of applications, long-standing practice in credit risk."
+usecase-credit-decisioning,Credit decisioning,benefits_from,training-dataset-management,,"Frozen, documented development and validation samples let validators reproduce results."
+usecase-credit-decisioning,Credit decisioning,benefits_from,shadow-deployment,,Tests a new model on live applications before it affects any decision.
+usecase-credit-decisioning,Credit decisioning,benefits_from,real-time-inference,,Digital applications are scored within seconds while the applicant waits.
+usecase-credit-decisioning,Credit decisioning,benefits_from,entity-resolution,,Links an applicant's existing products and previous applications.
+usecase-credit-decisioning,Credit decisioning,benefits_from,compliance-evidence,,"Assembles validation, monitoring and approval records for supervisors."
+usecase-customer-360,Customer 360,requires,entity-resolution,3,"Records with different identifiers, spellings and addresses must be matched to the same customer."
+usecase-customer-360,Customer 360,requires,master-data-management,3,"The merged golden record needs a managed lifecycle, with merge and unmerge and history."
+usecase-customer-360,Customer 360,requires,survivorship,3,"Rules decide which source wins for each attribute, such as address from billing and email from the app."
+usecase-customer-360,Customer 360,requires,data-cleansing,3,"Names, addresses and phone numbers must be standardised before they can be matched reliably."
+usecase-customer-360,Customer 360,requires,batch-ingestion,3,"Customer data arrives from CRM, billing, e-commerce and service systems."
+usecase-customer-360,Customer 360,requires,change-data-capture,2,Profile changes in source systems must reach the 360 view without waiting for a nightly reload.
+usecase-customer-360,Customer 360,requires,data-quality-rules,2,Invalid or incomplete records must not degrade matches or the profile.
+usecase-customer-360,Customer 360,requires,consent-management,3,Every channel using the profile must respect what the customer agreed to.
+usecase-customer-360,Customer 360,requires,data-classification,3,"A combined profile concentrates personal data, so its fields must be labelled for protection."
+usecase-customer-360,Customer 360,requires,column-masking,3,"Staff in different roles see different parts of the profile, such as partial card or health details."
+usecase-customer-360,Customer 360,requires,low-latency-serving,3,Contact centre and web channels look up a profile in milliseconds during a live interaction.
+usecase-customer-360,Customer 360,requires,reverse-etl,2,The profile must be pushed into CRM and service tools where staff work.
+usecase-customer-360,Customer 360,requires,data-ownership,2,Someone must own match rules and settle disputed merges between business units.
+usecase-customer-360,Customer 360,benefits_from,data-subject-requests,,The profile becomes the index for finding a person's data when they exercise their rights.
+usecase-customer-360,Customer 360,benefits_from,behavioural-event-collection,,Adds digital behaviour to the profile and links anonymous and known visits.
+usecase-customer-360,Customer 360,benefits_from,hierarchy-management,,Models households or corporate account structures in business-to-business settings.
+usecase-customer-360,Customer 360,benefits_from,data-enrichment,,Third-party reference data fills gaps and validates addresses and companies.
+usecase-customer-360,Customer 360,benefits_from,graph-data,,"Shows relationships between people, accounts and households."
+usecase-customer-360,Customer 360,benefits_from,change-feeds,,Lets channels react to profile changes as they happen.
+usecase-customer-360,Customer 360,benefits_from,data-apis,,"Gives applications a documented, governed way to read profiles."
+usecase-customer-360,Customer 360,benefits_from,data-quality-scorecards,,Tracks match and completeness quality over time.
+usecase-customer-360,Customer 360,benefits_from,operational-data-store,,"Combines the profile with current orders, cases and payments for contact-centre lookups."
+usecase-customer-facing-analytics,Customer-facing analytics,requires,embedded-analytics,3,"Charts and tables are rendered inside the product, styled and secured for external users."
+usecase-customer-facing-analytics,Customer-facing analytics,requires,real-time-analytics,3,Thousands of concurrent customers expect sub-second queries over fresh data.
+usecase-customer-facing-analytics,Customer-facing analytics,requires,row-level-security,4,"Tenant isolation must be automated and tested continuously, because one leak is a breach of contract."
+usecase-customer-facing-analytics,Customer-facing analytics,requires,incremental-processing,2,New events are applied continuously without rebuilding every customer's aggregates.
+usecase-customer-facing-analytics,Customer-facing analytics,requires,elastic-scaling,3,Load follows customer working hours and product launches.
+usecase-customer-facing-analytics,Customer-facing analytics,requires,workload-isolation,3,Customer queries must not compete with internal analytics or pipelines.
+usecase-customer-facing-analytics,Customer-facing analytics,requires,freshness-monitoring,3,"Customers notice stale figures, so delays must be caught before they are."
+usecase-customer-facing-analytics,Customer-facing analytics,requires,query-performance-analysis,3,Latency targets are tracked and slow query patterns fixed as the largest customers grow.
+usecase-customer-facing-analytics,Customer-facing analytics,requires,external-identity,3,"Customers and their tenants come from the product's identity system, and the tenant must be passed securely into every query."
+usecase-customer-facing-analytics,Customer-facing analytics,requires,read-optimised-views,3,"Per-customer aggregates are built in the shape screens read them, so pages load in about a second at peak."
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,metric-definitions,,Keeps customer-facing figures consistent with billing and other product screens.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,data-apis,,Lets customers pull the same data into their own systems.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,external-data-sharing,,Gives large customers live access to their data instead of exports.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,data-export,,Lets customers download their data in bulk.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,result-caching,,Serves repeated dashboard loads cheaply.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,cost-attribution,,Shows the cost to serve each customer for pricing decisions.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,data-residency,,Keeps each customer's data in the region their contract requires.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,cross-region-failover,,Supports product availability commitments.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,dashboards-as-code,,Releases analytics screens through the same review and test process as the rest of the product.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,materialised-views,,Lets the engine keep per-customer aggregates current without separate refresh jobs.
+usecase-customer-facing-analytics,Customer-facing analytics,benefits_from,data-slas,,Freshness and availability targets match what the product promises its customers.
+usecase-data-monetisation,Data sharing and monetisation,requires,external-data-sharing,3,"Consumers get live, governed access instead of uncontrolled file copies."
+usecase-data-monetisation,Data sharing and monetisation,requires,data-product-specification,3,"Each product needs a documented purpose, contents, owner and terms that buyers can read."
+usecase-data-monetisation,Data sharing and monetisation,requires,data-contracts,3,"Schema, meaning and quality are promised to paying consumers and must be enforced."
+usecase-data-monetisation,Data sharing and monetisation,requires,data-slas,3,Freshness and availability are part of the commercial agreement and must be measured.
+usecase-data-monetisation,Data sharing and monetisation,requires,data-usage-rights,3,Licence terms for owned and third-party data must allow the sharing and be checked against it.
+usecase-data-monetisation,Data sharing and monetisation,requires,consent-management,3,Personal data can be shared only where consent or another lawful basis covers the purpose.
+usecase-data-monetisation,Data sharing and monetisation,requires,deidentification,3,Most products must be aggregated or deidentified so individuals cannot be identified.
+usecase-data-monetisation,Data sharing and monetisation,requires,row-level-security,3,Each consumer sees only the slice of data their contract covers.
+usecase-data-monetisation,Data sharing and monetisation,requires,audit-logging,3,"Consumer access is recorded for billing, contract compliance and audit."
+usecase-data-monetisation,Data sharing and monetisation,requires,data-quality-rules,3,Quality problems in a paid product become contract disputes.
+usecase-data-monetisation,Data sharing and monetisation,requires,data-product-lifecycle,2,Versions and deprecations must be announced to consumers with notice.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,data-marketplace,,Lets buyers find and subscribe to products.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,data-clean-rooms,,Allows joint analysis with partners without either side seeing the other's raw data.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,open-protocol-sharing,,Reaches consumers who use other platforms.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,cross-region-sharing,,Serves consumers in other clouds and regions.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,privacy-enhancing-technologies,,Adds formal privacy protection such as differential privacy to aggregates.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,application-sharing,,Ships analysis code with the data so consumers can run it in their own environment.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,system-telemetry,,Provides usage figures for usage-based pricing.
+usecase-data-monetisation,Data sharing and monetisation,benefits_from,data-residency,,Supports consumers whose data must stay in a given jurisdiction.
+usecase-demand-forecasting,Demand forecasting,requires,batch-ingestion,3,"Sales, stock, price and promotion data arrive from POS, ERP and supply systems on a schedule."
+usecase-demand-forecasting,Demand forecasting,requires,time-series-data,2,"History must be stored and queried efficiently by product, location and period."
+usecase-demand-forecasting,Demand forecasting,requires,data-quality-rules,3,"Missing sales days, stock-outs and returns distort demand unless they are detected and handled."
+usecase-demand-forecasting,Demand forecasting,requires,hierarchy-management,3,"Forecasts are made and reconciled across product, location and time hierarchies that change."
+usecase-demand-forecasting,Demand forecasting,requires,distributed-processing,2,Training and scoring millions of series must run in parallel within the cycle.
+usecase-demand-forecasting,Demand forecasting,requires,model-training,2,Models are retrained on each cycle or on a regular schedule.
+usecase-demand-forecasting,Demand forecasting,requires,experiment-tracking,2,Methods and parameters must be compared across many series and segments.
+usecase-demand-forecasting,Demand forecasting,requires,model-evaluation,3,Backtests against naive baselines by segment decide which method each series uses.
+usecase-demand-forecasting,Demand forecasting,requires,batch-inference,3,The full forecast is produced on a fixed cycle for every series and horizon.
+usecase-demand-forecasting,Demand forecasting,requires,workflow-orchestration,3,"Data refresh, training, forecasting and publication run in order before planning deadlines."
+usecase-demand-forecasting,Demand forecasting,requires,model-performance-monitoring,3,"Forecast accuracy and bias are measured against actuals each period, at each level."
+usecase-demand-forecasting,Demand forecasting,requires,data-writeback,2,"Planners adjust forecasts for known events, and those overrides must be stored and measured."
+usecase-demand-forecasting,Demand forecasting,requires,ml-pipelines,3,"Data validation, training, backtesting and forecasting for every series run as one automated pipeline each cycle."
+usecase-demand-forecasting,Demand forecasting,benefits_from,pretrained-predictive-models,,Pretrained time-series models give usable forecasts for new or sparse series.
+usecase-demand-forecasting,Demand forecasting,benefits_from,data-enrichment,,"Weather, holidays and local events explain demand changes."
+usecase-demand-forecasting,Demand forecasting,benefits_from,enterprise-planning,,Feeds forecasts straight into budgeting and sales and operations planning.
+usecase-demand-forecasting,Demand forecasting,benefits_from,external-data-sharing,,Shares forecasts with suppliers without sending files.
+usecase-demand-forecasting,Demand forecasting,benefits_from,automl,,Selects methods per segment with little manual effort.
+usecase-demand-forecasting,Demand forecasting,benefits_from,hyperparameter-tuning,,Improves accuracy for high-value series.
+usecase-demand-forecasting,Demand forecasting,benefits_from,reverse-etl,,Pushes forecasts into replenishment and workforce systems.
+usecase-demand-forecasting,Demand forecasting,benefits_from,product-information-management,,Product attributes help forecast new products from similar ones.
+usecase-document-extraction,Document data extraction,requires,unstructured-ingestion,3,"Documents arrive from mailboxes, portals, scanners and repositories and must be captured once each, with their metadata."
+usecase-document-extraction,Document data extraction,requires,document-processing,3,"Layout, tables, stamps and handwriting must be read accurately from scans and PDFs."
+usecase-document-extraction,Document data extraction,requires,foundation-model-access,3,Approved multimodal models extract fields into a fixed schema inside the security boundary.
+usecase-document-extraction,Document data extraction,requires,genai-evaluation,3,Field-level accuracy is measured per document type on labelled examples before release and after every model or prompt change.
+usecase-document-extraction,Document data extraction,requires,data-labelling,2,"Labelled documents per type are needed for evaluation, and reviewer corrections become new labels."
+usecase-document-extraction,Document data extraction,requires,human-oversight,3,"Low-confidence or high-value fields wait in a review queue, and every correction is recorded."
+usecase-document-extraction,Document data extraction,requires,data-quality-rules,3,"Extracted values are checked: line items sum to the total, dates are valid and the supplier or policy exists."
+usecase-document-extraction,Document data extraction,requires,application-integration,2,Validated results are posted to finance or claims systems to be acted on.
+usecase-document-extraction,Document data extraction,requires,unstructured-lineage,2,"Each extracted value links to its document, page and region, and to the model and prompt version that produced it."
+usecase-document-extraction,Document data extraction,requires,ai-guardrails,2,Instructions hidden in a document must not change the extraction or trigger actions.
+usecase-document-extraction,Document data extraction,requires,genai-observability,2,"Per-document traces show confidence, latency and cost, and where failures occur."
+usecase-document-extraction,Document data extraction,benefits_from,ai-functions,,Runs extraction as SQL or DataFrame functions over document tables in bulk.
+usecase-document-extraction,Document data extraction,benefits_from,model-customisation,,A small tuned or distilled model cuts cost per page at high volume.
+usecase-document-extraction,Document data extraction,benefits_from,shadow-deployment,,Runs a new model version on live documents and compares its fields with the current one before switching.
+usecase-document-extraction,Document data extraction,benefits_from,training-dataset-management,,Keeps the labelled evaluation set for each document type versioned and owned.
+usecase-document-extraction,Document data extraction,benefits_from,entity-resolution,,Matches extracted supplier or customer names to existing records.
+usecase-document-extraction,Document data extraction,benefits_from,event-driven-triggering,,Processes each document as soon as it arrives.
+usecase-document-extraction,Document data extraction,benefits_from,deidentification,,Masks personal data before it reaches reviewers or external models where policy requires.
+usecase-document-extraction,Document data extraction,benefits_from,ai-spend-controls,,Caps model cost per document and per month.
+usecase-domain-onboarding,Self-service domain onboarding,requires,self-service-provisioning,3,"Teams create workspaces, environments and pipelines from approved templates without raising tickets."
+usecase-domain-onboarding,Self-service domain onboarding,requires,infrastructure-as-code,3,"Every tenant's resources, grants and settings are created and changed from code, so environments stay identical."
+usecase-domain-onboarding,Self-service domain onboarding,requires,multi-tenancy,3,"Each domain needs its own workspace, catalogue area, administrators and budget on shared foundations."
+usecase-domain-onboarding,Self-service domain onboarding,requires,configuration-guardrails,3,"Rules on regions, networking, encryption, compute sizes and tags must hold even for resources created outside the templates."
+usecase-domain-onboarding,Self-service domain onboarding,requires,environment-promotion,3,"Every team gets the same development, test and production route, with configuration supplied per environment."
+usecase-domain-onboarding,Self-service domain onboarding,requires,ci-cd,3,A starter pipeline tests and deploys code from the first commit.
+usecase-domain-onboarding,Self-service domain onboarding,requires,version-control,2,"Starter repositories live in the organisation's Git provider, and production is deployed only from them."
+usecase-domain-onboarding,Self-service domain onboarding,requires,identity-authentication,3,"Groups and service identities come from the central identity provider, with no local accounts."
+usecase-domain-onboarding,Self-service domain onboarding,requires,role-based-access,3,"Default roles for the domain are granted to groups, not to individuals."
+usecase-domain-onboarding,Self-service domain onboarding,requires,network-security,3,Private connectivity to sources and to the platform is part of every template.
+usecase-domain-onboarding,Self-service domain onboarding,requires,secrets-management,2,"Pipelines receive credentials from a secrets store, never from code or configuration files."
+usecase-domain-onboarding,Self-service domain onboarding,requires,cost-attribution,2,"Every resource carries the domain's tags from creation, so its spend can be reported."
+usecase-domain-onboarding,Self-service domain onboarding,requires,platform-observability,2,"Each team sees its own job runs, failures and usage from the first day."
+usecase-domain-onboarding,Self-service domain onboarding,benefits_from,ephemeral-environments,,Gives each developer and pull request an isolated environment on realistic data.
+usecase-domain-onboarding,Self-service domain onboarding,benefits_from,test-data-management,,Provides masked or synthetic data so development environments are useful.
+usecase-domain-onboarding,Self-service domain onboarding,benefits_from,spend-controls,,Sandbox and development budgets stop forgotten resources running up cost.
+usecase-domain-onboarding,Self-service domain onboarding,benefits_from,runtime-management,,"Templates pin supported runtimes and libraries, and upgrades can be rolled out across tenants."
+usecase-domain-onboarding,Self-service domain onboarding,benefits_from,data-domains,,"Ties the new workspace to the business domain, owners and policies it belongs to."
+usecase-domain-onboarding,Self-service domain onboarding,benefits_from,internal-data-sharing,,Lets the new team read certified data from other domains without copying it.
+usecase-domain-onboarding,Self-service domain onboarding,benefits_from,audit-logging,,"Records what was provisioned, by whom and from which template version."
+usecase-enterprise-reporting,Enterprise management reporting,requires,metric-definitions,3,"Each KPI needs one certified calculation and an owner, because packs go to the board."
+usecase-enterprise-reporting,Enterprise management reporting,requires,semantic-layer,3,"Dashboards, packs and analyst queries must all calculate KPIs from the same definitions."
+usecase-enterprise-reporting,Enterprise management reporting,requires,data-modelling,3,Conformed dimensions let KPIs from different source systems be compared and combined.
+usecase-enterprise-reporting,Enterprise management reporting,requires,hierarchy-management,3,"Figures roll up through legal entity, cost centre and product hierarchies that change during the year."
+usecase-enterprise-reporting,Enterprise management reporting,requires,reference-data-management,2,"Shared code lists such as currencies, regions and account mappings must be the same in every report."
+usecase-enterprise-reporting,Enterprise management reporting,requires,batch-ingestion,3,"Ledger, ERP, CRM and HR data arrives in scheduled batches that must load reliably."
+usecase-enterprise-reporting,Enterprise management reporting,requires,workflow-orchestration,3,Close-related loads and refreshes run in a fixed order with dependencies and retries.
+usecase-enterprise-reporting,Enterprise management reporting,requires,data-reconciliation,3,Totals have to agree with the general ledger before any pack is released.
+usecase-enterprise-reporting,Enterprise management reporting,requires,data-quality-rules,3,Completeness and validity checks stop a pack being published from partial or broken data.
+usecase-enterprise-reporting,Enterprise management reporting,requires,freshness-monitoring,2,Report owners need to know before the morning meeting if a load is late.
+usecase-enterprise-reporting,Enterprise management reporting,requires,dashboards-reports,3,Managers work from interactive dashboards for their own areas.
+usecase-enterprise-reporting,Enterprise management reporting,requires,paginated-reports,2,"Board and management packs need a fixed, printable layout."
+usecase-enterprise-reporting,Enterprise management reporting,requires,data-certification,3,Official KPI datasets must be clearly marked so nobody reports from a lookalike.
+usecase-enterprise-reporting,Enterprise management reporting,requires,row-level-security,2,Divisional managers see their own figures before group results are released.
+usecase-enterprise-reporting,Enterprise management reporting,requires,transformation-as-code,3,"Conformed dimensions and KPI logic are built as reviewed, versioned models, so every change to a board KPI can be traced and reviewed."
+usecase-enterprise-reporting,Enterprise management reporting,requires,data-testing,2,Logic and regression tests catch a changed KPI before a pack goes to the board.
+usecase-enterprise-reporting,Enterprise management reporting,requires,manual-adjustments,2,"Late accruals and reclassifications after close are entered with approval and a reason in the platform, or packs stop reconciling with the ledger."
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,time-travel,,Recreate figures as they stood when a pack was published.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,temporal-data,,Report both as-reported and restated history when hierarchies or late adjustments change past periods.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,column-lineage,,Shows how each KPI was derived when someone challenges it.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,application-data-products,,Vendor-published ERP datasets reduce the effort of extracting and interpreting ledger data.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,enterprise-planning,,Compare actuals with budget and forecast on the same governed data.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,data-alerting,,Deliver packs to subscribers on schedule and flag KPIs that cross thresholds.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,data-quality-scorecards,,Track quality of the reporting data month by month.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,master-data-management,,A single customer and product record avoids double counting across business units.
+usecase-enterprise-reporting,Enterprise management reporting,benefits_from,environment-promotion,,KPI logic changes are tested and approved before they reach the production reporting run.
+usecase-fraud-detection,Real-time fraud detection,requires,real-time-inference,3,"Scores must return within the payment authorisation window, typically tens of milliseconds."
+usecase-fraud-detection,Real-time fraud detection,requires,online-feature-store,3,Recent-behaviour features for each card or account must be read in milliseconds at scoring time.
+usecase-fraud-detection,Real-time fraud detection,requires,stream-processing,3,Counts and amounts over sliding windows are computed continuously from the transaction stream.
+usecase-fraud-detection,Real-time fraud detection,requires,event-streaming,3,"Transactions and outcomes flow as durable, replayable events between payment systems, features and models."
+usecase-fraud-detection,Real-time fraud detection,requires,point-in-time-joins,3,"Training must use features as they stood at each transaction, or the model will not behave the same live."
+usecase-fraud-detection,Real-time fraud detection,requires,model-training,2,Models are retrained regularly on recent labelled fraud.
+usecase-fraud-detection,Real-time fraud detection,requires,model-registry,3,"The version scoring live payments must be controlled, approved and quick to roll back."
+usecase-fraud-detection,Real-time fraud detection,requires,inference-logging,3,"Every decision, with its inputs, model version and score, is kept for disputes, audit and retraining."
+usecase-fraud-detection,Real-time fraud detection,requires,drift-detection,3,"Fraudsters adapt, so changes in inputs and scores must be caught before labels arrive."
+usecase-fraud-detection,Real-time fraud detection,requires,model-performance-monitoring,3,Detection and false-positive rates are tracked as confirmed fraud and chargebacks come in.
+usecase-fraud-detection,Real-time fraud detection,requires,model-explainability,2,Investigators and customers need reason codes for declines.
+usecase-fraud-detection,Real-time fraud detection,requires,human-oversight,2,"Borderline transactions go to investigators who can approve, decline or override."
+usecase-fraud-detection,Real-time fraud detection,requires,model-governance,3,"In regulated firms, models that block payments fall under model risk management with documented validation."
+usecase-fraud-detection,Real-time fraud detection,requires,decision-management,3,"Scores, rules and thresholds combine into approve, decline or refer outcomes that are versioned, tested against past cases and logged with reasons."
+usecase-fraud-detection,Real-time fraud detection,requires,model-lineage,3,"Model risk reviews and disputes need each model version traced to its training data, features and code."
+usecase-fraud-detection,Real-time fraud detection,benefits_from,shadow-deployment,,Test new models on live traffic without blocking payments.
+usecase-fraud-detection,Real-time fraud detection,benefits_from,champion-challenger,,Promote a challenger only once it beats the live model on real transactions.
+usecase-fraud-detection,Real-time fraud detection,benefits_from,graph-data,,"Exposes rings of linked accounts, devices and merchants."
+usecase-fraud-detection,Real-time fraud detection,benefits_from,entity-resolution,,Links identities that fraudsters spread across accounts.
+usecase-fraud-detection,Real-time fraud detection,benefits_from,data-labelling,,Turns investigator decisions into labelled training data quickly.
+usecase-fraud-detection,Real-time fraud detection,benefits_from,continuous-training,,Shortens the time between a new fraud pattern and an updated model.
+usecase-fraud-detection,Real-time fraud detection,benefits_from,cross-region-failover,,Keeps scoring available when a region fails.
+usecase-fraud-detection,Real-time fraud detection,benefits_from,elastic-scaling,,Absorbs seasonal peaks in transaction volume.
+usecase-fraud-detection,Real-time fraud detection,benefits_from,streaming-sql,,Lets fraud analysts write new velocity features without stream-processing code.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,iot-ingestion,3,Telemetry from thousands of devices must be collected securely at high frequency.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,edge-data-processing,2,Sites with poor connectivity must filter and buffer data locally and send it when links return.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,network-security,3,Traffic from operational technology networks into the platform must be tightly controlled.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,time-series-data,3,Large volumes of time-stamped measurements are stored and queried by asset and time range.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,event-time-windowing,3,Readings arrive late and out of order and must be aggregated by when they were measured.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,stream-processing,2,Features and simple threshold alerts are computed continuously from telemetry.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,storage-tiering,2,Years of raw high-frequency data must be kept affordably for training.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,data-quality-rules,2,"Flat-lining, out-of-range and drifting sensors must be detected so they do not look like equipment faults."
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,hierarchy-management,2,"Readings must be tied to the right asset in the site, line, asset and component hierarchy."
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,data-labelling,2,Failure events from maintenance records must be turned into reliable labels.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,feature-engineering,2,"Raw signals are turned into features such as trends, frequency bands and operating states."
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,model-training,2,Models are trained per equipment type on telemetry and failure history.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,streaming-inference,2,Equipment is scored as telemetry arrives so fast-developing faults are caught.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,drift-detection,2,"Sensor replacement, recalibration and new operating conditions change the inputs."
+usecase-iot-predictive-maintenance,IoT predictive maintenance,requires,application-integration,2,Predictions must raise work orders in the maintenance system to be acted on.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,pretrained-predictive-models,,Pretrained anomaly and forecasting models help where failure history is scarce.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,data-anomaly-detection,,Spots unexpected changes in telemetry without hand-written rules.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,real-time-analytics,,Lets engineers explore recent telemetry interactively.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,geospatial-data,,Adds location for fleets and distributed networks.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,model-explainability,,Shows engineers which signals drove an alert.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,knowledge-graphs,,Models asset structure and dependencies for root-cause analysis.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,model-performance-monitoring,,Compares predictions with actual failures as they occur.
+usecase-iot-predictive-maintenance,IoT predictive maintenance,benefits_from,edge-inference,,Scores equipment on site where links are unreliable or a fault must stop a machine within milliseconds.
+usecase-marketing-activation,Marketing audience activation,requires,audience-activation,3,Marketers build audiences from platform data and deliver them to channels.
+usecase-marketing-activation,Marketing audience activation,requires,reverse-etl,3,Audiences and attributes are synced incrementally to marketing and advertising tools.
+usecase-marketing-activation,Marketing audience activation,requires,consent-management,3,"Customers must only receive marketing they have agreed to, in every channel."
+usecase-marketing-activation,Marketing audience activation,requires,data-subject-requests,2,Erasure requests must also remove the person from audiences already synced to external tools.
+usecase-marketing-activation,Marketing audience activation,requires,entity-resolution,2,"Email addresses, devices and accounts must be linked to the same customer to avoid duplicate or wrong messages."
+usecase-marketing-activation,Marketing audience activation,requires,sql-transformation,2,Segment logic is built on modelled customer and transaction tables.
+usecase-marketing-activation,Marketing audience activation,requires,data-quality-rules,2,Bad data in an audience sends wrong offers to real customers.
+usecase-marketing-activation,Marketing audience activation,requires,deidentification,2,Identifiers are hashed before they are sent to advertising platforms.
+usecase-marketing-activation,Marketing audience activation,requires,workflow-orchestration,2,Audience refreshes run after the data they depend on has loaded.
+usecase-marketing-activation,Marketing audience activation,requires,pipeline-monitoring,2,Failed or partial syncs must be caught before a campaign goes out.
+usecase-marketing-activation,Marketing audience activation,benefits_from,behavioural-event-collection,,Enables behaviour-triggered audiences such as basket abandonment.
+usecase-marketing-activation,Marketing audience activation,benefits_from,batch-inference,,Adds propensity and churn scores to audiences.
+usecase-marketing-activation,Marketing audience activation,benefits_from,data-clean-rooms,,Matches audiences with media partners without exchanging raw customer lists.
+usecase-marketing-activation,Marketing audience activation,benefits_from,master-data-management,,One customer profile underpins every segment.
+usecase-marketing-activation,Marketing audience activation,benefits_from,change-feeds,,Sends only customers who entered or left a segment.
+usecase-marketing-activation,Marketing audience activation,benefits_from,saas-connectors,,Brings campaign responses back for measurement.
+usecase-marketing-activation,Marketing audience activation,benefits_from,freshness-monitoring,,Stops campaigns going out on stale audiences.
+usecase-marketing-activation,Marketing audience activation,benefits_from,data-enrichment,,Adds demographic or firmographic attributes for targeting.
+usecase-operational-reporting,Operational reporting,requires,change-data-capture,3,"Inserts, updates and deletes must leave operational databases within seconds, without heavy queries on production."
+usecase-operational-reporting,Operational reporting,requires,streaming-ingestion,2,"Events from applications and devices must land continuously, not in nightly batches."
+usecase-operational-reporting,Operational reporting,requires,incremental-processing,3,Only changed rows can be processed each cycle if reports are to stay minutes behind the source.
+usecase-operational-reporting,Operational reporting,requires,row-level-updates,3,Captured updates and deletes have to be merged into reporting tables efficiently.
+usecase-operational-reporting,Operational reporting,requires,idempotent-loading,3,Replayed or duplicated change events must not double-count orders or calls.
+usecase-operational-reporting,Operational reporting,requires,sql-query-engine,2,Dashboards query fresh data continuously throughout the shift.
+usecase-operational-reporting,Operational reporting,requires,dashboards-reports,2,Supervisors watch auto-refreshing views of current activity.
+usecase-operational-reporting,Operational reporting,requires,data-alerting,2,"Staff are told when a queue, backlog or target crosses a threshold, without watching a screen."
+usecase-operational-reporting,Operational reporting,requires,freshness-monitoring,3,A real-time view that has silently stopped updating is worse than none.
+usecase-operational-reporting,Operational reporting,requires,pipeline-monitoring,3,Failures in always-on pipelines must reach on-call staff within minutes.
+usecase-operational-reporting,Operational reporting,requires,workload-isolation,2,Continuous loading and dashboard queries must not slow each other down.
+usecase-operational-reporting,Operational reporting,requires,row-level-security,2,Each site or team manager sees only their own operation.
+usecase-operational-reporting,Operational reporting,benefits_from,real-time-analytics,,"Gives sub-second queries over very fresh, high-volume data when many users watch at once."
+usecase-operational-reporting,Operational reporting,benefits_from,materialised-views,,Keeps common aggregates up to date automatically.
+usecase-operational-reporting,Operational reporting,benefits_from,streaming-sql,,Lets analysts define continuous aggregations without stream-processing code.
+usecase-operational-reporting,Operational reporting,benefits_from,event-time-windowing,,"Counts events in the period they happened, even when they arrive late."
+usecase-operational-reporting,Operational reporting,benefits_from,database-replication,,Mirrors operational databases into the platform without building pipelines.
+usecase-operational-reporting,Operational reporting,benefits_from,operational-data-store,,Gives an integrated current view across several operational systems.
+usecase-operational-reporting,Operational reporting,benefits_from,embedded-analytics,,Puts the figures inside the operational application staff already use.
+usecase-operational-reporting,Operational reporting,benefits_from,data-contracts,,Source application teams agree to announce or version schema changes that would break change capture.
+usecase-platform-cost-management,Platform cost management and chargeback,requires,system-telemetry,3,"Usage, billing and query history must be queryable daily for every service, not read from monthly invoices."
+usecase-platform-cost-management,Platform cost management and chargeback,requires,cost-attribution,3,"Every cost needs an owner, with a documented rule for splitting shared warehouses, clusters and storage."
+usecase-platform-cost-management,Platform cost management and chargeback,requires,spend-controls,3,"Budgets, quotas and automatic suspension stop runaway queries and idle clusters within minutes."
+usecase-platform-cost-management,Platform cost management and chargeback,requires,cost-forecasting,2,"Spend per team must be projected ahead of budget cycles, and anomalies flagged within a day."
+usecase-platform-cost-management,Platform cost management and chargeback,requires,cost-optimisation,2,"Idle, oversized and unused resources are found regularly and their owners act on them."
+usecase-platform-cost-management,Platform cost management and chargeback,requires,reserved-capacity,2,"Commitments must be sized from measured base load, and their utilisation tracked."
+usecase-platform-cost-management,Platform cost management and chargeback,requires,configuration-guardrails,2,Mandatory cost tags and approved compute sizes are enforced when resources are created.
+usecase-platform-cost-management,Platform cost management and chargeback,requires,ai-spend-controls,2,"Model and agent calls are attributed and capped per application, because they are often billed outside normal compute."
+usecase-platform-cost-management,Platform cost management and chargeback,requires,workload-isolation,2,Separate compute for the main workloads keeps attribution simple and stops one team's usage hiding inside another's.
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,data-product-metering,,Charges consumers of shared data products by their use rather than by headcount.
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,query-performance-analysis,,Finds the few queries and jobs that cause most of the compute spend.
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,storage-tiering,,Moves rarely read history to cheaper storage tiers.
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,interruptible-compute,,Cuts the cost of fault-tolerant batch and training work.
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,usage-metadata,,"Shows which tables and dashboards nobody uses, so they can be retired."
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,self-service-provisioning,,"Templates apply tags, budgets and approved sizes to every new workspace."
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,workload-management,,Caps and queues ad hoc work on shared compute.
+usecase-platform-cost-management,Platform cost management and chargeback,benefits_from,sustainability-reporting,,Reports carbon alongside cost from the same usage data.
+usecase-platform-modernisation,Legacy warehouse migration,requires,platform-migration,3,"Inventory, assessment and wave planning must follow a repeatable method across hundreds of workloads."
+usecase-platform-modernisation,Legacy warehouse migration,requires,code-translation,3,"Thousands of SQL scripts, stored procedures and ETL jobs must be converted with as much automation as possible."
+usecase-platform-modernisation,Legacy warehouse migration,requires,database-migration,2,Schemas and data types must be converted to the target platform.
+usecase-platform-modernisation,Legacy warehouse migration,requires,bulk-data-transfer,2,"Years of history, often hundreds of terabytes, must be moved within the plan."
+usecase-platform-modernisation,Legacy warehouse migration,requires,change-data-capture,2,Old and new platforms must stay in step during parallel running.
+usecase-platform-modernisation,Legacy warehouse migration,requires,data-reconciliation,3,Outputs on the new platform must be proven to match the old before cut-over.
+usecase-platform-modernisation,Legacy warehouse migration,requires,data-testing,3,Regression tests compare reports and tables between old and new on every wave.
+usecase-platform-modernisation,Legacy warehouse migration,requires,workflow-orchestration,3,Legacy schedules and dependencies must be rebuilt and run reliably.
+usecase-platform-modernisation,Legacy warehouse migration,requires,table-lineage,2,"Migration waves are planned from dependencies between tables, jobs and reports."
+usecase-platform-modernisation,Legacy warehouse migration,requires,role-based-access,3,Permissions must be rebuilt on the new platform without widening access.
+usecase-platform-modernisation,Legacy warehouse migration,requires,identity-authentication,3,Users and service accounts must authenticate through central identity on the new platform.
+usecase-platform-modernisation,Legacy warehouse migration,requires,network-security,2,Private connectivity between on-premises sources and the cloud platform must be in place before data moves.
+usecase-platform-modernisation,Legacy warehouse migration,requires,environment-promotion,2,"Hundreds of migrated workloads must reach production through one tested, repeatable route rather than hand deployment."
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,usage-metadata,,Finds unused tables and reports that can be retired rather than migrated.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,infrastructure-as-code,,Builds the new platform consistently across environments.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,spend-controls,,Catches unexpected consumption costs early.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,cost-attribution,,Shows each team its cost on the new platform.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,open-table-formats,,Reduces lock-in on the target platform.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,query-federation,,Lets users query data still on the legacy platform during the transition.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,data-engineering-agents,,"Speeds up conversion, testing and fixing of translated code."
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,mainframe-integration,,Covers sources that feed the legacy warehouse from mainframes.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,cost-forecasting,,Forecasts running and dual-running costs per wave against the business case.
+usecase-platform-modernisation,Legacy warehouse migration,benefits_from,compute-options,,"Choosing serverless, provisioned, single-node or cluster compute per migrated workload decides whether running costs meet the business case."
+usecase-privacy-rights,Privacy rights handling,requires,data-subject-requests,3,"Access, correction and erasure requests run through a standard, tracked process."
+usecase-privacy-rights,Privacy rights handling,requires,data-classification,3,Every table and column holding personal data must be labelled to be found.
+usecase-privacy-rights,Privacy rights handling,requires,metadata-harvesting,3,"New tables and files must be picked up automatically, or the inventory goes out of date."
+usecase-privacy-rights,Privacy rights handling,requires,entity-resolution,2,The same person appears under different identifiers in different systems.
+usecase-privacy-rights,Privacy rights handling,requires,cross-system-lineage,2,Downstream copies and derived tables that hold the person's data must be found.
+usecase-privacy-rights,Privacy rights handling,requires,row-level-updates,3,Individual rows must be deleted or corrected efficiently in very large tables.
+usecase-privacy-rights,Privacy rights handling,requires,table-maintenance,3,"Deleted rows must also be purged from old data files and table history, not only hidden."
+usecase-privacy-rights,Privacy rights handling,requires,data-retention,3,Retention rules and legal holds decide what may be erased and what must be kept.
+usecase-privacy-rights,Privacy rights handling,requires,records-of-processing,2,"Access responses must state purposes, recipients and retention for the person's data."
+usecase-privacy-rights,Privacy rights handling,requires,workflow-orchestration,2,Requests fan out to many systems and must be tracked against legal deadlines.
+usecase-privacy-rights,Privacy rights handling,requires,data-export,2,"Subject access responses must be produced in a readable, portable format."
+usecase-privacy-rights,Privacy rights handling,requires,backup-restore,2,Erasure must not be undone when backups are restored.
+usecase-privacy-rights,Privacy rights handling,requires,audit-logging,3,"Evidence of what was found, changed and deleted, and when, must be kept."
+usecase-privacy-rights,Privacy rights handling,benefits_from,deidentification,,Pseudonymised data reduces what must be found and changed.
+usecase-privacy-rights,Privacy rights handling,benefits_from,master-data-management,,A golden customer record gives a starting point for each search.
+usecase-privacy-rights,Privacy rights handling,benefits_from,consent-management,,Links requests to what the person agreed to.
+usecase-privacy-rights,Privacy rights handling,benefits_from,data-security-posture,,Finds copies of personal data that the catalogue does not know about.
+usecase-privacy-rights,Privacy rights handling,benefits_from,unstructured-lineage,,Locates documents and AI indexes that contain the person's data.
+usecase-privacy-rights,Privacy rights handling,benefits_from,change-feeds,,Propagates deletions to downstream consumers automatically.
+usecase-privacy-rights,Privacy rights handling,benefits_from,active-metadata,,Applies personal-data tags automatically to derived tables.
+usecase-privacy-rights,Privacy rights handling,benefits_from,compliance-evidence,,Gives regulators summary evidence across all requests.
+usecase-privacy-rights,Privacy rights handling,benefits_from,crypto-shredding,,"Makes a person's data unreadable in backups, event logs and archives that cannot be rewritten within the deadline."
+usecase-rag-assistant,Knowledge assistant,requires,unstructured-ingestion,3,Documents must be brought in from many repositories with their metadata and access lists.
+usecase-rag-assistant,Knowledge assistant,requires,document-processing,3,"PDFs, scans, slides and tables must be parsed into clean text, or retrieval quality suffers."
+usecase-rag-assistant,Knowledge assistant,requires,retrieval-pipelines,3,"Indexes must follow source changes, including edits, deletions and permission changes."
+usecase-rag-assistant,Knowledge assistant,requires,embedding-generation,2,Passages and questions are turned into embeddings for semantic matching.
+usecase-rag-assistant,Knowledge assistant,requires,vector-search,3,The most relevant passages must be found quickly across millions of chunks.
+usecase-rag-assistant,Knowledge assistant,requires,permission-aware-retrieval,3,Answers must never include content the user could not open in the source system.
+usecase-rag-assistant,Knowledge assistant,requires,identity-authentication,3,The assistant must know exactly who is asking to apply that person's permissions.
+usecase-rag-assistant,Knowledge assistant,requires,foundation-model-access,3,Answers are written by approved models inside the organisation's security boundary.
+usecase-rag-assistant,Knowledge assistant,requires,unstructured-lineage,2,"Each answer must cite the documents and passages it used, and removed documents must leave the index."
+usecase-rag-assistant,Knowledge assistant,requires,prompt-management,2,Prompts change often and must be versioned and tested like code.
+usecase-rag-assistant,Knowledge assistant,requires,genai-evaluation,3,"Accuracy, grounding and citation quality are measured on a test set before each release."
+usecase-rag-assistant,Knowledge assistant,requires,genai-observability,2,Traces and user feedback show which questions fail and why.
+usecase-rag-assistant,Knowledge assistant,requires,ai-guardrails,3,"Inputs and outputs are filtered for prompt injection, sensitive data and harmful content."
+usecase-rag-assistant,Knowledge assistant,requires,ai-governance,2,"The assistant is registered with an owner, purpose and risk rating, and users are told they are dealing with AI."
+usecase-rag-assistant,Knowledge assistant,benefits_from,full-text-search,,Keyword search alongside vector search finds exact terms such as product codes and clause numbers.
+usecase-rag-assistant,Knowledge assistant,benefits_from,unstructured-data-quality,,Removing duplicates and stale versions stops the assistant citing outdated policies.
+usecase-rag-assistant,Knowledge assistant,benefits_from,data-classification,,Keeps restricted document types out of the index entirely.
+usecase-rag-assistant,Knowledge assistant,benefits_from,ai-gateway,,"Routes, rate-limits and tracks model calls across providers."
+usecase-rag-assistant,Knowledge assistant,benefits_from,ai-red-teaming,,Finds injection and leakage weaknesses before attackers do.
+usecase-rag-assistant,Knowledge assistant,benefits_from,ai-spend-controls,,Keeps cost per question within budget as use grows.
+usecase-rag-assistant,Knowledge assistant,benefits_from,knowledge-graphs,,Adds entity relationships to retrieval for questions that span documents.
+usecase-rag-assistant,Knowledge assistant,benefits_from,enterprise-ai-assistant,,A ready-made assistant may meet the need without building one.
+usecase-rag-assistant,Knowledge assistant,benefits_from,audio-video-processing,,Brings recorded meetings and training videos into the content.
+usecase-rag-assistant,Knowledge assistant,benefits_from,model-release-strategies,,"Compares a new model, prompt or retrieval setting with the current one on live questions before full rollout."
+usecase-rag-assistant,Knowledge assistant,benefits_from,training-dataset-management,,"Keeps the evaluation set versioned, owned and refreshed from real questions and failures."
+usecase-recommendations,Personalised recommendations,requires,behavioural-event-collection,3,"Views, clicks and purchases from every app and site are the main training signal and must follow one tracking plan."
+usecase-recommendations,Personalised recommendations,requires,streaming-ingestion,2,Session behaviour must reach features within seconds to affect the next page.
+usecase-recommendations,Personalised recommendations,requires,feature-engineering,2,"Events are turned into user, item and context features."
+usecase-recommendations,Personalised recommendations,requires,model-training,2,Retrieval and ranking models are trained on large interaction histories.
+usecase-recommendations,Personalised recommendations,requires,vector-search,2,Candidates are found by nearest-neighbour search over item and user embeddings.
+usecase-recommendations,Personalised recommendations,requires,online-feature-store,3,Session and user features must be read in milliseconds at request time.
+usecase-recommendations,Personalised recommendations,requires,real-time-inference,3,Ranking runs on every page or screen request within its latency budget.
+usecase-recommendations,Personalised recommendations,requires,low-latency-serving,3,Precomputed candidates and fallback lists are served in milliseconds.
+usecase-recommendations,Personalised recommendations,requires,canary-ab-testing,3,Only live experiments show whether a new model increases sales or engagement.
+usecase-recommendations,Personalised recommendations,requires,inference-logging,3,Logged impressions and clicks are needed for training and to correct for what was shown.
+usecase-recommendations,Personalised recommendations,requires,continuous-training,3,"Catalogues and tastes change daily, so models must be retrained on a frequent schedule."
+usecase-recommendations,Personalised recommendations,requires,model-registry,2,Versions in experiments and in production must be tracked and reversible.
+usecase-recommendations,Personalised recommendations,requires,consent-management,2,Personalisation must respect tracking and profiling consent.
+usecase-recommendations,Personalised recommendations,benefits_from,embedding-generation,,Gives new items useful representations from text and images before anyone interacts with them.
+usecase-recommendations,Personalised recommendations,benefits_from,gpu-compute,,Shortens training of large retrieval and ranking models.
+usecase-recommendations,Personalised recommendations,benefits_from,distributed-training,,Handles interaction histories too large for one machine.
+usecase-recommendations,Personalised recommendations,benefits_from,product-information-management,,Clean product attributes and availability prevent recommending items that cannot be bought.
+usecase-recommendations,Personalised recommendations,benefits_from,offline-feature-store,,Keeps training features consistent with those served online.
+usecase-recommendations,Personalised recommendations,benefits_from,shadow-deployment,,Checks latency and outputs on live traffic before an experiment starts.
+usecase-recommendations,Personalised recommendations,benefits_from,stream-processing,,Computes session features continuously.
+usecase-recommendations,Personalised recommendations,benefits_from,elastic-scaling,,Handles traffic peaks during sales and launches.
+usecase-recommendations,Personalised recommendations,benefits_from,experimentation,,"Shared assignment, guardrail metrics and statistical methods make model tests comparable with other product experiments."
+usecase-regulatory-reporting,Regulatory reporting,requires,critical-data-elements,3,The data items behind each return must be identified so the strictest controls apply to them.
+usecase-regulatory-reporting,Regulatory reporting,requires,cross-system-lineage,3,"Regulators expect each figure to be traced from source system to submission, not only inside the warehouse."
+usecase-regulatory-reporting,Regulatory reporting,requires,column-lineage,3,Reviewers need to see which source fields and rules produced each reported value.
+usecase-regulatory-reporting,Regulatory reporting,requires,data-reconciliation,4,"Totals must be proven against source and ledger automatically on every run, with breaks tracked against tolerance."
+usecase-regulatory-reporting,Regulatory reporting,requires,data-quality-rules,3,Documented validity and completeness checks are part of the control framework regulators review.
+usecase-regulatory-reporting,Regulatory reporting,requires,temporal-data,3,"Returns must be reproduced as at the reporting date and as known at submission, including later restatements."
+usecase-regulatory-reporting,Regulatory reporting,requires,data-retention,3,"Submission data and supporting records must be kept for the period the regulator sets, often five to ten years."
+usecase-regulatory-reporting,Regulatory reporting,requires,reference-data-management,3,"Regulatory code lists and mappings, such as counterparty and product classifications, must be versioned and approved."
+usecase-regulatory-reporting,Regulatory reporting,requires,workflow-orchestration,3,"Reporting runs follow a fixed calendar with dependencies, sign-off points and reruns."
+usecase-regulatory-reporting,Regulatory reporting,requires,environment-promotion,3,Changes to reporting logic must be tested and approved before they reach production.
+usecase-regulatory-reporting,Regulatory reporting,requires,audit-logging,3,"Who changed data, rules or adjustments, and when, must be provable."
+usecase-regulatory-reporting,Regulatory reporting,requires,data-ownership,3,Each critical data element and each return needs an accountable owner who signs off.
+usecase-regulatory-reporting,Regulatory reporting,requires,data-issue-management,3,"Control breaks and quality issues must be logged, assigned and resolved with evidence."
+usecase-regulatory-reporting,Regulatory reporting,requires,compliance-evidence,3,"Auditors and supervisors ask for evidence that controls ran, not only that they exist."
+usecase-regulatory-reporting,Regulatory reporting,requires,data-testing,3,Regression tests must show that a logic change does not alter reported values unexpectedly before a submission run.
+usecase-regulatory-reporting,Regulatory reporting,requires,manual-adjustments,3,"Post-run adjustments to returns are a control that supervisors and auditors sample, so each needs approval, evidence and an as-reported version."
+usecase-regulatory-reporting,Regulatory reporting,requires,regulatory-submission,3,"Returns must be mapped to the regulator's templates, validated against its rules and their filing tracked."
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,data-quality-scorecards,,Shows quality trends for critical data elements to the risk committee.
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,master-data-management,,A single counterparty or customer record stops exposures being split or counted twice.
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,hierarchy-management,,Legal entity and group structures drive consolidation.
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,time-travel,,Makes short-term investigation of recent runs quick.
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,resilience-testing,,Proves reports can still be produced during outages and stress events.
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,data-certification,,Marks the authoritative sources that returns are allowed to draw on.
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,backfill-replay,,Restatements rerun past reporting periods with corrected logic or source data.
+usecase-regulatory-reporting,Regulatory reporting,benefits_from,data-export,,Bulk extracts for regulators that accept plain files.
+usecase-security-log-analytics,Security and log analytics,requires,streaming-ingestion,3,Logs arrive continuously at terabytes a day from many collectors.
+usecase-security-log-analytics,Security and log analytics,requires,observability-analytics,3,"Logs, metrics and traces are stored and analysed at scale with search, dashboards and alerts."
+usecase-security-log-analytics,Security and log analytics,requires,semi-structured-data,3,"Log records are nested and vary by source, and must be queried without flattening first."
+usecase-security-log-analytics,Security and log analytics,requires,full-text-search,3,"Investigators search free text such as hostnames, hashes and user names across huge volumes."
+usecase-security-log-analytics,Security and log analytics,requires,stream-processing,2,Detection rules run continuously over incoming events.
+usecase-security-log-analytics,Security and log analytics,requires,data-enrichment,2,"Events are enriched with asset, identity and threat-intelligence context for triage."
+usecase-security-log-analytics,Security and log analytics,requires,object-storage,3,Petabytes of history must be kept affordably.
+usecase-security-log-analytics,Security and log analytics,requires,storage-tiering,3,Recent logs stay in fast storage while older logs move to cheaper tiers automatically.
+usecase-security-log-analytics,Security and log analytics,requires,data-retention,3,Retention periods set by regulation and policy must be applied by log type.
+usecase-security-log-analytics,Security and log analytics,requires,audit-logging,3,"Security logs must be tamper-evident, and access to them recorded."
+usecase-security-log-analytics,Security and log analytics,requires,role-based-access,3,Logs contain sensitive data and only security staff should search them.
+usecase-security-log-analytics,Security and log analytics,requires,elastic-scaling,2,Investigations create sudden bursts of heavy queries.
+usecase-security-log-analytics,Security and log analytics,requires,application-integration,2,Detections must open cases in incident response and ticketing tools.
+usecase-security-log-analytics,Security and log analytics,benefits_from,open-table-formats,,Lets several tools query one copy of log data and reduces SIEM lock-in.
+usecase-security-log-analytics,Security and log analytics,benefits_from,decoupled-storage-compute,,Allows long retention without paying for idle compute.
+usecase-security-log-analytics,Security and log analytics,benefits_from,data-threat-detection,,Adds detection of abnormal access to the data platform itself.
+usecase-security-log-analytics,Security and log analytics,benefits_from,graph-data,,"Traces attack paths across users, hosts and resources."
+usecase-security-log-analytics,Security and log analytics,benefits_from,ai-agents,,Helps analysts triage alerts and gather context faster.
+usecase-security-log-analytics,Security and log analytics,benefits_from,approximate-query-processing,,Speeds up counts over very large volumes during hunting.
+usecase-security-log-analytics,Security and log analytics,benefits_from,immutable-backups,,Protects evidence from attackers who try to delete it.
+usecase-security-log-analytics,Security and log analytics,benefits_from,deidentification,,Masks personal data in logs where full detail is not needed.
+usecase-security-log-analytics,Security and log analytics,benefits_from,cost-attribution,,Shows which sources drive ingestion and storage cost.
+usecase-security-log-analytics,Security and log analytics,benefits_from,cost-forecasting,,"Projects ingestion and retention cost as log sources are added, so sources are not dropped mid-year to fit the budget."
+usecase-self-service-bi,Self-service BI,requires,semantic-layer,3,Measures and joins defined once stop each self-built report from calculating KPIs its own way.
+usecase-self-service-bi,Self-service BI,requires,metric-definitions,3,"Key metrics need named owners and certified logic, or self-service multiplies conflicting definitions."
+usecase-self-service-bi,Self-service BI,requires,dashboards-reports,3,"Users build and share dashboards themselves, using the platform's standard tooling."
+usecase-self-service-bi,Self-service BI,requires,ad-hoc-analysis,2,Many questions are one-off and are answered by exploration rather than by a new dashboard.
+usecase-self-service-bi,Self-service BI,requires,data-catalogue,3,Users have to find the right dataset and its definition without asking an engineer.
+usecase-self-service-bi,Self-service BI,requires,data-certification,2,"Users need to tell trusted, curated datasets apart from raw or experimental ones."
+usecase-self-service-bi,Self-service BI,requires,sql-transformation,2,"Raw data must be modelled into clean, joined, analysis-ready tables before users can build on it."
+usecase-self-service-bi,Self-service BI,requires,role-based-access,3,"Access is granted through roles mapped to groups, not one person and one report at a time."
+usecase-self-service-bi,Self-service BI,requires,row-level-security,3,"One shared dashboard must show each region, branch or team only its own rows."
+usecase-self-service-bi,Self-service BI,requires,access-requests,2,Self-service stalls if getting access to a new dataset takes weeks of email.
+usecase-self-service-bi,Self-service BI,requires,identity-authentication,3,"Single sign-on lets BI tools pass the user's identity through, so data permissions apply in every tool."
+usecase-self-service-bi,Self-service BI,requires,sql-query-engine,2,Interactive queries over large tables must return in seconds.
+usecase-self-service-bi,Self-service BI,requires,workload-isolation,2,Unpredictable user queries must not slow the scheduled pipelines that refresh the data.
+usecase-self-service-bi,Self-service BI,requires,spend-controls,2,"Query timeouts, scan limits and budgets stop open-ended ad hoc queries from running up compute spend."
+usecase-self-service-bi,Self-service BI,requires,column-masking,2,"Self-built reports and exports draw on tables that hold personal fields, which must stay masked for users who do not need them."
+usecase-self-service-bi,Self-service BI,requires,data-trust-indicators,2,The use case's own requirement that each dataset shows its actual freshness and state has to appear where users build and read reports.
+usecase-self-service-bi,Self-service BI,benefits_from,business-glossary,,Plain-language definitions of business terms cut misinterpretation of fields and measures.
+usecase-self-service-bi,Self-service BI,benefits_from,freshness-monitoring,,Users see when data is late instead of drawing conclusions from yesterday's figures.
+usecase-self-service-bi,Self-service BI,benefits_from,result-caching,,Popular dashboards load quickly and cost less when results are reused.
+usecase-self-service-bi,Self-service BI,benefits_from,elastic-scaling,,Compute grows for month-end and Monday-morning peaks in concurrent users.
+usecase-self-service-bi,Self-service BI,benefits_from,spreadsheet-integration,,Users who work in spreadsheets can stay on governed data instead of exporting copies.
+usecase-self-service-bi,Self-service BI,benefits_from,usage-metadata,,Usage figures show which reports to promote and which to retire.
+usecase-self-service-bi,Self-service BI,benefits_from,conversational-analytics,,Less technical users can ask questions in plain language over the same semantic layer.
+usecase-self-service-bi,Self-service BI,benefits_from,data-preparation,,Analysts can combine their own files with curated data without starting a pipeline project.
+usecase-self-service-bi,Self-service BI,benefits_from,cost-attribution,,Teams see what their dashboards and queries cost.
+usecase-self-service-bi,Self-service BI,benefits_from,transformation-as-code,,"Curated models built as tested, documented code can grow with demand without breaking existing reports."
+usecase-self-service-bi,Self-service BI,benefits_from,analytical-sandboxes,,Users combine their own files with curated data inside the platform instead of in exported copies.
+usecase-self-service-bi,Self-service BI,benefits_from,data-loss-prevention,,"Limits or logs bulk downloads of sensitive data, a listed risk and requirement."
+usecase-sensitive-data-protection,Sensitive data protection,requires,data-classification,4,"New tables and columns are scanned and labelled automatically as they land, because policies only protect what is tagged."
+usecase-sensitive-data-protection,Sensitive data protection,requires,metadata-harvesting,3,"New tables, files and extracts must be discovered automatically, or classification has gaps."
+usecase-sensitive-data-protection,Sensitive data protection,requires,attribute-based-access,3,Policies attached to tags protect thousands of tables without a grant for each one.
+usecase-sensitive-data-protection,Sensitive data protection,requires,data-policy-management,3,One reviewed set of policies is pushed to every engine and tool instead of being rewritten in each.
+usecase-sensitive-data-protection,Sensitive data protection,requires,column-masking,3,Most users can work with sensitive tables if identifying fields are masked.
+usecase-sensitive-data-protection,Sensitive data protection,requires,row-level-security,2,"Some datasets must be restricted by region, client or case assignment."
+usecase-sensitive-data-protection,Sensitive data protection,requires,deidentification,2,Direct identifiers are tokenised or pseudonymised in analytical copies of the main personal datasets.
+usecase-sensitive-data-protection,Sensitive data protection,requires,identity-authentication,3,"BI tools, applications and agents pass the end user's identity, so policies and logs apply to the person, not a shared account."
+usecase-sensitive-data-protection,Sensitive data protection,requires,access-requests,3,"Access to restricted data is approved by owners, expires by default and is reviewed on a fixed cycle."
+usecase-sensitive-data-protection,Sensitive data protection,requires,data-ownership,2,Each sensitive asset needs an owner who approves access and answers for its classification.
+usecase-sensitive-data-protection,Sensitive data protection,requires,audit-logging,3,"Reads of restricted data are logged with the end user and the columns touched, for investigations and audits."
+usecase-sensitive-data-protection,Sensitive data protection,requires,data-security-posture,3,Scans find copies outside the catalogue and work out who can effectively reach each sensitive store.
+usecase-sensitive-data-protection,Sensitive data protection,requires,compliance-evidence,3,"Auditors ask for evidence that controls operated, drawn from platform records rather than screenshots."
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,active-metadata,,Propagates sensitivity tags to derived tables through lineage.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,column-lineage,,Finds derived columns that carry sensitive values under other names.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,data-loss-prevention,,Blocks or flags bulk exports and shares of tagged data.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,data-threat-detection,,Alerts on unusual reads of sensitive data by people or services.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,governance-metrics,,Reports classification and policy coverage by domain against targets.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,privileged-access,,Removes standing administrator rights that bypass data policies.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,credential-vending,,Stops engines and people reading sensitive files directly from storage outside catalogue policy.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,compute-user-isolation,,Prevents code on shared clusters from bypassing row and column controls.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,analytical-sandboxes,,"Keeps analysts' working copies inside governed space, with expiry and the same policies."
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,permission-aware-retrieval,,Keeps AI assistants within the same permissions as other tools.
+usecase-sensitive-data-protection,Sensitive data protection,benefits_from,data-breach-response,,Turns access logs and classification into a list of affected people quickly when something goes wrong.

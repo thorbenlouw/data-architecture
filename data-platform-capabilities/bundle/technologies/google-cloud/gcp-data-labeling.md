@@ -1,0 +1,37 @@
+---
+type: Technology
+id: gcp-data-labeling
+title: Data Labeling on Agent Platform
+description: Manages labelling of image, video, text and tabular datasets by human labellers for supervised training on Agent Platform.
+formerly: [Data Labeling on Vertex AI]
+platform: platform-google-cloud
+kind: feature
+availability: ga
+realises: [data-labelling]
+resource: https://docs.cloud.google.com/vertex-ai/docs/datasets/data-labeling-job
+tags: [google-cloud]
+status: draft
+stale_after: '2027-04-16T00:00:00Z'
+generated: {by: claude/opus-5.5, at: '2026-10-16T12:00:00Z'}
+---
+
+
+<!-- dpc:generated: everything below this line is rebuilt by `python tools/dpc.py build`; edit above it -->
+
+# Realises
+
+- [Data labelling](../../capabilities/machine-learning/data-labelling.md) (Machine learning development) (primary): Create and manage labelled examples for supervised learning, using people, rules or models.
+
+**Platform:** [Google Cloud](../../platforms/platform-google-cloud.md)  
+**Availability:** ga  
+**Product family:** Gemini Enterprise Agent Platform
+
+# Equivalents on other platforms
+
+The closest technologies on each other platform, ranked by how many of the same capabilities they realise.
+
+| Platform | Technologies | Shared capabilities |
+|---|---|---|
+| [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) | [Azure Machine Learning data labeling](../microsoft/azure-ml-data-labeling.md) | [Data labelling](../../capabilities/machine-learning/data-labelling.md) |
+| [Databricks](../../platforms/platform-databricks.md) | [Databricks Agent Evaluation (MLflow GenAI evaluation)](../databricks/databricks-agent-evaluation.md) | [Data labelling](../../capabilities/machine-learning/data-labelling.md) |
+| [Independent vendors](../../platforms/platform-independent.md) | [Labelbox](../independent/labelbox.md), [Snorkel AI](../independent/snorkel-ai.md), [Scale Data Engine](../independent/scale-data-engine.md) | [Data labelling](../../capabilities/machine-learning/data-labelling.md) |

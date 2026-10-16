@@ -1,0 +1,25 @@
+name: Validate bundle
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Validate (fails if generated sections are stale)
+        run: python tools/dpc.py validate --check-generated
+      - name: Self-tests
+        run: python tools/test_dpc.py
+      - name: Export
+        run: python tools/dpc.py export
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/

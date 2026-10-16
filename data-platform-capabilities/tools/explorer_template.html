@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capability Explorer</title>
+<style>
+:root{
+  --bg:#f7f7f5;--panel:#ffffff;--ink:#1d1d1b;--muted:#5f5f5a;--line:#e3e2dc;--accent:#2f5d8a;--accent-soft:#e6eef6;
+  --req:#b4462f;--req-soft:#f8e6e1;--ben:#6b7a2a;--ben-soft:#eef1dd;--hit:#fff4c2;--chip:#efeee9;
+  --h0:#f1f0eb;--h1:#dce8f2;--h2:#b9d1e6;--h3:#8fb3d4;--h4:#5d8fbf;--h5:#2f5d8a;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141413;--panel:#1d1d1b;--ink:#ecebe6;--muted:#a3a29b;--line:#34332f;--accent:#8fb8de;--accent-soft:#1f2c38;
+  --req:#e38d78;--req-soft:#3a221c;--ben:#b8c46d;--ben-soft:#2a2d1b;--hit:#4a4220;--chip:#2a2926;
+  --h0:#232320;--h1:#1f2e3b;--h2:#244159;--h3:#2d5779;--h4:#3a6f9b;--h5:#5d8fbf;}}
+:root[data-theme="dark"]{
+  --bg:#141413;--panel:#1d1d1b;--ink:#ecebe6;--muted:#a3a29b;--line:#34332f;--accent:#8fb8de;--accent-soft:#1f2c38;
+  --req:#e38d78;--req-soft:#3a221c;--ben:#b8c46d;--ben-soft:#2a2d1b;--hit:#4a4220;--chip:#2a2926;
+  --h0:#232320;--h1:#1f2e3b;--h2:#244159;--h3:#2d5779;--h4:#3a6f9b;--h5:#5d8fbf;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{display:flex;gap:12px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:5;flex-wrap:wrap}
+header h1{font-size:16px;margin:0;font-weight:650;white-space:nowrap}
+header .meta{color:var(--muted);font-size:12px}
+#q{flex:1;min-width:180px;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+nav.tabs{display:flex;gap:4px;flex-wrap:wrap;padding:8px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+nav.tabs button,.lens select,button.small{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:4px 10px;border-radius:999px;cursor:pointer}
+nav.tabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+main{display:grid;grid-template-columns:minmax(260px,380px) 1fr;min-height:calc(100vh - 100px)}
+#side{border-right:1px solid var(--line);background:var(--panel);overflow:auto;max-height:calc(100vh - 100px);position:sticky;top:100px;padding:8px 0}
+#detail{padding:20px 28px 60px;max-width:980px;overflow-wrap:anywhere}
+.lens{padding:6px 12px 10px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted)}
+.lens select{border-radius:6px;width:100%}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:12px}
+ul.tree{list-style:none;margin:0;padding:0 0 0 14px}
+#side>ul.tree{padding-left:6px}
+.tree li{margin:0}
+.node{display:flex;align-items:center;gap:6px;padding:2px 8px 2px 2px;border-radius:5px;cursor:pointer;font-size:14px}
+.node:hover{background:var(--chip)}
+.node.sel{background:var(--accent-soft)}
+.tog{width:16px;flex:none;text-align:center;color:var(--muted);font-size:11px;user-select:none}
+.node .lbl{flex:1;min-width:0}
+.node.dom .lbl{font-weight:600}
+.badge{font-size:11px;padding:0 6px;border-radius:999px;background:var(--chip);color:var(--muted);flex:none}
+.badge.req{background:var(--req-soft);color:var(--req);font-weight:600}
+.badge.ben{background:var(--ben-soft);color:var(--ben)}
+.badge.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.dim .lbl{opacity:.45}
+.list a{display:block;padding:5px 14px;color:var(--ink);text-decoration:none;font-size:14px;border-left:3px solid transparent}
+.list a:hover{background:var(--chip)}
+.list a.sel{border-left-color:var(--accent);background:var(--accent-soft)}
+.list .sub{color:var(--muted);font-size:12px}
+.list h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:12px 14px 4px}
+.type{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;background:var(--chip);color:var(--muted);margin-bottom:6px}
+#detail h1{font-size:26px;line-height:1.25;margin:4px 0 6px}
+#detail .lead{font-size:17px;color:var(--muted);margin:0 0 18px}
+#detail h2{font-size:18px;margin:26px 0 8px;padding-top:8px;border-top:1px solid var(--line)}
+#detail h3{font-size:15px;margin:18px 0 6px}
+#detail a{color:var(--accent)}
+#detail table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0 14px;display:block;overflow-x:auto}
+#detail th,#detail td{border:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}
+#detail th{background:var(--chip)}
+#detail code{background:var(--chip);padding:0 4px;border-radius:4px;font-size:.92em}
+.aliases{font-size:13px;color:var(--muted);margin-bottom:12px}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:4px}
+.crumbs a{color:var(--muted)}
+.heat{border-collapse:collapse;font-size:13px}
+.heat td,.heat th{border:1px solid var(--line);padding:4px 6px;text-align:center}
+.heat th.rot{white-space:nowrap}
+.heat td.c{cursor:pointer;min-width:52px}
+.heat td.dn{text-align:left;white-space:nowrap}
+.note{color:var(--muted);font-size:13px}
+@media (max-width:760px){
+  main{grid-template-columns:1fr}
+  #side{position:static;max-height:46vh;border-right:0;border-bottom:1px solid var(--line)}
+  #detail{padding:16px}
+  header,nav.tabs{padding-left:16px;padding-right:16px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Data platform capabilities</h1>
+  <input id="q" type="search" placeholder="Search capabilities, products, vendor terms…" aria-label="Search">
+  <span class="meta" id="meta"></span>
+  <button class="small" id="theme" title="Toggle light or dark">◐</button>
+</header>
+<nav class="tabs" id="tabs"></nav>
+<main>
+  <aside id="side"></aside>
+  <article id="detail"></article>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const C = DATA.concepts;
+const pathToId = {}; for (const [id,c] of Object.entries(C)) pathToId[c.p] = id;
+const LEVEL = {1:"Initial",2:"Managed",3:"Defined",4:"Measured",5:"Optimising"};
+const VIEWS = [["caps","Capabilities"],["uc","Use cases"],["per","Personas"],["plat","Platforms"],["cov","Coverage"],["pat","Patterns"],["mat","Maturity"],["fw","Frameworks"],["ref","About"]];
+let view = "caps", sel = null, lens = "", open = new Set(DATA.domains);
+const $ = s => document.querySelector(s);
+const esc = s => String(s??"").replace(/[&<>"]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
+try { const t = localStorage.getItem("dpc-theme"); if (t) document.documentElement.dataset.theme = t; } catch(e) {}
+$("#theme").onclick = () => { const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const nx = cur === "dark" ? "light" : "dark"; document.documentElement.dataset.theme = nx; try { localStorage.setItem("dpc-theme", nx); } catch(e) {} };
+$("#meta").textContent = `${Object.values(C).filter(c=>c.t==="Capability").length} capabilities · ${Object.values(C).filter(c=>c.t==="Technology").length} technologies · built ${DATA.generated}`;
+
+// ---------- markdown (the subset the bundle uses)
+function resolve(base, rel){ if (/^[a-z]+:/i.test(rel)) return null; const parts = base.split("/"); parts.pop();
+  for (const seg of rel.split("/")) { if (seg === "..") parts.pop(); else if (seg && seg !== ".") parts.push(seg); } return parts.join("/"); }
+function inline(s, base){
+  s = esc(s);
+  s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
+  s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  s = s.replace(/\[([^\]]*)\]\(([^)\s]+)\)/g, (m, txt, href) => {
+    const raw = href.replace(/&amp;/g,"&");
+    if (/^https?:/i.test(raw)) return `<a href="${href}" target="_blank" rel="noopener">${txt}</a>`;
+    const p = resolve(base, raw.split("#")[0]); const id = p && pathToId[p];
+    return id ? `<a href="#${encodeURIComponent(id)}" data-id="${esc(id)}">${txt}</a>` : txt;
+  });
+  return s;
+}
+function md(text, base){
+  const lines = text.split("\n"); let out = [], i = 0;
+  while (i < lines.length) {
+    const l = lines[i];
+    if (/^\s*$/.test(l) || l.startsWith("<!--")) { i++; continue; }
+    let m;
+    if ((m = l.match(/^(#{1,3})\s+(.*)/))) { const lv = m[1].length + 1; out.push(`<h${lv}>${inline(m[2], base)}</h${lv}>`); i++; continue; }
+    if (l.startsWith("|")) { const rows = []; while (i < lines.length && lines[i].startsWith("|")) rows.push(lines[i++]);
+      const cells = r => r.replace(/^\||\|$/g,"").split(/(?<!\\)\|/).map(x => x.trim().replace(/\\\|/g,"|"));
+      let h = `<table><thead><tr>${cells(rows[0]).map(c=>`<th>${inline(c, base)}</th>`).join("")}</tr></thead><tbody>`;
+      for (const r of rows.slice(2)) h += `<tr>${cells(r).map(c=>`<td>${inline(c, base)}</td>`).join("")}</tr>`;
+      out.push(h + "</tbody></table>"); continue; }
+    if (/^\s*[-*]\s+/.test(l)) { let h = "<ul>"; while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) h += `<li>${inline(lines[i++].replace(/^\s*[-*]\s+/,""), base)}</li>`;
+      out.push(h + "</ul>"); continue; }
+    const para = []; while (i < lines.length && lines[i].trim() && !/^(#|\||\s*[-*]\s)/.test(lines[i])) para.push(lines[i++]);
+    out.push(`<p>${inline(para.join(" "), base)}</p>`);
+  }
+  return out.join("\n");
+}
+
+// ---------- lenses
+function descCovered(cap, map){ if (map[cap]) return true; return (DATA.desc[cap]||[]).some(d => map[d]); }
+function lensBadge(id){
+  if (!lens) { const n = (DATA.desc[id]||[]).length; return ""; }
+  const [kind, key] = lens.split(":");
+  if (kind === "uc") { const u = DATA.uc[key]; const r = u.req.find(x => x[0] === id);
+    if (r) return `<span class="badge req">L${r[1]||"?"}</span>`; if (u.ben.includes(id)) return `<span class="badge ben">+</span>`; return null; }
+  if (kind === "per") { const i = DATA.personas[key].indexOf(id); return i >= 0 ? `<span class="badge on">${i+1}</span>` : null; }
+  if (kind === "plat") { const m = DATA.coverage[key]; if (m[id]) return `<span class="badge on">${m[id].length}</span>`; return descCovered(id, m) ? `<span class="badge">↓</span>` : null; }
+  if (kind === "trk") { for (const [lv, caps] of Object.entries(DATA.tracks[key])) if (caps.includes(id)) return `<span class="badge on">L${lv}</span>`; return null; }
+  return "";
+}
+function lensHasDesc(id){ return (DATA.desc[id]||[]).some(d => lensBadge(d) !== null); }
+function lensPanel(){
+  const opt = (v, t) => `<option value="${v}" ${lens===v?"selected":""}>${esc(t)}</option>`;
+  const group = (label, type, prefix) => `<optgroup label="${label}">` + Object.entries(C).filter(([,c]) => c.t === type)
+     .sort((a,b) => a[1].ti.localeCompare(b[1].ti)).map(([id,c]) => opt(`${prefix}:${id}`, c.ti)).join("") + "</optgroup>";
+  let legend = "";
+  if (lens.startsWith("uc:")) legend = `<span class="badge req">L3</span> required at level · <span class="badge ben">+</span> helps`;
+  if (lens.startsWith("per:")) legend = `<span class="badge on">1</span> priority for this persona`;
+  if (lens.startsWith("plat:")) legend = `<span class="badge on">2</span> technologies · <span class="badge">↓</span> via narrower capability`;
+  if (lens.startsWith("trk:")) legend = `<span class="badge on">L2</span> level at which it is introduced`;
+  return `<div class="lens"><label for="lens">Highlight the tree for…</label><select id="lens">${opt("","Nothing (show all)")}
+    ${group("Use cases","Use Case","uc")}${group("Personas","Persona","per")}${group("Platforms","Platform","plat")}${group("Maturity tracks","Maturity Track","trk")}</select>
+    <div class="legend">${legend}</div></div>`;
+}
+
+// ---------- sidebar
+function treeHTML(ids){
+  return `<ul class="tree">` + ids.map(id => {
+    const c = C[id]; const kids = c.ch || []; const b = lensBadge(id);
+    const relevant = !lens || b !== null || lensHasDesc(id);
+    const isOpen = open.has(id) || (lens && kids.length && lensHasDesc(id));
+    return `<li><div class="node ${c.ch && !c.dom?"" : ""} ${id===c.dom?"dom":""} ${sel===id?"sel":""} ${relevant?"":"dim"}" data-id="${id}">
+      <span class="tog" data-tog="${id}">${kids.length ? (isOpen ? "▾" : "▸") : ""}</span><span class="lbl">${esc(c.ti)}</span>${b||""}</div>
+      ${kids.length && isOpen ? treeHTML(kids) : ""}</li>`; }).join("") + `</ul>`;
+}
+function listHTML(type, group){
+  const items = Object.entries(C).filter(([,c]) => c.t === type);
+  if (group) { const g = {}; for (const [id,c] of items) (g[group(id,c)] ||= []).push([id,c]);
+    return `<div class="list">` + Object.entries(g).map(([k, arr]) => `<h3>${esc(k)}</h3>` + arr.sort((a,b)=>a[1].ti.localeCompare(b[1].ti))
+      .map(([id,c]) => `<a href="#${id}" data-id="${id}" class="${sel===id?"sel":""}">${esc(c.ti)}</a>`).join("")).join("") + `</div>`; }
+  return `<div class="list">` + items.sort((a,b)=>a[1].ti.localeCompare(b[1].ti)).map(([id,c]) =>
+    `<a href="#${id}" data-id="${id}" class="${sel===id?"sel":""}">${esc(c.ti)}<div class="sub">${esc(c.d)}</div></a>`).join("") + `</div>`;
+}
+function renderSide(){
+  const q = $("#q").value.trim().toLowerCase(); let h = "";
+  if (q) { const words = q.split(/\s+/);
+    const hits = Object.entries(C).map(([id,c]) => { const hay = [id, c.ti, (c.a||[]).join(" "), c.d].join(" ").toLowerCase();
+      if (!words.every(w => hay.includes(w))) return null; let s = (c.ti.toLowerCase().includes(q) ? 10 : 0) + ((c.a||[]).some(a=>a.toLowerCase().includes(q)) ? 6 : 0) + (c.t==="Capability"?3:0);
+      return [s, id, c]; }).filter(Boolean).sort((a,b)=>b[0]-a[0]).slice(0, 80);
+    h = `<div class="list"><h3>${hits.length} results</h3>` + hits.map(([,id,c]) => `<a href="#${id}" data-id="${id}">${esc(c.ti)} <span class="sub">· ${esc(c.t)}</span><div class="sub">${esc(c.d)}</div></a>`).join("") + `</div>`;
+  } else if (view === "caps") h = lensPanel() + treeHTML(DATA.domains);
+  else if (view === "uc") h = listHTML("Use Case");
+  else if (view === "per") h = listHTML("Persona");
+  else if (view === "plat") h = listHTML("Platform");
+  else if (view === "pat") h = listHTML("Pattern");
+  else if (view === "mat") h = listHTML("Maturity Track") + listHTML("Reference", null).replace(/<a href="#(?!maturity-scale)[^"]*"[\s\S]*?<\/a>/g, "");
+  else if (view === "fw") h = listHTML("Framework");
+  else if (view === "ref") h = listHTML("Reference");
+  else if (view === "cov") h = `<div class="list"><h3>Platforms</h3>` + DATA.platforms.map(p => `<a href="#${p}" data-id="${p}">${esc(C[p].ti)}</a>`).join("") + `</div>`;
+  $("#side").innerHTML = h;
+  const ls = $("#lens"); if (ls) ls.onchange = e => { lens = e.target.value; renderSide(); };
+}
+function renderTabs(){
+  $("#tabs").innerHTML = VIEWS.map(([k,t]) => `<button data-view="${k}" aria-pressed="${view===k}">${t}</button>`).join("");
+}
+
+// ---------- detail
+function crumbs(id){
+  const c = C[id]; if (c.t !== "Capability") return "";
+  const chain = []; let cur = id, guard = 0;
+  const parentOf = x => Object.keys(C).find(k => C[k].t==="Capability" && (C[k].ch||[]).includes(x));
+  while ((cur = parentOf(cur)) && guard++ < 10) chain.unshift(cur);
+  return chain.length ? `<div class="crumbs">${chain.map(x => `<a href="#${x}" data-id="${x}">${esc(C[x].ti)}</a>`).join(" › ")}</div>` : "";
+}
+function showConcept(id){
+  const c = C[id]; if (!c) return; sel = id;
+  $("#detail").innerHTML = `${crumbs(id)}<span class="type">${esc(c.t)}</span><h1>${esc(c.ti)}</h1><p class="lead">${esc(c.d)}</p>
+    ${c.a ? `<div class="aliases">Also called: ${c.a.map(esc).join(" · ")}</div>` : ""}
+    <div class="note">${esc(c.p)}</div>${md(c.b, c.p)}`;
+  if (c.t === "Capability") { let cur = id; open.add(id); const parentOf = x => Object.keys(C).find(k => C[k].t==="Capability" && (C[k].ch||[]).includes(x));
+    while ((cur = parentOf(cur))) open.add(cur); }
+  renderSide(); window.scrollTo({top:0});
+  const n = document.querySelector(`#side [data-id="${CSS.escape(id)}"]`); if (n) n.scrollIntoView({block:"nearest"});
+}
+function showCoverage(){
+  sel = null; const plats = DATA.platforms;
+  const shade = f => `var(--h${Math.min(5, Math.round(f*5))})`;
+  let h = `<span class="type">Coverage</span><h1>Platform coverage by domain</h1><p class="lead">Share of each domain's capabilities that a platform's generally available or preview technologies in this bundle realise, directly or through a narrower capability. Deprecated products and redistributions are not counted. Select a cell to see what is missing.</p>
+  <div style="overflow-x:auto"><table class="heat"><tr><th></th>${plats.map(p => `<th class="rot">${esc(C[p].ti)}</th>`).join("")}</tr>`;
+  for (const d of DATA.domains) { const caps = [d, ...(DATA.desc[d]||[])].filter(x => C[x].dom === d);
+    h += `<tr><td class="dn"><a href="#${d}" data-id="${d}">${esc(C[d].ti)}</a></td>` + plats.map(p => { const cov = caps.filter(x => descCovered(x, DATA.coverage[p])).length; const f = cov / caps.length;
+      return `<td class="c" style="background:${shade(f)};color:${f>0.6?"var(--panel)":"var(--ink)"}" data-cell="${d}|${p}" title="${cov} of ${caps.length}">${Math.round(f*100)}%</td>`; }).join("") + `</tr>`; }
+  h += `</table></div><div id="cell"></div><p class="note">A gap can mean the platform lacks the capability, or that nobody has mapped it yet. Treat this as a prompt for questions, not a ranking.</p>`;
+  $("#detail").innerHTML = h;
+}
+function showCell(d, p){
+  const caps = [d, ...(DATA.desc[d]||[])].filter(x => C[x].dom === d); const m = DATA.coverage[p];
+  const row = x => `<tr><td><a href="#${x}" data-id="${x}">${esc(C[x].ti)}</a></td><td>${(m[x]||[]).map(t => `<a href="#${t}" data-id="${t}">${esc(C[t].ti)}</a>`).join(", ") || (descCovered(x,m) ? "via narrower capabilities" : "<em>not mapped</em>")}</td></tr>`;
+  $("#cell").innerHTML = `<h2>${esc(C[p].ti)}: ${esc(C[d].ti)}</h2><table><tr><th>Capability</th><th>Technologies</th></tr>${caps.map(row).join("")}</table>`;
+}
+
+// ---------- events and routing
+document.addEventListener("click", e => {
+  const tog = e.target.closest("[data-tog]"); if (tog && tog.dataset.tog) { const id = tog.dataset.tog; open.has(id) ? open.delete(id) : open.add(id); renderSide(); e.stopPropagation(); return; }
+  const tab = e.target.closest("[data-view]"); if (tab) { view = tab.dataset.view; $("#q").value = ""; renderTabs(); renderSide(); if (view==="cov") showCoverage(); return; }
+  const cell = e.target.closest("[data-cell]"); if (cell) { const [d,p] = cell.dataset.cell.split("|"); showCell(d,p); return; }
+  const a = e.target.closest("[data-id]"); if (a) { e.preventDefault(); location.hash = encodeURIComponent(a.dataset.id); }
+});
+$("#q").addEventListener("input", renderSide);
+function route(){ const id = decodeURIComponent(location.hash.slice(1)); if (C[id]) showConcept(id); else if (!sel) showConcept("using-this-bundle" in C ? "using-this-bundle" : DATA.domains[0]); }
+window.addEventListener("hashchange", route);
+renderTabs(); renderSide(); route();
+</script>
+</body>
+</html>
