@@ -7,6 +7,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: data-platform-capabilities
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,4 +25,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: dist
-          path: dist/
+          path: data-platform-capabilities/dist/

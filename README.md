@@ -28,6 +28,7 @@ All content is an **unreviewed draft** produced on 16 October 2026 (`status: dra
 - `bundle/index.md`: the root index, with the 20 domains.
 - `bundle/about/using-this-bundle.md`: how to answer the common questions.
 - `bundle/about/mapping-a-use-case.md` and `bundle/about/assessing-maturity.md`: methods for the two most common architect tasks.
+- [The explorer online](https://thorbenlouw.github.io/data-architecture/), rebuilt from `main` on every push, with the other exports alongside it (for example `graph.json`).
 - `dist/explorer.html`: open it in a browser to browse the tree, highlight it for a use case, persona, platform or maturity track, and see a platform coverage heat map. Rebuild it with `python tools/dpc.py export`.
 
 ## Tooling
