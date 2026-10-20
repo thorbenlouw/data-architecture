@@ -73,4 +73,4 @@ This is the usual way to use private or frequently changing content without retr
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [LangChain](../../technologies/open-source/langchain.md), [LlamaIndex](../../technologies/open-source/llamaindex.md), [Milvus](../../technologies/open-source/milvus.md), [pgvector](../../technologies/open-source/pgvector.md), [Qdrant](../../technologies/open-source/qdrant.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [H2O.ai Platform (Driverless AI and h2oGPTe)](../../technologies/independent/h2o-ai.md), [Pinecone](../../technologies/independent/pinecone.md) |
 
-Narrower capabilities are realised by a further 26 technologies; see their pages.
+Narrower capabilities are realised by a further 28 technologies; see their pages.

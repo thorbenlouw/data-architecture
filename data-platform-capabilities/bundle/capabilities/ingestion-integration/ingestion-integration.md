@@ -52,4 +52,4 @@ Managed file transfer, B2B and EDI integration, application integration and main
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 150 technologies; see their pages.
+Narrower capabilities are realised by a further 153 technologies; see their pages.

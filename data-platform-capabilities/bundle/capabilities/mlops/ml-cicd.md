@@ -53,3 +53,5 @@ Ordinary software CI/CD tests code against fixed expectations. ML adds statistic
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) |  | [Azure Machine Learning registries and MLflow tracking](../../technologies/microsoft/azure-ml-registries-mlflow.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Managed MLflow on Databricks](../../technologies/databricks/databricks-managed-mlflow.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Modeling Objectives and model assets](../../technologies/palantir/palantir-modeling-objectives.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Manager](../../technologies/sas/sas-model-manager.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Deployer and API nodes](../../technologies/dataiku/dataiku-deployer.md) |

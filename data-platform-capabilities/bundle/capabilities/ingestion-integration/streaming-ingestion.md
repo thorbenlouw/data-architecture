@@ -64,4 +64,4 @@ It matters when consumers need data within seconds or minutes, such as operation
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Druid](../../technologies/open-source/apache-druid.md), [Apache Paimon](../../technologies/open-source/apache-paimon.md), [Apache Pinot](../../technologies/open-source/apache-pinot.md), [Apache Pulsar](../../technologies/open-source/apache-pulsar.md), [Kafka Connect](../../technologies/open-source/apache-kafka-connect.md), [Spark Structured Streaming](../../technologies/open-source/apache-spark-structured-streaming.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Estuary](../../technologies/independent/estuary.md), [Imply Polaris](../../technologies/independent/imply-polaris.md), [Qlik Open Lakehouse](../../technologies/independent/qlik-open-lakehouse.md), [Striim Cloud](../../technologies/independent/striim-cloud.md), [Tinybird](../../technologies/independent/tinybird.md) |
 
-Narrower capabilities are realised by a further 21 technologies; see their pages.
+Narrower capabilities are realised by a further 22 technologies; see their pages.

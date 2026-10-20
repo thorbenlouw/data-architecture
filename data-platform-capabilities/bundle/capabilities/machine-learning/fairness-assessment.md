@@ -57,4 +57,5 @@ It matters for any model that affects access to credit, jobs, housing, insurance
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) |  | [Azure Machine Learning Responsible AI dashboard](../../technologies/microsoft/azure-ml-responsible-ai-dashboard.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Agent Platform Model Evaluation](../../technologies/google-cloud/gcp-agent-platform-model-evaluation.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.governance](../../technologies/ibm/ibm-watsonx-governance.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Studio](../../technologies/sas/sas-model-studio.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Holistic AI Governance Platform](../../technologies/independent/holistic-ai-governance-platform.md) |

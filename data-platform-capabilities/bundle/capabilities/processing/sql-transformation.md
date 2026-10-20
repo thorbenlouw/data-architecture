@@ -60,6 +60,8 @@ SQL is the language most data people share, which makes this the default for rel
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [ClickHouse incremental materialized views](../../technologies/clickhouse/clickhouse-materialized-views.md), [ClickHouse refreshable materialized views](../../technologies/clickhouse/clickhouse-refreshable-materialized-views.md) |
 | [Informatica](../../platforms/platform-informatica.md) | SQL ELT mode | [Informatica Cloud Data Integration SQL ELT mode](../../technologies/informatica/informatica-cdi-sql-elt-mode.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Business Data Cloud data product studio](../../technologies/sap/sap-bdc-data-product-studio.md) (unconfirmed), [SAP Business Warehouse in SAP Business Data Cloud](../../technologies/sap/sap-business-warehouse-bdc.md), [SAP BW/4HANA](../../technologies/sap/sap-bw4hana.md), [SAP Datasphere](../../technologies/sap/sap-datasphere.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data and AI Studio](../../technologies/sas/sas-data-and-ai-studio.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku code recipes and notebooks](../../technologies/dataiku/dataiku-code-recipes-notebooks.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Spark](../../technologies/open-source/apache-spark.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [dbt Lake Compute](../../technologies/independent/dbt-lake-compute.md) (preview), [Matillion Maia Foundation](../../technologies/independent/matillion-maia-foundation.md) |
 

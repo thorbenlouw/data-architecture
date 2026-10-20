@@ -59,6 +59,8 @@ Regulated industries have long had supervisory expectations for model risk manag
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica CDGC AI governance](../../technologies/informatica/informatica-cdgc-ai-governance.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata ModelOps](../../technologies/teradata/teradata-modelops.md) |
 | [IBM](../../platforms/platform-ibm.md) | AI factsheets / watsonx.governance | [IBM watsonx.governance](../../technologies/ibm/ibm-watsonx-governance.md) |
-| [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra AI Command Center](../../technologies/independent/collibra-ai-command-center.md) (unconfirmed), [Credo AI Governance Platform](../../technologies/independent/credo-ai-governance-platform.md), [Dataiku](../../technologies/independent/dataiku.md), [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md), [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md), [OneTrust AI Governance](../../technologies/independent/onetrust-ai-governance.md) |
+| [SAS](../../platforms/platform-sas.md) | Model cards | [SAS Model Manager](../../technologies/sas/sas-model-manager.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Govern](../../technologies/dataiku/dataiku-govern.md) |
+| [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra AI Command Center](../../technologies/independent/collibra-ai-command-center.md) (unconfirmed), [Credo AI Governance Platform](../../technologies/independent/credo-ai-governance-platform.md), [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md), [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md), [OneTrust AI Governance](../../technologies/independent/onetrust-ai-governance.md) |
 
-Narrower capabilities are realised by a further 9 technologies; see their pages.
+Narrower capabilities are realised by a further 10 technologies; see their pages.

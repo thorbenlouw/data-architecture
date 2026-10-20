@@ -57,4 +57,5 @@ Without it, anything indexed becomes visible to anyone who can use the assistant
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) |  | [Azure AI Search](../../technologies/microsoft/azure-ai-search.md), [Foundry IQ](../../technologies/microsoft/azure-foundry-iq.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Gemini Enterprise](../../technologies/google-cloud/gcp-gemini-enterprise.md), [Google Cloud Agent Search](../../technologies/google-cloud/gcp-agent-search.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [AIP Chatbot Studio](../../technologies/palantir/palantir-aip-chatbot-studio.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Retrieval Agent Manager](../../technologies/sas/sas-retrieval-agent-manager.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Elastic Cloud](../../technologies/independent/elastic-cloud.md), [Securiti DataAI Command Platform](../../technologies/independent/securiti-dataai-command-platform.md) |

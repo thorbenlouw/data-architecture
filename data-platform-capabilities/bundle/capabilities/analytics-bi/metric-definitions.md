@@ -55,5 +55,6 @@ Metrics are the part of a semantic model most often argued about, so they need m
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake semantic views](../../technologies/snowflake/snowflake-semantic-views.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Unity Catalog metric views](../../technologies/databricks/databricks-metric-views.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Datasphere catalog and Data Marketplace](../../technologies/sap/sap-datasphere-catalog.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Semantic Models](../../technologies/dataiku/dataiku-semantic-models.md) (unconfirmed) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Ossie (incubating)](../../technologies/open-source/apache-ossie.md) (preview), [Cube Core](../../technologies/open-source/cube-core.md), [MetricFlow](../../technologies/open-source/metricflow.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [AtScale](../../technologies/independent/atscale.md), [Cube Cloud](../../technologies/independent/cube-cloud.md), [dbt Semantic Layer](../../technologies/independent/dbt-semantic-layer.md), [Tableau Pulse](../../technologies/independent/tableau-pulse.md) |

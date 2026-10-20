@@ -50,5 +50,6 @@ Uses include development and testing where even masked data is too risky, sharin
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica Test Data Management (TDM)](../../technologies/informatica/informatica-test-data-management.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Studios (RAG, Fine Tuning and Synthetic Data Studios)](../../technologies/cloudera/cloudera-ai-studios.md) (preview) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [Oracle Select AI](../../technologies/oracle/oracle-select-ai.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data Maker](../../technologies/sas/sas-data-maker.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Synthetic Data Vault (SDV)](../../technologies/open-source/sdv.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [K2view Data Product Platform](../../technologies/independent/k2view-data-product-platform.md), [MOSTLY AI Data Intelligence Platform](../../technologies/independent/mostly-ai-data-intelligence-platform.md), [Perforce Delphix](../../technologies/independent/perforce-delphix.md), [Tonic Structural](../../technologies/independent/tonic-structural.md), [Tonic Textual](../../technologies/independent/tonic-textual.md), [Gretel](../../technologies/independent/gretel.md) (retired) |

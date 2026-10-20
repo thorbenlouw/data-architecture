@@ -56,5 +56,7 @@ Version control is the base for code review, CI/CD, environment promotion and au
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Git integration (Git repository objects)](../../technologies/snowflake/snowflake-git-integration.md), [Snowsight Workspaces](../../technologies/snowflake/snowflake-workspaces.md) |
 | [Databricks](../../platforms/platform-databricks.md) | Git folders | [Databricks Git folders](../../technologies/databricks/databricks-git-folders.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Code Repositories](../../technologies/palantir/palantir-code-repositories.md), [Palantir Global Branching](../../technologies/palantir/palantir-global-branching.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data and AI Studio](../../technologies/sas/sas-data-and-ai-studio.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku DSS](../../technologies/dataiku/dataiku.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [marimo](../../technologies/open-source/marimo.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [dbt Charts](../../technologies/independent/dbt-charts.md) (unconfirmed) |

@@ -50,4 +50,4 @@ Two shortcuts sit beside the full loop. In-database ML lets SQL users train and 
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 96 technologies; see their pages.
+Narrower capabilities are realised by a further 103 technologies; see their pages.

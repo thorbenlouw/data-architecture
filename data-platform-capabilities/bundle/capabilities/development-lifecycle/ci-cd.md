@@ -68,4 +68,4 @@ CI/CD replaces hand deployments with a repeatable, logged process. That cuts rel
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Data Contract CLI](../../technologies/open-source/data-contract-cli.md), [Flyway Community](../../technologies/open-source/flyway.md), [Liquibase Community](../../technologies/open-source/liquibase.md), [SQLFluff](../../technologies/open-source/sqlfluff.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [dbt platform](../../technologies/independent/dbt-platform.md), [Tinybird](../../technologies/independent/tinybird.md) |
 
-Narrower capabilities are realised by a further 4 technologies; see their pages.
+Narrower capabilities are realised by a further 6 technologies; see their pages.

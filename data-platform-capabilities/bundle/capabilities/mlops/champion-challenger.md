@@ -50,4 +50,5 @@ The method comes from credit risk and decisioning, where it runs continuously ra
 
 | Platform | Name used | Technologies |
 |---|---|---|
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Manager](../../technologies/sas/sas-model-manager.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md) |

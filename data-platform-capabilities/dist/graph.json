@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:24:09+00:00",
+ "generated_at": "2026-10-20T14:52:11+00:00",
  "okf_version": "0.2",
  "nodes": [
   {
@@ -11077,33 +11077,429 @@
   {
    "id": "dataiku",
    "type": "Technology",
-   "title": "Dataiku",
-   "description": "Collaborative platform for data preparation, visual and code-based machine learning, AutoML, deployment, monitoring and building AI agents, used by both analysts and data scientists.",
-   "path": "technologies/independent/dataiku.md",
+   "title": "Dataiku DSS",
+   "description": "Platform in which teams build data pipelines, models, generative AI applications and agents as shared projects, with managed code environments, Git-based version control, containerised execution and per-user security.",
+   "path": "technologies/dataiku/dataiku.md",
    "aliases": [
-    "Dataiku DSS"
+    "Dataiku",
+    "Data Science Studio",
+    "Platform for AI Success",
+    "Universal AI Platform"
    ],
    "status": "draft",
-   "platform": "platform-independent",
-   "vendor": "Dataiku",
+   "platform": "platform-dataiku",
    "kind": "software",
    "availability": "ga",
    "resource": "https://www.dataiku.com/product/",
    "counted": true
   },
   {
+   "id": "dataiku-agent-hub",
+   "type": "Technology",
+   "title": "Dataiku Agent Hub",
+   "description": "Portal in which business users chat with the agents an organisation publishes and build their own quick agents over documents and data.",
+   "path": "technologies/dataiku/dataiku-agent-hub.md",
+   "aliases": [
+    "Agent Chat",
+    "Quick Agents"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "unconfirmed",
+   "resource": "https://doc.dataiku.com/dss/latest/generative-ai/chat-ui/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-agent-management",
+   "type": "Technology",
+   "title": "Dataiku Agent Management",
+   "description": "Standalone product that finds AI agents running on Dataiku and other vendors' platforms, maps the tools and models they use, and tracks their performance, risk and certification status.",
+   "path": "technologies/dataiku/dataiku-agent-management.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "software",
+   "availability": "preview",
+   "resource": "https://www.dataiku.com/company/news/dataiku-agent-management-general-availability",
+   "counted": true
+  },
+  {
+   "id": "dataiku-agents",
+   "type": "Technology",
+   "title": "Dataiku Visual Agents and Code Agents",
+   "description": "Agents built visually or in Python on the LLM Mesh, using managed tools, knowledge banks, semantic models and MCP tools, with human approval steps, tracing, evaluation and MCP and A2A servers for other systems.",
+   "path": "technologies/dataiku/dataiku-agents.md",
+   "aliases": [
+    "Visual Agents",
+    "Code Agents",
+    "Structured Visual Agents",
+    "Agent Skills"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/agents/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-catalog",
+   "type": "Technology",
+   "title": "Dataiku Catalog",
+   "description": "Instance-wide catalogue for finding datasets, models, agents, knowledge banks and other project assets, with curated collections, a most-used datasets view and AI-generated descriptions.",
+   "path": "technologies/dataiku/dataiku-catalog.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/catalog/index.html",
+   "formerly": [
+    "Dataiku Data Catalog"
+   ],
+   "counted": true
+  },
+  {
+   "id": "dataiku-cloud",
+   "type": "Technology",
+   "title": "Dataiku Cloud",
+   "description": "Edition of Dataiku that Dataiku hosts, operates and upgrades as a service, administered through a Launchpad and connected to the customer's own data sources.",
+   "path": "technologies/dataiku/dataiku-cloud.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "saas",
+   "availability": "ga",
+   "resource": "https://knowledge.dataiku.com/latest/kb/dataiku-cloud-offer/launchpad.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-cloud-stacks",
+   "type": "Technology",
+   "title": "Dataiku Cloud Stacks and Fleet Manager",
+   "description": "Self-managed deployment of Dataiku in the customer's AWS, Azure or Google Cloud account, where Fleet Manager creates, upgrades, backs up and configures the Dataiku instances.",
+   "path": "technologies/dataiku/dataiku-cloud-stacks.md",
+   "aliases": [
+    "Fleet Manager",
+    "Dataiku Cloud Stacks"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/installation/cloudstacks-aws/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-cobuild",
+   "type": "Technology",
+   "title": "Dataiku Cobuild",
+   "description": "Agent inside a Dataiku project that builds and edits Flows, recipes, models, knowledge banks, agents, dashboards, notebooks and scenarios from natural-language requests.",
+   "path": "technologies/dataiku/dataiku-cobuild.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/ai-assistants/cobuild.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-code-recipes-notebooks",
+   "type": "Technology",
+   "title": "Dataiku code recipes and notebooks",
+   "description": "Python, R, SQL, Hive, Impala, PySpark, SparkR, SparkSQL, Spark Scala and shell recipes and Jupyter and SQL notebooks that run inside the Flow alongside visual recipes.",
+   "path": "technologies/dataiku/dataiku-code-recipes-notebooks.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/code-recipes/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-code-studios",
+   "type": "Technology",
+   "title": "Dataiku Code Studios",
+   "description": "Browser-based development environments such as VS Code, JupyterLab and RStudio that run in containers next to a project, with coding agents such as Claude Code, OpenAI Codex and GitHub Copilot.",
+   "path": "technologies/dataiku/dataiku-code-studios.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/code-studios/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-connections",
+   "type": "Technology",
+   "title": "Dataiku connections",
+   "description": "Connectors that read and write data in SQL databases, cloud warehouses, object storage, Iceberg tables, NoSQL stores and business applications, and let recipes run inside the connected engine.",
+   "path": "technologies/dataiku/dataiku-connections.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/connecting/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-dashboards-stories",
+   "type": "Technology",
+   "title": "Dataiku dashboards and Stories",
+   "description": "Charts, dashboards with filters, cross-filtering and drill-down, and Stories, slide-style presentations of live data that an assistant can draft from instructions.",
+   "path": "technologies/dataiku/dataiku-dashboards-stories.md",
+   "aliases": [
+    "Dataiku Stories"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/dashboards/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-data-lineage",
+   "type": "Technology",
+   "title": "Dataiku Data Lineage",
+   "description": "Column-level lineage across datasets and projects in a Dataiku instance, with manual lineage entries and exports of the lineage graph.",
+   "path": "technologies/dataiku/dataiku-data-lineage.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/data-lineage/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-data-quality",
+   "type": "Technology",
+   "title": "Dataiku Data Quality rules",
+   "description": "Rules on dataset contents, such as value ranges, uniqueness, record counts, schema and values within their usual range, that can run automatically after each build and roll up into dataset, project and instance views.",
+   "path": "technologies/dataiku/dataiku-data-quality.md",
+   "aliases": [
+    "Metrics and checks",
+    "Data Quality Templates"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/metrics-check-data-quality/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-deployer",
+   "type": "Technology",
+   "title": "Dataiku Deployer and API nodes",
+   "description": "Deployment of project bundles to automation nodes and of models and functions as real-time API services on API nodes, Kubernetes or external machine learning platforms, with several endpoint versions able to share traffic.",
+   "path": "technologies/dataiku/dataiku-deployer.md",
+   "aliases": [
+    "Project Deployer",
+    "API Deployer",
+    "API node",
+    "Automation node"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/deployment/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-feature-store",
+   "type": "Technology",
+   "title": "Dataiku Feature Store",
+   "description": "Registry of curated feature groups, shared datasets that other projects join in batch or look up from API services in real time.",
+   "path": "technologies/dataiku/dataiku-feature-store.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/mlops/feature-store/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-flow-visual-recipes",
+   "type": "Technology",
+   "title": "Dataiku Flow and visual recipes",
+   "description": "Visual pipeline of datasets and recipes, in which the Prepare recipe and recipes such as join, group, window, pivot and fuzzy join transform data without code and can run in the underlying database or Spark.",
+   "path": "technologies/dataiku/dataiku-flow-visual-recipes.md",
+   "aliases": [
+    "Prepare recipe",
+    "Flow"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/visual-recipes/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-govern",
+   "type": "Technology",
+   "title": "Dataiku Govern",
+   "description": "Separate governance node that keeps registries of projects, bundles, models and agents, with sign-off workflows, deployment policies and custom governance templates.",
+   "path": "technologies/dataiku/dataiku-govern.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/governance/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-knowledge-banks",
+   "type": "Technology",
+   "title": "Dataiku Knowledge Banks",
+   "description": "Retrieval stores built by recipes that extract text and fields from documents, split and embed them, and index them for retrieval-augmented generation and agents.",
+   "path": "technologies/dataiku/dataiku-knowledge-banks.md",
+   "aliases": [
+    "Embed documents recipe",
+    "Extract Content recipe"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/generative-ai/knowledge/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-labeling",
+   "type": "Technology",
+   "title": "Dataiku labeling",
+   "description": "Labeling recipe in which people classify or annotate images, text and tabular records to create training data.",
+   "path": "technologies/dataiku/dataiku-labeling.md",
+   "aliases": [
+    "Labeling recipe"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/machine-learning/labeling.html",
+   "counted": true
+  },
+  {
    "id": "dataiku-llm-mesh",
    "type": "Technology",
    "title": "Dataiku LLM Mesh",
-   "description": "Abstraction layer that routes calls from Dataiku projects to many LLM providers, with quotas, cost tracking, PII screening and monitoring.",
-   "path": "technologies/independent/dataiku-llm-mesh.md",
-   "aliases": [],
+   "description": "Gateway through which Dataiku projects, agents and applications call commercial, cloud-hosted and self-hosted LLMs, with guardrails, cost quotas, rate limits, evaluation and logging.",
+   "path": "technologies/dataiku/dataiku-llm-mesh.md",
+   "aliases": [
+    "LLM Guard Services",
+    "Cost Guard",
+    "Safe Guard",
+    "Quality Guard"
+   ],
    "status": "draft",
-   "platform": "platform-independent",
-   "vendor": "Dataiku",
+   "platform": "platform-dataiku",
    "kind": "feature",
    "availability": "ga",
-   "resource": "https://www.dataiku.com/product/",
+   "resource": "https://doc.dataiku.com/dss/latest/generative-ai/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-model-monitoring",
+   "type": "Technology",
+   "title": "Dataiku model evaluation stores and Unified Monitoring",
+   "description": "Stores of repeated model evaluations with drift and performance metrics, and dashboards that show the health of deployed projects, Dataiku API endpoints and external endpoints.",
+   "path": "technologies/dataiku/dataiku-model-monitoring.md",
+   "aliases": [
+    "Model evaluation stores",
+    "Unified Monitoring"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/mlops/model-evaluations/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-prompt-studios",
+   "type": "Technology",
+   "title": "Dataiku Prompt Studios",
+   "description": "Workspace for writing, testing and comparing prompts across LLMs, and the Prompt recipe that applies a saved prompt to every row of a dataset.",
+   "path": "technologies/dataiku/dataiku-prompt-studios.md",
+   "aliases": [
+    "Prompt recipe"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/generative-ai/prompt-studio.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-scenarios",
+   "type": "Technology",
+   "title": "Dataiku scenarios",
+   "description": "Automation that builds datasets, verifies data quality rules, retrains models and runs other steps on schedules or triggers, and reports results by email, chat or webhook.",
+   "path": "technologies/dataiku/dataiku-scenarios.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/scenarios/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-semantic-models",
+   "type": "Technology",
+   "title": "Dataiku Semantic Models",
+   "description": "Business models of tables, columns, relationships and metrics that agents use to turn natural-language questions into correct SQL.",
+   "path": "technologies/dataiku/dataiku-semantic-models.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "unconfirmed",
+   "resource": "https://doc.dataiku.com/dss/latest/semantic-models/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-visual-ml",
+   "type": "Technology",
+   "title": "Dataiku Visual ML",
+   "description": "Visual and code-assisted model building for prediction, clustering, time series forecasting and causal prediction, with automatic feature handling, algorithm search, explanations and stress tests.",
+   "path": "technologies/dataiku/dataiku-visual-ml.md",
+   "aliases": [
+    "Dataiku AutoML",
+    "Visual AutoML"
+   ],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/machine-learning/index.html",
+   "counted": true
+  },
+  {
+   "id": "dataiku-webapps",
+   "type": "Technology",
+   "title": "Dataiku webapps and Dataiku Applications",
+   "description": "Hosted web applications written in HTML and JavaScript, Python (Dash, Streamlit, Bokeh, FastAPI) or R Shiny, and Dataiku Applications, which package a project as a reusable form-driven tool.",
+   "path": "technologies/dataiku/dataiku-webapps.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-dataiku",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://doc.dataiku.com/dss/latest/webapps/index.html",
    "counted": true
   },
   {
@@ -18746,6 +19142,483 @@
    "counted": false
   },
   {
+   "id": "sas-9",
+   "type": "Technology",
+   "title": "SAS 9.4 and SAS Enterprise Guide",
+   "description": "Earlier SAS platform of Base SAS, SAS/STAT and other products running on Windows and Linux servers, with the SAS Enterprise Guide desktop client for code and point-and-click tasks.",
+   "path": "technologies/sas/sas-9.md",
+   "aliases": [
+    "SAS 9",
+    "SAS9",
+    "Base SAS",
+    "SAS Enterprise Guide",
+    "SAS EG",
+    "SAS Grid Manager"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://support.sas.com/en/software/base-sas-support.html",
+   "counted": true
+  },
+  {
+   "id": "sas-agentic-ai-accelerator",
+   "type": "Technology",
+   "title": "SAS Agentic AI Accelerator",
+   "description": "Open-source kit of code, deployment recipes and interfaces for building, governing and deploying AI agents on SAS Viya, including a no-code prompt engineering interface and recipes for hosting LLMs and embedding models.",
+   "path": "technologies/sas/sas-agentic-ai-accelerator.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "open-source",
+   "availability": "ga",
+   "resource": "https://github.com/sassoftware/sas-agentic-ai-accelerator",
+   "counted": true
+  },
+  {
+   "id": "sas-ai-navigator",
+   "type": "Technology",
+   "title": "SAS AI Navigator",
+   "description": "SaaS application that keeps an inventory of an organisation's AI models, agents and use cases, from SAS or elsewhere, and checks them against internal policies and imported regulatory policy packs.",
+   "path": "technologies/sas/sas-ai-navigator.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "saas",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/ai-navigator.html",
+   "counted": true
+  },
+  {
+   "id": "sas-cloud-analytic-services",
+   "type": "Technology",
+   "title": "SAS Cloud Analytic Services (CAS)",
+   "description": "In-memory engine in SAS Viya that loads tables across a cluster of workers and runs data preparation, SQL, statistics and machine learning on them in parallel.",
+   "path": "technologies/sas/sas-cloud-analytic-services.md",
+   "aliases": [
+    "CAS",
+    "CAS server",
+    "Cloud Analytic Services"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://go.documentation.sas.com/doc/en/pgmsascdc/default/casfun/titlepage.htm",
+   "counted": true
+  },
+  {
+   "id": "sas-compute-server",
+   "type": "Technology",
+   "title": "SAS Compute Server",
+   "description": "Single-machine server in SAS Viya that runs traditional SAS programs, such as DATA step and procedures, and Python code in sessions started for each user or job.",
+   "path": "technologies/sas/sas-compute-server.md",
+   "aliases": [
+    "SAS Programming Runtime Environment",
+    "SPRE",
+    "compute service"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://developer.sas.com/rest-apis/compute/docs/overview",
+   "counted": true
+  },
+  {
+   "id": "sas-container-runtime",
+   "type": "Technology",
+   "title": "SAS Container Runtime",
+   "description": "Packaging of SAS and Python models and decisions as lightweight OCI containers with a REST scoring endpoint that run on any container platform without a SAS Viya deployment.",
+   "path": "technologies/sas/sas-container-runtime.md",
+   "aliases": [
+    "SCR"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://support.sas.com/en/software/container-runtime.html",
+   "counted": true
+  },
+  {
+   "id": "sas-data-accelerator",
+   "type": "Technology",
+   "title": "SAS Data Accelerator",
+   "description": "Capability of SAS Viya that runs SAS model scoring, data quality functions and some analytics inside external databases and cloud data platforms instead of moving the data to SAS.",
+   "path": "technologies/sas/sas-data-accelerator.md",
+   "aliases": [
+    "SAS Scoring Accelerator",
+    "SAS Code Accelerator",
+    "SAS Data Quality Accelerator"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/data-accelerator.html",
+   "formerly": [
+    "SAS In-Database Technologies"
+   ],
+   "counted": true
+  },
+  {
+   "id": "sas-data-and-ai-studio",
+   "type": "Technology",
+   "title": "SAS Data and AI Studio",
+   "description": "Browser-based development environment in SAS Viya for writing SAS and Python code and building visual flows that extract, transform and load data and run analytics.",
+   "path": "technologies/sas/sas-data-and-ai-studio.md",
+   "aliases": [
+    "SAS Data and AI Studio Advanced",
+    "SAS Data and AI Studio Enterprise",
+    "SAS Studio flows"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/data-and-ai-studio.html",
+   "formerly": [
+    "SAS Studio",
+    "SAS Studio Analyst",
+    "SAS Studio Engineer"
+   ],
+   "counted": true
+  },
+  {
+   "id": "sas-data-engineering",
+   "type": "Technology",
+   "title": "SAS Data Engineering",
+   "description": "Packaged SAS Viya offering for building data pipelines that bundles visual and code-based development, data connectivity, data profiling, data quality, entity resolution and governance.",
+   "path": "technologies/sas/sas-data-engineering.md",
+   "aliases": [
+    "SAS Data Engineering Advanced"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/data-engineering.html",
+   "counted": true
+  },
+  {
+   "id": "sas-data-governance",
+   "type": "Technology",
+   "title": "SAS Data Governance",
+   "description": "Catalogue and governance product in SAS Viya that discovers and profiles data assets, detects personal data, records lineage from data to reports and models, and holds a business glossary.",
+   "path": "technologies/sas/sas-data-governance.md",
+   "aliases": [
+    "SAS Data Governance Advanced"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/data-governance.html",
+   "formerly": [
+    "SAS Information Catalog",
+    "SAS Information Governance"
+   ],
+   "counted": true
+  },
+  {
+   "id": "sas-data-hub",
+   "type": "Technology",
+   "title": "SAS Data Hub",
+   "description": "Data connectivity application in SAS Viya for defining and monitoring connections to databases, cloud data platforms and file stores, and for browsing and previewing their data.",
+   "path": "technologies/sas/sas-data-hub.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/data-hub.html",
+   "formerly": [
+    "SAS Data Explorer"
+   ],
+   "counted": true
+  },
+  {
+   "id": "sas-data-maker",
+   "type": "Technology",
+   "title": "SAS Data Maker",
+   "description": "Low-code application that generates synthetic tables, including related tables and time series, which keep the statistical patterns of real data, and reports the quality and privacy of the result.",
+   "path": "technologies/sas/sas-data-maker.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "saas",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/data-maker.html",
+   "counted": true
+  },
+  {
+   "id": "sas-event-stream-processing",
+   "type": "Technology",
+   "title": "SAS Event Stream Processing",
+   "description": "Streaming engine that filters, aggregates, joins and scores events in continuous queries, running from edge devices to Kubernetes clusters, with a low-code designer.",
+   "path": "technologies/sas/sas-event-stream-processing.md",
+   "aliases": [
+    "SAS ESP",
+    "ESP",
+    "SAS Event Stream Processing Studio",
+    "SAS Event Stream Manager"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/event-stream-processing.html",
+   "counted": true
+  },
+  {
+   "id": "sas-intelligent-decisioning",
+   "type": "Technology",
+   "title": "SAS Intelligent Decisioning",
+   "description": "Application in SAS Viya for building decision flows that combine business rules, model scores, code and calls to external APIs such as LLMs, then testing them and publishing them as batch, API or real-time services.",
+   "path": "technologies/sas/sas-intelligent-decisioning.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/intelligent-decisioning.html",
+   "counted": true
+  },
+  {
+   "id": "sas-managed-cloud-services",
+   "type": "Technology",
+   "title": "SAS Managed Cloud Services",
+   "description": "SAS-operated hosting and management of SAS software on Microsoft Azure or AWS, or in a customer's own cloud, including SAS Viya Essentials, a fixed-price set of SAS Viya products on Azure.",
+   "path": "technologies/sas/sas-managed-cloud-services.md",
+   "aliases": [
+    "SAS Cloud",
+    "SAS Managed Services",
+    "SAS Viya Essentials",
+    "SAS Software as a Service"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "managed-service",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/solutions/cloud/sas-managed-cloud-services.html",
+   "counted": true
+  },
+  {
+   "id": "sas-model-manager",
+   "type": "Technology",
+   "title": "SAS Model Manager",
+   "description": "Model lifecycle application in SAS Viya that registers and versions SAS, Python and R models, documents them with model cards, publishes them to run-time destinations and monitors their performance and drift.",
+   "path": "technologies/sas/sas-model-manager.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/model-manager.html",
+   "counted": true
+  },
+  {
+   "id": "sas-model-studio",
+   "type": "Technology",
+   "title": "SAS Model Studio",
+   "description": "Browser-based machine learning application in SAS Viya that builds, compares and explains pipelines of data preparation, feature engineering and models, with automated pipeline generation and tuning.",
+   "path": "technologies/sas/sas-model-studio.md",
+   "aliases": [
+    "Model Studio",
+    "SAS Viya Machine Learning",
+    "VDMML"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/model-studio.html",
+   "formerly": [
+    "SAS Visual Data Mining and Machine Learning"
+   ],
+   "counted": true
+  },
+  {
+   "id": "sas-retrieval-agent-manager",
+   "type": "Technology",
+   "title": "SAS Retrieval Agent Manager",
+   "description": "No-code retrieval-augmented generation product that ingests documents, tests and selects retrieval configurations, and serves cited answers through an API, chatbot or retrieval agents.",
+   "path": "technologies/sas/sas-retrieval-agent-manager.md",
+   "aliases": [
+    "RAM",
+    "SAS RAM"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/retrieval-agent-manager.html",
+   "counted": true
+  },
+  {
+   "id": "sas-speedystore",
+   "type": "Technology",
+   "title": "SAS SpeedyStore",
+   "description": "SingleStore database embedded in SAS Viya, so that transactional and analytical workloads and SAS analytics run against one copy of the data.",
+   "path": "technologies/sas/sas-speedystore.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/viya/singlestore.html",
+   "formerly": [
+    "SAS Viya with SingleStore Premium"
+   ],
+   "counted": true
+  },
+  {
+   "id": "sas-visual-analytics",
+   "type": "Technology",
+   "title": "SAS Visual Analytics",
+   "description": "Web application in SAS Viya for building interactive reports and dashboards, exploring data, and running automated explanations, forecasts and scenario analysis without code.",
+   "path": "technologies/sas/sas-visual-analytics.md",
+   "aliases": [
+    "SAS VA"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/visual-analytics.html",
+   "counted": true
+  },
+  {
+   "id": "sas-visual-forecasting",
+   "type": "Technology",
+   "title": "SAS Visual Forecasting",
+   "description": "Forecasting application in SAS Viya that builds pipelines of time series, machine learning and hybrid models for each level of a hierarchy, selects the best model for each series and reconciles forecasts across levels.",
+   "path": "technologies/sas/sas-visual-forecasting.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/visual-forecasting.html",
+   "counted": true
+  },
+  {
+   "id": "sas-visual-text-analytics",
+   "type": "Technology",
+   "title": "SAS Visual Text Analytics",
+   "description": "Natural language processing application in SAS Viya that parses text, discovers topics, classifies documents, analyses sentiment and extracts information with linguistic rules, machine learning and LLMs.",
+   "path": "technologies/sas/sas-visual-text-analytics.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/visual-text-analytics.html",
+   "counted": true
+  },
+  {
+   "id": "sas-viya",
+   "type": "Technology",
+   "title": "SAS Viya",
+   "description": "Cloud-native analytics and AI platform on Kubernetes that hosts SAS's data management, visual analytics, machine learning, model management, decisioning and streaming products.",
+   "path": "technologies/sas/sas-viya.md",
+   "aliases": [
+    "Viya",
+    "Viya 4",
+    "SAS Viya Platform",
+    "SAS Viya Advanced",
+    "SAS Viya Enterprise",
+    "SAS Viya Programming"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "software",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/viya.html",
+   "counted": true
+  },
+  {
+   "id": "sas-viya-copilot",
+   "type": "Technology",
+   "title": "SAS Viya Copilot",
+   "description": "Family of AI assistants embedded in SAS Viya applications that generate and explain SAS and Python code, guide model pipeline building and help manage models and decisions from natural-language requests.",
+   "path": "technologies/sas/sas-viya-copilot.md",
+   "aliases": [
+    "Viya Copilot",
+    "SAS Viya Copilot for Code Assistance"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/viya/copilot.html",
+   "counted": true
+  },
+  {
+   "id": "sas-viya-mcp-server",
+   "type": "Technology",
+   "title": "SAS Viya MCP Server",
+   "description": "Self-hosted Model Context Protocol server that lets external AI agents and coding assistants run SAS code, train AutoML projects, score models and work with SAS Viya content as tools, under the user's Viya permissions.",
+   "path": "technologies/sas/sas-viya-mcp-server.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "open-source",
+   "availability": "ga",
+   "resource": "https://github.com/sassoftware/sas-mcp-server",
+   "counted": true
+  },
+  {
+   "id": "sas-viya-security",
+   "type": "Technology",
+   "title": "SAS Viya security controls",
+   "description": "Authentication through SAS Logon with OpenID Connect, SAML or LDAP, rule-based permissions on folders, reports and services, row-level permissions on CAS tables, and audit records of user activity.",
+   "path": "technologies/sas/sas-viya-security.md",
+   "aliases": [
+    "SAS Logon",
+    "SAS Viya authorization"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://go.documentation.sas.com/doc/en/sasadmincdc/default/calauthzgen/titlepage.htm",
+   "counted": true
+  },
+  {
+   "id": "sas-viya-workbench",
+   "type": "Technology",
+   "title": "SAS Viya Workbench",
+   "description": "Self-service cloud development environment in which data scientists code in SAS, Python or R through Jupyter, Visual Studio Code or SAS Enterprise Guide on CPU or GPU compute that scales and stops on demand.",
+   "path": "technologies/sas/sas-viya-workbench.md",
+   "aliases": [],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "managed-service",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/viya/workbench.html",
+   "counted": true
+  },
+  {
+   "id": "sas-workload-management",
+   "type": "Technology",
+   "title": "SAS Workload Management",
+   "description": "Scheduler for SAS Viya compute sessions and jobs on Kubernetes that routes work through rule-based queues and priorities, balances it across nodes by capacity and restarts pre-empted jobs.",
+   "path": "technologies/sas/sas-workload-management.md",
+   "aliases": [
+    "SAS Workload Orchestrator",
+    "SWO"
+   ],
+   "status": "draft",
+   "platform": "platform-sas",
+   "kind": "feature",
+   "availability": "ga",
+   "resource": "https://www.sas.com/en_us/software/workload-management.html",
+   "counted": true
+  },
+  {
    "id": "scale-data-engine",
    "type": "Technology",
    "title": "Scale Data Engine",
@@ -22575,6 +23448,15 @@
    "status": "draft"
   },
   {
+   "id": "platform-dataiku",
+   "type": "Platform",
+   "title": "Dataiku",
+   "description": "A platform for building data pipelines, machine learning models, generative AI applications and AI agents visually or in code, on top of an organisation's existing data platforms.",
+   "path": "platforms/platform-dataiku.md",
+   "aliases": [],
+   "status": "draft"
+  },
+  {
    "id": "platform-google-cloud",
    "type": "Platform",
    "title": "Google Cloud",
@@ -22652,6 +23534,15 @@
    "title": "SAP",
    "description": "SAP's data and analytics services for data from SAP business applications and other sources.",
    "path": "platforms/platform-sap.md",
+   "aliases": [],
+   "status": "draft"
+  },
+  {
+   "id": "platform-sas",
+   "type": "Platform",
+   "title": "SAS",
+   "description": "An analytics and AI platform, SAS Viya, for preparing and governing data, building and managing models, and running automated decisions, alongside the long-standing SAS 9 software.",
+   "path": "platforms/platform-sas.md",
    "aliases": [],
    "status": "draft"
   },
@@ -42874,27 +43765,32 @@
   },
   {
    "source": "dataiku",
-   "target": "data-preparation",
+   "target": "runtime-management",
    "type": "realises"
   },
   {
    "source": "dataiku",
-   "target": "automl",
+   "target": "version-control",
    "type": "realises"
   },
   {
    "source": "dataiku",
-   "target": "ml-pipelines",
+   "target": "container-services",
    "type": "realises"
   },
   {
    "source": "dataiku",
-   "target": "model-governance",
+   "target": "compute-user-isolation",
    "type": "realises"
   },
   {
    "source": "dataiku",
-   "target": "ai-agents",
+   "target": "secrets-management",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku",
+   "target": "audit-logging",
    "type": "realises"
   },
   {
@@ -42904,17 +43800,357 @@
   },
   {
    "source": "dataiku",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-agent-hub",
+   "target": "enterprise-ai-assistant",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agent-hub",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-agent-management",
+   "target": "ai-system-discovery",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agent-management",
    "target": "agent-registry",
    "type": "realises"
   },
   {
-   "source": "dataiku",
-   "target": "runtime-management",
+   "source": "dataiku-agent-management",
+   "target": "genai-observability",
    "type": "realises"
   },
   {
-   "source": "dataiku",
-   "target": "platform-independent",
+   "source": "dataiku-agent-management",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-agents",
+   "target": "ai-agents",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agents",
+   "target": "agent-tool-access",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agents",
+   "target": "human-oversight",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agents",
+   "target": "genai-observability",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agents",
+   "target": "genai-evaluation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agents",
+   "target": "agent-interoperability",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-agents",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-catalog",
+   "target": "data-catalogue",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-catalog",
+   "target": "usage-metadata",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-catalog",
+   "target": "ai-generated-documentation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-catalog",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-cloud",
+   "target": "deployment-options",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-cloud",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-cloud-stacks",
+   "target": "deployment-options",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-cloud-stacks",
+   "target": "backup-restore",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-cloud-stacks",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-cobuild",
+   "target": "data-engineering-agents",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-cobuild",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-code-recipes-notebooks",
+   "target": "notebooks",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-code-recipes-notebooks",
+   "target": "sql-transformation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-code-recipes-notebooks",
+   "target": "distributed-processing",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-code-recipes-notebooks",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-code-studios",
+   "target": "local-development",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-code-studios",
+   "target": "ai-assisted-development",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-code-studios",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-connections",
+   "target": "database-extraction",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-connections",
+   "target": "saas-connectors",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-connections",
+   "target": "engine-interoperability",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-connections",
+   "target": "custom-connectors",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-connections",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-dashboards-stories",
+   "target": "dashboards-reports",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-dashboards-stories",
+   "target": "ad-hoc-analysis",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-dashboards-stories",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-data-lineage",
+   "target": "column-lineage",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-data-lineage",
+   "target": "impact-analysis",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-data-lineage",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-data-quality",
+   "target": "data-quality-rules",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-data-quality",
+   "target": "data-quality-scorecards",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-data-quality",
+   "target": "data-anomaly-detection",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-data-quality",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-deployer",
+   "target": "environment-promotion",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-deployer",
+   "target": "real-time-inference",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-deployer",
+   "target": "canary-ab-testing",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-deployer",
+   "target": "ml-cicd",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-deployer",
+   "target": "inference-logging",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-deployer",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-feature-store",
+   "target": "feature-store",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-feature-store",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-flow-visual-recipes",
+   "target": "low-code-transformation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-flow-visual-recipes",
+   "target": "data-preparation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-flow-visual-recipes",
+   "target": "data-cleansing",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-flow-visual-recipes",
+   "target": "incremental-processing",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-flow-visual-recipes",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-govern",
+   "target": "model-governance",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-govern",
+   "target": "ai-governance",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-govern",
+   "target": "model-registry",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-govern",
+   "target": "agent-registry",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-govern",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-knowledge-banks",
+   "target": "retrieval-pipelines",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-knowledge-banks",
+   "target": "embedding-generation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-knowledge-banks",
+   "target": "document-processing",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-knowledge-banks",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-labeling",
+   "target": "data-labelling",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-labeling",
+   "target": "platform-dataiku",
    "type": "platform"
   },
   {
@@ -42934,7 +44170,147 @@
   },
   {
    "source": "dataiku-llm-mesh",
-   "target": "platform-independent",
+   "target": "genai-evaluation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-llm-mesh",
+   "target": "model-customisation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-llm-mesh",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-model-monitoring",
+   "target": "model-performance-monitoring",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-model-monitoring",
+   "target": "drift-detection",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-model-monitoring",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-prompt-studios",
+   "target": "prompt-management",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-prompt-studios",
+   "target": "ai-functions",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-prompt-studios",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-scenarios",
+   "target": "workflow-orchestration",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-scenarios",
+   "target": "event-driven-triggering",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-scenarios",
+   "target": "continuous-training",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-scenarios",
+   "target": "data-testing",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-scenarios",
+   "target": "data-alerting",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-scenarios",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-semantic-models",
+   "target": "ai-context-layer",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-semantic-models",
+   "target": "metric-definitions",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-semantic-models",
+   "target": "conversational-analytics",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-semantic-models",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "automl",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "hyperparameter-tuning",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "model-explainability",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "model-evaluation",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "ml-pipelines",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "experiment-tracking",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "batch-inference",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-visual-ml",
+   "target": "platform-dataiku",
+   "type": "platform"
+  },
+  {
+   "source": "dataiku-webapps",
+   "target": "data-applications",
+   "type": "realises"
+  },
+  {
+   "source": "dataiku-webapps",
+   "target": "platform-dataiku",
    "type": "platform"
   },
   {
@@ -53636,6 +55012,551 @@
    "source": "sap-snowflake",
    "target": "platform-snowflake",
    "type": "distribution_of"
+  },
+  {
+   "source": "sas-9",
+   "target": "single-node-processing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-9",
+   "target": "local-development",
+   "type": "realises"
+  },
+  {
+   "source": "sas-9",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-agentic-ai-accelerator",
+   "target": "ai-agents",
+   "type": "realises"
+  },
+  {
+   "source": "sas-agentic-ai-accelerator",
+   "target": "prompt-management",
+   "type": "realises"
+  },
+  {
+   "source": "sas-agentic-ai-accelerator",
+   "target": "generative-model-serving",
+   "type": "realises"
+  },
+  {
+   "source": "sas-agentic-ai-accelerator",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-ai-navigator",
+   "target": "ai-governance",
+   "type": "realises"
+  },
+  {
+   "source": "sas-ai-navigator",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-cloud-analytic-services",
+   "target": "distributed-processing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-cloud-analytic-services",
+   "target": "sql-query-engine",
+   "type": "realises"
+  },
+  {
+   "source": "sas-cloud-analytic-services",
+   "target": "dataframe-apis",
+   "type": "realises"
+  },
+  {
+   "source": "sas-cloud-analytic-services",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-compute-server",
+   "target": "single-node-processing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-compute-server",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-container-runtime",
+   "target": "real-time-inference",
+   "type": "realises"
+  },
+  {
+   "source": "sas-container-runtime",
+   "target": "edge-inference",
+   "type": "realises"
+  },
+  {
+   "source": "sas-container-runtime",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-data-accelerator",
+   "target": "batch-inference",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-accelerator",
+   "target": "data-cleansing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-accelerator",
+   "target": "entity-resolution",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-accelerator",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-data-and-ai-studio",
+   "target": "low-code-transformation",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-and-ai-studio",
+   "target": "sql-transformation",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-and-ai-studio",
+   "target": "version-control",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-and-ai-studio",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-data-engineering",
+   "target": "data-cleansing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-engineering",
+   "target": "data-profiling",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-engineering",
+   "target": "entity-resolution",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-engineering",
+   "target": "data-preparation",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-engineering",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "data-catalogue",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "metadata-harvesting",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "data-classification",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "table-lineage",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "model-lineage",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "impact-analysis",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "business-glossary",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "data-profiling",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "data-policy-management",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-governance",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-data-hub",
+   "target": "database-extraction",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-hub",
+   "target": "query-federation",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-hub",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-data-maker",
+   "target": "synthetic-data",
+   "type": "realises"
+  },
+  {
+   "source": "sas-data-maker",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-event-stream-processing",
+   "target": "stream-processing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-event-stream-processing",
+   "target": "streaming-inference",
+   "type": "realises"
+  },
+  {
+   "source": "sas-event-stream-processing",
+   "target": "edge-data-processing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-event-stream-processing",
+   "target": "iot-ingestion",
+   "type": "realises"
+  },
+  {
+   "source": "sas-event-stream-processing",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-intelligent-decisioning",
+   "target": "decision-management",
+   "type": "realises"
+  },
+  {
+   "source": "sas-intelligent-decisioning",
+   "target": "ai-agents",
+   "type": "realises"
+  },
+  {
+   "source": "sas-intelligent-decisioning",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-managed-cloud-services",
+   "target": "provisioned-compute",
+   "type": "realises"
+  },
+  {
+   "source": "sas-managed-cloud-services",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "model-registry",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "model-governance",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "model-deployment",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "model-performance-monitoring",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "drift-detection",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "champion-challenger",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "ml-cicd",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-manager",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "automl",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "hyperparameter-tuning",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "ml-pipelines",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "feature-engineering",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "model-evaluation",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "model-explainability",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "fairness-assessment",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "distributed-training",
+   "type": "realises"
+  },
+  {
+   "source": "sas-model-studio",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-retrieval-agent-manager",
+   "target": "retrieval-pipelines",
+   "type": "realises"
+  },
+  {
+   "source": "sas-retrieval-agent-manager",
+   "target": "genai-evaluation",
+   "type": "realises"
+  },
+  {
+   "source": "sas-retrieval-agent-manager",
+   "target": "document-processing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-retrieval-agent-manager",
+   "target": "permission-aware-retrieval",
+   "type": "realises"
+  },
+  {
+   "source": "sas-retrieval-agent-manager",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-speedystore",
+   "target": "real-time-analytics",
+   "type": "realises"
+  },
+  {
+   "source": "sas-speedystore",
+   "target": "operational-database",
+   "type": "realises"
+  },
+  {
+   "source": "sas-speedystore",
+   "target": "sql-query-engine",
+   "type": "realises"
+  },
+  {
+   "source": "sas-speedystore",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-visual-analytics",
+   "target": "dashboards-reports",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-analytics",
+   "target": "ad-hoc-analysis",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-analytics",
+   "target": "augmented-analytics",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-analytics",
+   "target": "embedded-analytics",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-analytics",
+   "target": "spreadsheet-integration",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-analytics",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-visual-forecasting",
+   "target": "ml-pipelines",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-forecasting",
+   "target": "automl",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-forecasting",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-visual-text-analytics",
+   "target": "document-processing",
+   "type": "realises"
+  },
+  {
+   "source": "sas-visual-text-analytics",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-viya",
+   "target": "deployment-options",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-viya-copilot",
+   "target": "ai-assisted-development",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-copilot",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-viya-mcp-server",
+   "target": "agent-tool-access",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-mcp-server",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-viya-security",
+   "target": "role-based-access",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-security",
+   "target": "row-level-security",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-security",
+   "target": "identity-authentication",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-security",
+   "target": "audit-logging",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-security",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-viya-workbench",
+   "target": "notebooks",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-workbench",
+   "target": "gpu-compute",
+   "type": "realises"
+  },
+  {
+   "source": "sas-viya-workbench",
+   "target": "platform-sas",
+   "type": "platform"
+  },
+  {
+   "source": "sas-workload-management",
+   "target": "workload-management",
+   "type": "realises"
+  },
+  {
+   "source": "sas-workload-management",
+   "target": "platform-sas",
+   "type": "platform"
   },
   {
    "source": "scale-data-engine",
@@ -75369,6 +77290,58 @@
    ]
   },
   {
+   "platform": "platform-dataiku",
+   "name": "Dataiku Platform for AI Success",
+   "aliases": [
+    "Dataiku DSS",
+    "Data Science Studio",
+    "Universal AI Platform"
+   ],
+   "technologies": [
+    "dataiku",
+    "dataiku-cloud",
+    "dataiku-cloud-stacks",
+    "dataiku-connections",
+    "dataiku-flow-visual-recipes",
+    "dataiku-code-recipes-notebooks",
+    "dataiku-code-studios",
+    "dataiku-scenarios",
+    "dataiku-data-quality",
+    "dataiku-catalog",
+    "dataiku-data-lineage",
+    "dataiku-dashboards-stories",
+    "dataiku-webapps",
+    "dataiku-visual-ml",
+    "dataiku-labeling",
+    "dataiku-feature-store",
+    "dataiku-deployer",
+    "dataiku-model-monitoring",
+    "dataiku-govern",
+    "dataiku-cobuild",
+    "dataiku-semantic-models",
+    "dataiku-llm-mesh",
+    "dataiku-prompt-studios",
+    "dataiku-knowledge-banks",
+    "dataiku-agents",
+    "dataiku-agent-hub"
+   ]
+  },
+  {
+   "platform": "platform-dataiku",
+   "name": "Dataiku LLM Mesh",
+   "aliases": [
+    "LLM Guard Services",
+    "Cost Guard",
+    "Safe Guard",
+    "Quality Guard"
+   ],
+   "technologies": [
+    "dataiku-llm-mesh",
+    "dataiku-prompt-studios",
+    "dataiku-knowledge-banks"
+   ]
+  },
+  {
    "platform": "platform-google-cloud",
    "name": "BigQuery",
    "aliases": [
@@ -76114,6 +78087,52 @@
     "sap-ai-foundation",
     "sap-integration-suite",
     "sap-joule-studio"
+   ]
+  },
+  {
+   "platform": "platform-sas",
+   "name": "SAS Viya",
+   "aliases": [
+    "Viya",
+    "Viya 4"
+   ],
+   "technologies": [
+    "sas-viya",
+    "sas-cloud-analytic-services",
+    "sas-compute-server",
+    "sas-data-and-ai-studio",
+    "sas-data-hub",
+    "sas-data-engineering",
+    "sas-data-accelerator",
+    "sas-speedystore",
+    "sas-data-governance",
+    "sas-visual-analytics",
+    "sas-model-studio",
+    "sas-visual-forecasting",
+    "sas-visual-text-analytics",
+    "sas-model-manager",
+    "sas-container-runtime",
+    "sas-intelligent-decisioning",
+    "sas-event-stream-processing",
+    "sas-viya-workbench",
+    "sas-viya-copilot",
+    "sas-viya-mcp-server",
+    "sas-agentic-ai-accelerator",
+    "sas-workload-management",
+    "sas-viya-security"
+   ]
+  },
+  {
+   "platform": "platform-sas",
+   "name": "SAS Data Management",
+   "technologies": [
+    "sas-data-and-ai-studio",
+    "sas-data-hub",
+    "sas-data-engineering",
+    "sas-data-accelerator",
+    "sas-data-governance",
+    "sas-speedystore",
+    "sas-data-maker"
    ]
   },
   {

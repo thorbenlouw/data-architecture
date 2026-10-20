@@ -58,4 +58,5 @@ It is chosen when data terms rule out provider endpoints, when a fine-tuned or d
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Inference service](../../technologies/cloudera/cloudera-ai-inference-service.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Generative AI (OCI Enterprise AI)](../../technologies/oracle/oracle-oci-generative-ai.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.ai](../../technologies/ibm/ibm-watsonx-ai.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Agentic AI Accelerator](../../technologies/sas/sas-agentic-ai-accelerator.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [KServe](../../technologies/open-source/kserve.md), [Ray](../../technologies/open-source/ray.md), [vLLM](../../technologies/open-source/vllm.md) |

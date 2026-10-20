@@ -68,4 +68,5 @@ Data and ML code lives for years. A pipeline untouched since 2022 can break when
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks classic compute (Databricks Runtime clusters)](../../technologies/databricks/databricks-classic-compute.md), [Databricks serverless compute](../../technologies/databricks/databricks-serverless-compute.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Workbench](../../technologies/cloudera/cloudera-ai-workbench.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Science](../../technologies/oracle/oracle-oci-data-science.md) |
-| [Independent vendors](../../platforms/platform-independent.md) |  | [Dataiku](../../technologies/independent/dataiku.md), [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Code environments | [Dataiku DSS](../../technologies/dataiku/dataiku.md) |
+| [Independent vendors](../../platforms/platform-independent.md) |  | [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md) |

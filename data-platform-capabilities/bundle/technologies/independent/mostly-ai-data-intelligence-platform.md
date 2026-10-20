@@ -38,4 +38,5 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Informatica](../../platforms/platform-informatica.md) | [Informatica Test Data Management (TDM)](../informatica/informatica-test-data-management.md) | [Synthetic data generation](../../capabilities/development-lifecycle/synthetic-data.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) | [Cloudera AI Studios (RAG, Fine Tuning and Synthetic Data Studios)](../cloudera/cloudera-ai-studios.md) (preview) | [Synthetic data generation](../../capabilities/development-lifecycle/synthetic-data.md) |
 | [Oracle](../../platforms/platform-oracle.md) | [Oracle Select AI](../oracle/oracle-select-ai.md) | [Synthetic data generation](../../capabilities/development-lifecycle/synthetic-data.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Data Maker](../sas/sas-data-maker.md) | [Synthetic data generation](../../capabilities/development-lifecycle/synthetic-data.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) | [Synthetic Data Vault (SDV)](../open-source/sdv.md) | [Synthetic data generation](../../capabilities/development-lifecycle/synthetic-data.md) |

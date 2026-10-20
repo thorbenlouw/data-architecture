@@ -64,4 +64,4 @@ The aim is to give each person only what they need without making access so slow
 | [Cloudera](../../platforms/platform-cloudera.md) | Apache Ranger (SDX) |  |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Gravitino](../../technologies/open-source/apache-gravitino.md), [Apache Ranger](../../technologies/open-source/apache-ranger.md), [Unity Catalog (open source)](../../technologies/open-source/unity-catalog.md) |
 
-Narrower capabilities are realised by a further 76 technologies; see their pages.
+Narrower capabilities are realised by a further 78 technologies; see their pages.

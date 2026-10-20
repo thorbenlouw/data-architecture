@@ -54,5 +54,6 @@ Telemetry differs from business events in volume, in the number of separate send
 | [Databricks](../../platforms/platform-databricks.md) |  | [Zerobus Ingest](../../technologies/databricks/databricks-zerobus-ingest.md) |
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [ClickPipes](../../technologies/clickhouse/clickhouse-clickpipes.md) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica Streaming Ingestion and Replication](../../technologies/informatica/informatica-streaming-ingestion-and-replication.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Event Stream Processing](../../technologies/sas/sas-event-stream-processing.md) |
 
-Narrower capabilities are realised by a further 4 technologies; see their pages.
+Narrower capabilities are realised by a further 5 technologies; see their pages.

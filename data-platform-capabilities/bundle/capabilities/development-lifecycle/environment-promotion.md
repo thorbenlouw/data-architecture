@@ -58,5 +58,6 @@ Promoting the same artefact means that what was tested is what runs, which remov
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Declarative Automation Bundles](../../technologies/databricks/databricks-declarative-automation-bundles.md) |
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [ClickHouse Terraform provider](../../technologies/clickhouse/clickhouse-terraform.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir DevOps and Marketplace](../../technologies/palantir/palantir-devops-marketplace.md), [Palantir Global Branching](../../technologies/palantir/palantir-global-branching.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Bundles and Project Deployer | [Dataiku Deployer and API nodes](../../technologies/dataiku/dataiku-deployer.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [SQLMesh](../../technologies/open-source/sqlmesh.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Dagster+](../../technologies/independent/dagster-plus.md), [dbt platform](../../technologies/independent/dbt-platform.md) |

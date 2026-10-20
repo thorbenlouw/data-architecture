@@ -53,4 +53,5 @@ Label quality caps model quality, and labelling is often the slowest and most ex
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) |  | [Azure Machine Learning data labeling](../../technologies/microsoft/azure-ml-data-labeling.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Data Labeling on Agent Platform](../../technologies/google-cloud/gcp-data-labeling.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Agent Evaluation (MLflow GenAI evaluation)](../../technologies/databricks/databricks-agent-evaluation.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Labeling | [Dataiku labeling](../../technologies/dataiku/dataiku-labeling.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Labelbox](../../technologies/independent/labelbox.md), [Scale Data Engine](../../technologies/independent/scale-data-engine.md), [Snorkel AI](../../technologies/independent/snorkel-ai.md) |

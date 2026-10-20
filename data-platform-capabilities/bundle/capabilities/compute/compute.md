@@ -50,4 +50,4 @@ Query acceleration cuts the work each query does, through materialised views, re
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 199 technologies; see their pages.
+Narrower capabilities are realised by a further 207 technologies; see their pages.

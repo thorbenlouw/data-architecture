@@ -25,7 +25,6 @@
 
 * [Alteryx One](alteryx-one.md) - Analytics automation platform for no-code data preparation, blending and analytic workflows, with conversational analytics and an agent studio.
 * [Coalesce Transform](coalesce-transform.md) - Metadata-driven, column-aware workspace for designing and deploying SQL transformation pipelines on Snowflake, Databricks and other cloud platforms, using reusable node types.
-* [Dataiku](dataiku.md) - Collaborative platform for data preparation, visual and code-based machine learning, AutoML, deployment, monitoring and building AI agents, used by both analysts and data scientists.
 * [dbt platform](dbt-platform.md) - Hosted service for developing, testing, scheduling and deploying dbt transformation projects, with a browser IDE, a visual editor, job scheduling, CI on pull requests and environments.
 * [dbt v2 engine](dbt-fusion-engine.md) - Rust-based dbt v2 engine, distributed as "dbt", that parses and understands SQL across warehouse dialects, so it can catch errors and resolve dependencies before anything runs in the warehouse.
 * [LlamaParse](llamaparse.md) - Hosted document processing that parses complex documents with vision and language models and offers extraction, splitting, classification and indexing services.
@@ -97,7 +96,6 @@
 * [Airbyte Agents](airbyte-agents.md) (unconfirmed) - Type-safe connectors that give AI agents live read access to business applications through an MCP server, a Python SDK and an HTTP API.
 * [Arize AX](arize-ax.md) - Managed observability and evaluation platform for LLM applications, agents and traditional ML models, covering tracing, online evaluations, drift and performance monitoring.
 * [Braintrust](braintrust.md) - Evaluation and observability platform for AI products that runs experiments on datasets with LLM, code and human scorers and logs production traces.
-* [Dataiku LLM Mesh](dataiku-llm-mesh.md) - Abstraction layer that routes calls from Dataiku projects to many LLM providers, with quotas, cost tracking, PII screening and monitoring.
 * [Kong Konnect](kong-konnect.md) - API platform whose AI Gateway governs and meters LLM traffic and whose Event Gateway applies policies to Kafka traffic, such as virtual clusters and access control.
 * [LangSmith](langsmith.md) - Platform for tracing, monitoring and evaluating LLM agents, managing prompts, and deploying and running agents in production.
 * [Monte Carlo Agent Observability](monte-carlo-agent-observability.md) - Records AI agent runs as OpenTelemetry traces and scores them with LLM judges and deterministic checks, alerting on quality, cost, latency and tool-call trajectories.

@@ -57,5 +57,6 @@ It shortens the time between data arriving and being usable, and removes the pad
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [S3Queue and AzureQueue table engines](../../technologies/clickhouse/clickhouse-s3queue.md) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica Cloud Application Integration (CAI)](../../technologies/informatica/informatica-cloud-application-integration.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Automate](../../technologies/palantir/palantir-automate.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku scenarios](../../technologies/dataiku/dataiku-scenarios.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Airflow](../../technologies/open-source/apache-airflow.md), [Kestra](../../technologies/open-source/kestra.md), [Prefect](../../technologies/open-source/prefect.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Astronomer Astro](../../technologies/independent/astronomer-astro.md), [Prefect Cloud](../../technologies/independent/prefect-cloud.md) |

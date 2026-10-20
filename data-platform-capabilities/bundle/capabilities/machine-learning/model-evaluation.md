@@ -58,6 +58,8 @@ Evaluation decides whether a model is released, so the test must match how it wi
 | [Amazon Web Services](../../platforms/platform-aws.md) |  | [Amazon Bedrock Evaluations](../../technologies/aws/aws-bedrock-evaluations.md), [Amazon SageMaker AI with MLflow](../../technologies/aws/aws-sagemaker-mlflow.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Agent Platform Model Evaluation](../../technologies/google-cloud/gcp-agent-platform-model-evaluation.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Modeling Objectives and model assets](../../technologies/palantir/palantir-modeling-objectives.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Studio](../../technologies/sas/sas-model-studio.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual ML](../../technologies/dataiku/dataiku-visual-ml.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [MLflow](../../technologies/open-source/mlflow.md) |
 
-Narrower capabilities are realised by a further 11 technologies; see their pages.
+Narrower capabilities are realised by a further 13 technologies; see their pages.

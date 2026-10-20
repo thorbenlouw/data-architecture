@@ -41,4 +41,5 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Cloudera](../../platforms/platform-cloudera.md) | [Cloudera Data Catalog](../cloudera/cloudera-data-catalog.md) | [Table-level lineage](../../capabilities/metadata/table-lineage.md) |
 | [SAP](../../platforms/platform-sap.md) | [SAP Datasphere catalog and Data Marketplace](../sap/sap-datasphere-catalog.md) | [Table-level lineage](../../capabilities/metadata/table-lineage.md) |
 | [Palantir](../../platforms/platform-palantir.md) | [Palantir Data Lineage](../palantir/palantir-data-lineage.md) | [Pipeline monitoring and alerting](../../capabilities/platform-operations/pipeline-monitoring.md), [Table-level lineage](../../capabilities/metadata/table-lineage.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Data Governance](../sas/sas-data-governance.md) | [Table-level lineage](../../capabilities/metadata/table-lineage.md) |
 | [Independent vendors](../../platforms/platform-independent.md) | [Collibra Data Lineage](../independent/collibra-data-lineage.md), [dbt Catalog](../independent/dbt-catalog.md) | [Table-level lineage](../../capabilities/metadata/table-lineage.md) |

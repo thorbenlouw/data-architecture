@@ -58,5 +58,6 @@ Testing catches errors before they reach reports and models, where they are cost
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [dbt-clickhouse adapter](../../technologies/clickhouse/clickhouse-dbt.md) (preview) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica Data Validation](../../technologies/informatica/informatica-data-validation.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Code Repositories](../../technologies/palantir/palantir-code-repositories.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku scenarios](../../technologies/dataiku/dataiku-scenarios.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Data Contract CLI](../../technologies/open-source/data-contract-cli.md), [dbt Core (v1.x)](../../technologies/open-source/dbt-core.md), [dbt OSS](../../technologies/open-source/dbt-oss.md), [GX Core (Great Expectations)](../../technologies/open-source/great-expectations.md), [Soda Core](../../technologies/open-source/soda-core.md), [SQLMesh](../../technologies/open-source/sqlmesh.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [GX Cloud](../../technologies/independent/gx-cloud.md) |

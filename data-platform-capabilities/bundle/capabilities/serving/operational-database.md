@@ -58,5 +58,6 @@ It suits data applications that need transactions on current data and analytics 
 | [Oracle](../../platforms/platform-oracle.md) |  | [MySQL HeatWave](../../technologies/oracle/oracle-mysql-heatwave.md), [Oracle AI Database 26ai](../../technologies/oracle/oracle-ai-database-26ai.md), [Oracle Database@AWS, Oracle Database@Azure and Oracle Database@Google Cloud](../../technologies/oracle/oracle-database-multicloud.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP HANA Cloud](../../technologies/sap/sap-hana-cloud.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM Astra DB (DataStax)](../../technologies/ibm/ibm-astra-db.md), [IBM Db2](../../technologies/ibm/ibm-db2.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS SpeedyStore](../../technologies/sas/sas-speedystore.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [PostgreSQL](../../technologies/open-source/postgresql.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [MongoDB Atlas](../../technologies/independent/mongodb-atlas.md) |

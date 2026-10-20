@@ -61,6 +61,7 @@ It is needed when the value of data falls quickly with time: fraud signals, stoc
 | [Oracle](../../platforms/platform-oracle.md) |  | [Oracle GoldenGate](../../technologies/oracle/oracle-goldengate.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Confluent Cloud for Apache Flink](../../technologies/ibm/confluent-cloud-flink.md), [Confluent Platform](../../technologies/ibm/confluent-platform.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Pipeline Builder](../../technologies/palantir/palantir-pipeline-builder.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Event Stream Processing](../../technologies/sas/sas-event-stream-processing.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Beam](../../technologies/open-source/apache-beam.md), [Apache Flink](../../technologies/open-source/apache-flink.md), [Kafka Streams](../../technologies/open-source/apache-kafka-streams.md), [Spark Structured Streaming](../../technologies/open-source/apache-spark-structured-streaming.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Estuary](../../technologies/independent/estuary.md) |
 

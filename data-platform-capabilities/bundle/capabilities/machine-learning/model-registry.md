@@ -60,5 +60,7 @@ It is the hand-off point between development and operations, and where auditors 
 | [Oracle](../../platforms/platform-oracle.md) | Model catalog | [OCI Data Science](../../technologies/oracle/oracle-oci-data-science.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata ModelOps](../../technologies/teradata/teradata-modelops.md) |
 | [Palantir](../../platforms/platform-palantir.md) | Modeling Objectives | [Palantir Modeling Objectives and model assets](../../technologies/palantir/palantir-modeling-objectives.md) |
+| [SAS](../../platforms/platform-sas.md) | Model repositories | [SAS Model Manager](../../technologies/sas/sas-model-manager.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Saved models | [Dataiku Govern](../../technologies/dataiku/dataiku-govern.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Kubeflow](../../technologies/open-source/kubeflow.md), [MLflow](../../technologies/open-source/mlflow.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Comet ML](../../technologies/independent/comet.md), [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md), [Weights & Biases](../../technologies/independent/weights-and-biases.md) |

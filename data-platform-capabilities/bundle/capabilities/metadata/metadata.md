@@ -45,4 +45,4 @@ Metadata is increasingly read by machines as well as people. Active metadata tri
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 135 technologies; see their pages.
+Narrower capabilities are realised by a further 139 technologies; see their pages.

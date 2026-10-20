@@ -55,5 +55,6 @@ Hosting next to the data avoids exporting it to a separate server that needs its
 | [Databricks](../../platforms/platform-databricks.md) | Databricks Apps | [Databricks Apps](../../technologies/databricks/databricks-apps.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) | Applications (AI Workbench) | [Cloudera AI Workbench](../../technologies/cloudera/cloudera-ai-workbench.md) |
 | [Palantir](../../platforms/platform-palantir.md) | Workshop | [Palantir Workshop](../../technologies/palantir/palantir-workshop.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Webapps and Dataiku Applications | [Dataiku webapps and Dataiku Applications](../../technologies/dataiku/dataiku-webapps.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [marimo](../../technologies/open-source/marimo.md), [Streamlit](../../technologies/open-source/streamlit.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Domo](../../technologies/independent/domo.md), [Hex](../../technologies/independent/hex.md), [Sigma Computing](../../technologies/independent/sigma.md), [Sisense](../../technologies/independent/sisense.md) |

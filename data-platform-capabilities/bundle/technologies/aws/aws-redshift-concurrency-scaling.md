@@ -42,4 +42,5 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Cloudera](../../platforms/platform-cloudera.md) | [Cloudera Data Warehouse](../cloudera/cloudera-data-warehouse.md) | [Elastic scaling](../../capabilities/compute/elastic-scaling.md) |
 | [Oracle](../../platforms/platform-oracle.md) | [Oracle Autonomous AI Lakehouse](../oracle/oracle-autonomous-ai-lakehouse.md), [Oracle Autonomous AI Database](../oracle/oracle-autonomous-ai-database.md) | [Elastic scaling](../../capabilities/compute/elastic-scaling.md) |
 | [Teradata](../../platforms/platform-teradata.md) | [Teradata Cloud](../teradata/teradata-cloud.md) | [Elastic scaling](../../capabilities/compute/elastic-scaling.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Workload Management](../sas/sas-workload-management.md) | [Workload management](../../capabilities/compute/workload-management.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) | [KServe](../open-source/kserve.md) | [Elastic scaling](../../capabilities/compute/elastic-scaling.md) |

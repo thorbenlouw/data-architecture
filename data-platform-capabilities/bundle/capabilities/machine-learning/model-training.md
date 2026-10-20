@@ -60,4 +60,4 @@ For the platform, the questions are where training runs, how it reads data and h
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Code Workspaces](../../technologies/palantir/palantir-code-workspaces.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md) |
 
-Narrower capabilities are realised by a further 26 technologies; see their pages.
+Narrower capabilities are realised by a further 28 technologies; see their pages.

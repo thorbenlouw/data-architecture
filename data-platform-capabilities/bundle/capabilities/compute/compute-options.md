@@ -56,4 +56,4 @@ Choose per workload, not once for the platform. Spiky ad hoc queries usually sui
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 68 technologies; see their pages.
+Narrower capabilities are realised by a further 71 technologies; see their pages.

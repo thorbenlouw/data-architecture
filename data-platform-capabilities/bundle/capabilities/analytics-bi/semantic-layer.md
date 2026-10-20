@@ -72,4 +72,4 @@ It matters once several tools or teams report the same numbers and disagree. App
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Cube Core](../../technologies/open-source/cube-core.md), [Lightdash](../../technologies/open-source/lightdash.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [AtScale](../../technologies/independent/atscale.md), [Cube Cloud](../../technologies/independent/cube-cloud.md), [dbt Semantic Layer](../../technologies/independent/dbt-semantic-layer.md), [Denodo Platform](../../technologies/independent/denodo-platform.md), [Omni Analytics](../../technologies/independent/omni.md), [Select Star](../../technologies/independent/select-star.md), [Tableau Next](../../technologies/independent/tableau-next.md), [ThoughtSpot Analytics](../../technologies/independent/thoughtspot-analytics.md) |
 
-Narrower capabilities are realised by a further 13 technologies; see their pages.
+Narrower capabilities are realised by a further 14 technologies; see their pages.

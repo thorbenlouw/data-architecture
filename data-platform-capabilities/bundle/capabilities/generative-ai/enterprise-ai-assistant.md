@@ -57,4 +57,5 @@ It is mainly a buy-versus-build decision. An assistant product brings connectors
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake CoWork](../../technologies/snowflake/snowflake-cowork.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Joule and Joule agents](../../technologies/sap/sap-joule.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx Orchestrate](../../technologies/ibm/ibm-watsonx-orchestrate.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Agent Hub | [Dataiku Agent Hub](../../technologies/dataiku/dataiku-agent-hub.md) (unconfirmed) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [H2O.ai Platform (Driverless AI and h2oGPTe)](../../technologies/independent/h2o-ai.md), [Qlik Cloud Analytics](../../technologies/independent/qlik-cloud-analytics.md) |

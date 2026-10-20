@@ -57,5 +57,7 @@ It lowers the skill needed and makes simple flows quick to build and easy for no
 | [SAP](../../platforms/platform-sap.md) | Data flows / transformation flows | [SAP Datasphere](../../technologies/sap/sap-datasphere.md), [SAP Data Intelligence Cloud](../../technologies/sap/sap-data-intelligence-cloud.md) (deprecated) |
 | [IBM](../../platforms/platform-ibm.md) | DataStage flows | [IBM watsonx.data integration](../../technologies/ibm/ibm-watsonx-data-integration.md) |
 | [Palantir](../../platforms/platform-palantir.md) | Pipeline Builder | [Palantir Pipeline Builder](../../technologies/palantir/palantir-pipeline-builder.md) |
+| [SAS](../../platforms/platform-sas.md) | Flows | [SAS Data and AI Studio](../../technologies/sas/sas-data-and-ai-studio.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Visual recipes | [Dataiku Flow and visual recipes](../../technologies/dataiku/dataiku-flow-visual-recipes.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache NiFi](../../technologies/open-source/apache-nifi.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Alteryx One](../../technologies/independent/alteryx-one.md), [Coalesce Transform](../../technologies/independent/coalesce-transform.md), [Domo](../../technologies/independent/domo.md), [Matillion Maia Foundation](../../technologies/independent/matillion-maia-foundation.md), [Qlik Talend Cloud](../../technologies/independent/qlik-talend-cloud.md) |

@@ -53,4 +53,5 @@ Usage signals improve search ranking, help newcomers learn from colleagues' quer
 |---|---|---|
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Access History](../../technologies/snowflake/snowflake-access-history.md), [Snowflake ACCOUNT_USAGE and ORGANIZATION_USAGE](../../technologies/snowflake/snowflake-account-usage.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Catalog Explorer](../../technologies/databricks/databricks-catalog-explorer.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Catalog](../../technologies/dataiku/dataiku-catalog.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Alation Intelligence Operating System (AIOS)](../../technologies/independent/alation-aios.md), [Select Star](../../technologies/independent/select-star.md) |

@@ -67,6 +67,7 @@ Every other control depends on knowing who is acting, and weak authentication is
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks automatic identity management](../../technologies/databricks/databricks-automatic-identity-management.md) |
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [ClickHouse Cloud](../../technologies/clickhouse/clickhouse-cloud.md) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [IDMC Administrator](../../technologies/informatica/informatica-administrator.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Viya security controls](../../technologies/sas/sas-viya-security.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Keycloak](../../technologies/open-source/keycloak.md) |
 
 Narrower capabilities are realised by a further 5 technologies; see their pages.

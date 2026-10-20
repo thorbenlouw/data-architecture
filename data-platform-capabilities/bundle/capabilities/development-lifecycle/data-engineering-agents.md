@@ -57,4 +57,5 @@ Agents can take on repetitive engineering: standard ingestion, tests and documen
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Anywhere Cloud](../../technologies/cloudera/cloudera-anywhere-cloud.md) (unconfirmed) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Tera](../../technologies/teradata/teradata-tera.md) (preview) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.data integration](../../technologies/ibm/ibm-watsonx-data-integration.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Cobuild | [Dataiku Cobuild](../../technologies/dataiku/dataiku-cobuild.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Astronomer Astro](../../technologies/independent/astronomer-astro.md), [dbt Copilot](../../technologies/independent/dbt-copilot.md), [Matillion Maia](../../technologies/independent/matillion-maia.md) |

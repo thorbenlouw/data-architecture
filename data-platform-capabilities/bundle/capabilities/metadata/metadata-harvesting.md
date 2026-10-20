@@ -60,5 +60,6 @@ Without harvesting, the catalogue depends on manual entry and drifts from realit
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Catalog](../../technologies/oracle/oracle-oci-data-catalog.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Data Intelligence Cloud](../../technologies/sap/sap-data-intelligence-cloud.md) (deprecated) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM Manta Data Lineage](../../technologies/ibm/ibm-manta-data-lineage.md), [IBM watsonx.data intelligence](../../technologies/ibm/ibm-watsonx-data-intelligence.md) |
+| [SAS](../../platforms/platform-sas.md) | Discovery agents | [SAS Data Governance](../../technologies/sas/sas-data-governance.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [DataHub](../../technologies/open-source/datahub.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra Data Catalog](../../technologies/independent/collibra-data-catalog.md) |

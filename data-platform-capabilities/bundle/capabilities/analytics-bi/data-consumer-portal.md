@@ -53,4 +53,4 @@ It matters when content is spread across several tools and workspaces and people
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) |  | [Power BI reports and dashboards](../../technologies/microsoft/powerbi-reports.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Google Data Studio](../../technologies/google-cloud/gcp-data-studio.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Genie One](../../technologies/databricks/databricks-genie-one.md) |
-| [Independent vendors](../../platforms/platform-independent.md) |  | [Dataiku](../../technologies/independent/dataiku.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Workspaces | [Dataiku DSS](../../technologies/dataiku/dataiku.md) |

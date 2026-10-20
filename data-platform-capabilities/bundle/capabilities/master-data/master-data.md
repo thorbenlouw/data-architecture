@@ -50,4 +50,4 @@ The domain sits between operational systems and analytics. Approaches range from
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 22 technologies; see their pages.
+Narrower capabilities are realised by a further 24 technologies; see their pages.

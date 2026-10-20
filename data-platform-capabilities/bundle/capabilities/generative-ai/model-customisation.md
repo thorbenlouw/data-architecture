@@ -60,4 +60,5 @@ It is worth doing when prompting and retrieval fall short: a consistent output f
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Studios (RAG, Fine Tuning and Synthetic Data Studios)](../../technologies/cloudera/cloudera-ai-studios.md) (preview) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Science](../../technologies/oracle/oracle-oci-data-science.md), [OCI Generative AI (OCI Enterprise AI)](../../technologies/oracle/oracle-oci-generative-ai.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.ai](../../technologies/ibm/ibm-watsonx-ai.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku LLM Mesh](../../technologies/dataiku/dataiku-llm-mesh.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Scale Data Engine](../../technologies/independent/scale-data-engine.md), [Snorkel AI](../../technologies/independent/snorkel-ai.md) |

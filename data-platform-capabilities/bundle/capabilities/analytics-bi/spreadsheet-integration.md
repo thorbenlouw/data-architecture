@@ -54,4 +54,5 @@ Spreadsheets remain the main analysis tool for many finance and operations teams
 | [Google Cloud](../../platforms/platform-google-cloud.md) | Connected Sheets | [Connected Sheets](../../technologies/google-cloud/gcp-connected-sheets.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Excel Add-in](../../technologies/databricks/databricks-excel-add-in.md), [Genie One](../../technologies/databricks/databricks-genie-one.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Analytics Cloud](../../technologies/sap/sap-analytics-cloud.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Visual Analytics](../../technologies/sas/sas-visual-analytics.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Sigma Computing](../../technologies/independent/sigma.md) |

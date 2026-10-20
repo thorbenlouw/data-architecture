@@ -13,8 +13,8 @@ The knowledge lives in `bundle/` as an [Open Knowledge Format](https://github.co
 | Concept | Count | What it is |
 |---|---|---|
 | Capability | 338 in 20 domains | Something a data platform can do, without naming a product, arranged from domains such as *Metadata and discovery* down to detail such as *Column-level lineage* |
-| Technology | 1,090 | A product, feature, open-source project or open standard, mapped to the capabilities it realises, with availability and former names |
-| Platform | 15 | AWS, Microsoft, Google Cloud, Snowflake, Databricks, ClickHouse, Informatica, Cloudera, Oracle, SAP, Teradata, IBM, Palantir, open source and independent vendors |
+| Technology | 1,143 | A product, feature, open-source project or open standard, mapped to the capabilities it realises, with availability and former names |
+| Platform | 17 | AWS, Microsoft, Google Cloud, Snowflake, Databricks, ClickHouse, Informatica, Cloudera, Oracle, SAP, Teradata, IBM, Palantir, SAS, Dataiku, open source and independent vendors |
 | Use case | 25 | A business outcome with the capabilities it requires, the minimum maturity level and why |
 | Persona | 16 | People who use or run the platform, their jobs, pain points and the capabilities they rely on |
 | Pattern | 21 | Architectures and modelling approaches, such as lakehouse, medallion or Data Vault |

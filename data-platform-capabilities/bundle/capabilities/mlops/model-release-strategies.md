@@ -51,4 +51,4 @@ Offline evaluation cannot fully predict live behaviour. Shadow is safe but measu
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 9 technologies; see their pages.
+Narrower capabilities are realised by a further 11 technologies; see their pages.

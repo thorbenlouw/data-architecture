@@ -55,5 +55,6 @@ GPUs are needed to train and serve deep learning and large language models, and 
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks AI Runtime](../../technologies/databricks/databricks-ai-runtime.md) (preview), [Databricks Model Serving](../../technologies/databricks/databricks-model-serving.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Inference service](../../technologies/cloudera/cloudera-ai-inference-service.md), [Cloudera AI Workbench](../../technologies/cloudera/cloudera-ai-workbench.md), [Cloudera Data Engineering](../../technologies/cloudera/cloudera-data-engineering.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Elastic Python Compute](../../technologies/teradata/teradata-elastic-python-compute.md), [Teradata Factory](../../technologies/teradata/teradata-factory.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Viya Workbench](../../technologies/sas/sas-viya-workbench.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Ray](../../technologies/open-source/ray.md), [vLLM](../../technologies/open-source/vllm.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md) |

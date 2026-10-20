@@ -55,5 +55,6 @@ It is the main control for irreversible actions and for decisions that affect pe
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Joule Studio](../../technologies/sap/sap-joule-studio.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Enterprise AgentStack](../../technologies/teradata/teradata-agentstack.md) (preview), [Teradata Tera](../../technologies/teradata/teradata-tera.md) (preview) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [AIP Logic and AIP Evals](../../technologies/palantir/palantir-aip-logic.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual Agents and Code Agents](../../technologies/dataiku/dataiku-agents.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [LangGraph](../../technologies/open-source/langgraph.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Matillion Maia](../../technologies/independent/matillion-maia.md) |

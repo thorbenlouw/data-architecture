@@ -58,5 +58,6 @@ Pipelines turn a notebook result into something another person can rerun, on new
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake ML Jobs](../../technologies/snowflake/snowflake-ml-jobs.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Science](../../technologies/oracle/oracle-oci-data-science.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata AI Studio](../../technologies/teradata/teradata-ai-studio.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Studio](../../technologies/sas/sas-model-studio.md), [SAS Visual Forecasting](../../technologies/sas/sas-visual-forecasting.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual ML](../../technologies/dataiku/dataiku-visual-ml.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [DVC (Data Version Control)](../../technologies/open-source/dvc.md), [Kubeflow](../../technologies/open-source/kubeflow.md) |
-| [Independent vendors](../../platforms/platform-independent.md) |  | [Dataiku](../../technologies/independent/dataiku.md) |

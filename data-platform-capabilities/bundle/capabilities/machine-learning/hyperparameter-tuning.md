@@ -52,5 +52,7 @@ Tuning can improve a model noticeably, but it multiplies compute cost by the num
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Agent Platform Managed Training](../../technologies/google-cloud/gcp-agent-platform-managed-training.md), [BigQuery ML](../../technologies/google-cloud/gcp-bigquery-ml.md) |
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Container Runtime for ML](../../technologies/snowflake/snowflake-container-runtime.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks AutoML](../../technologies/databricks/databricks-automl.md) |
+| [SAS](../../platforms/platform-sas.md) | Autotuning | [SAS Model Studio](../../technologies/sas/sas-model-studio.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual ML](../../technologies/dataiku/dataiku-visual-ml.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Kubeflow](../../technologies/open-source/kubeflow.md), [Ray](../../technologies/open-source/ray.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Weights & Biases](../../technologies/independent/weights-and-biases.md) |

@@ -50,4 +50,4 @@ AI-assisted development and data engineering agents change who writes code and h
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 142 technologies; see their pages.
+Narrower capabilities are realised by a further 154 technologies; see their pages.

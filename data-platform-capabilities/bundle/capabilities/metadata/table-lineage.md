@@ -62,5 +62,6 @@ This level of detail is enough for most impact analysis, incident triage and pip
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Data Catalog](../../technologies/cloudera/cloudera-data-catalog.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Datasphere catalog and Data Marketplace](../../technologies/sap/sap-datasphere-catalog.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Data Lineage](../../technologies/palantir/palantir-data-lineage.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data Governance](../../technologies/sas/sas-data-governance.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Atlas](../../technologies/open-source/apache-atlas.md), [Dagster](../../technologies/open-source/dagster.md), [dbt Core (v1.x)](../../technologies/open-source/dbt-core.md), [Marquez](../../technologies/open-source/marquez.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra Data Lineage](../../technologies/independent/collibra-data-lineage.md), [dbt Catalog](../../technologies/independent/dbt-catalog.md) |

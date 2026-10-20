@@ -56,6 +56,8 @@ Regulation increasingly expects this. The EU AI Act sorts AI systems into risk t
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Governance Hub](../../technologies/databricks/databricks-governance-hub.md) (preview) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica CDGC AI governance](../../technologies/informatica/informatica-cdgc-ai-governance.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.governance](../../technologies/ibm/ibm-watsonx-governance.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS AI Navigator](../../technologies/sas/sas-ai-navigator.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Govern](../../technologies/dataiku/dataiku-govern.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra AI Command Center](../../technologies/independent/collibra-ai-command-center.md) (unconfirmed), [Credo AI Governance Platform](../../technologies/independent/credo-ai-governance-platform.md), [Holistic AI Governance Platform](../../technologies/independent/holistic-ai-governance-platform.md), [OneTrust AI Governance](../../technologies/independent/onetrust-ai-governance.md) |
 
-Narrower capabilities are realised by a further 35 technologies; see their pages.
+Narrower capabilities are realised by a further 37 technologies; see their pages.

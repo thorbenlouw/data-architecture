@@ -34,4 +34,5 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) | [Power BI Analyze in Excel and connected tables](../microsoft/powerbi-excel-integration.md) | [Spreadsheet integration](../../capabilities/analytics-bi/spreadsheet-integration.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) | [Connected Sheets](../google-cloud/gcp-connected-sheets.md) | [Spreadsheet integration](../../capabilities/analytics-bi/spreadsheet-integration.md) |
 | [SAP](../../platforms/platform-sap.md) | [SAP Analytics Cloud](../sap/sap-analytics-cloud.md) | [Spreadsheet integration](../../capabilities/analytics-bi/spreadsheet-integration.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Visual Analytics](../sas/sas-visual-analytics.md) | [Spreadsheet integration](../../capabilities/analytics-bi/spreadsheet-integration.md) |
 | [Independent vendors](../../platforms/platform-independent.md) | [Sigma Computing](../independent/sigma.md) | [Spreadsheet integration](../../capabilities/analytics-bi/spreadsheet-integration.md) |

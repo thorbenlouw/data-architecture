@@ -56,5 +56,6 @@ It matters for operational decisions that cannot wait for someone to open a dash
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks AI/BI dashboards](../../technologies/databricks/databricks-ai-bi-dashboards.md), [Databricks SQL alerts](../../technologies/databricks/databricks-sql-alerts.md) |
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [ClickStack](../../technologies/clickhouse/clickhouse-clickstack.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Automate](../../technologies/palantir/palantir-automate.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku scenarios](../../technologies/dataiku/dataiku-scenarios.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Superset](../../technologies/open-source/apache-superset.md), [Metabase](../../technologies/open-source/metabase.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Tableau Pulse](../../technologies/independent/tableau-pulse.md) |

@@ -50,3 +50,4 @@ Row filters, column masks and other fine-grained controls can only be trusted on
 | Platform | Name used | Technologies |
 |---|---|---|
 | [Databricks](../../platforms/platform-databricks.md) |  | [Lakeguard](../../technologies/databricks/databricks-lakeguard.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku DSS](../../technologies/dataiku/dataiku.md) |

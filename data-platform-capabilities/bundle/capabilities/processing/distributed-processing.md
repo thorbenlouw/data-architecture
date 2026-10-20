@@ -70,4 +70,6 @@ It is needed when data volume, memory or run time exceed what one machine can of
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Elastic Python Compute](../../technologies/teradata/teradata-elastic-python-compute.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Spark engine in IBM watsonx.data](../../technologies/ibm/ibm-watsonx-data-spark.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Code Repositories](../../technologies/palantir/palantir-code-repositories.md) |
+| [SAS](../../platforms/platform-sas.md) | CAS (Cloud Analytic Services) | [SAS Cloud Analytic Services (CAS)](../../technologies/sas/sas-cloud-analytic-services.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku code recipes and notebooks](../../technologies/dataiku/dataiku-code-recipes-notebooks.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Beam](../../technologies/open-source/apache-beam.md), [Apache Flink](../../technologies/open-source/apache-flink.md), [Apache Gluten](../../technologies/open-source/apache-gluten.md), [Apache Hadoop (HDFS and YARN)](../../technologies/open-source/apache-hadoop.md), [Apache Sedona](../../technologies/open-source/apache-sedona.md), [Apache Spark](../../technologies/open-source/apache-spark.md), [Dask](../../technologies/open-source/dask.md) |

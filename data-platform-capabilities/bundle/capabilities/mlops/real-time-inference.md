@@ -57,4 +57,6 @@ It is needed when the prediction depends on information that exists only at requ
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Inference service](../../technologies/cloudera/cloudera-ai-inference-service.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Science](../../technologies/oracle/oracle-oci-data-science.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.ai](../../technologies/ibm/ibm-watsonx-ai.md) |
+| [SAS](../../platforms/platform-sas.md) | Micro Analytic Service | [SAS Container Runtime](../../technologies/sas/sas-container-runtime.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | API node | [Dataiku Deployer and API nodes](../../technologies/dataiku/dataiku-deployer.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [KServe](../../technologies/open-source/kserve.md), [Ray](../../technologies/open-source/ray.md), [vLLM](../../technologies/open-source/vllm.md) |

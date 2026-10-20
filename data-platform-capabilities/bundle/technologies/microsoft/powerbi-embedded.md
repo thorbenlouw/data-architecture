@@ -39,5 +39,6 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Cloudera](../../platforms/platform-cloudera.md) | [Cloudera Data Visualization](../cloudera/cloudera-data-visualization.md) | [Embedded analytics](../../capabilities/analytics-bi/embedded-analytics.md) |
 | [SAP](../../platforms/platform-sap.md) | [SAP Analytics Cloud](../sap/sap-analytics-cloud.md) | [Embedded analytics](../../capabilities/analytics-bi/embedded-analytics.md) |
 | [Palantir](../../platforms/platform-palantir.md) | [Palantir Workshop](../palantir/palantir-workshop.md) | [Embedded analytics](../../capabilities/analytics-bi/embedded-analytics.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Visual Analytics](../sas/sas-visual-analytics.md) | [Embedded analytics](../../capabilities/analytics-bi/embedded-analytics.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) | [Apache Superset](../open-source/apache-superset.md), [Metabase](../open-source/metabase.md) | [Embedded analytics](../../capabilities/analytics-bi/embedded-analytics.md) |
 | [Independent vendors](../../platforms/platform-independent.md) | [Sisense](../independent/sisense.md), [ThoughtSpot Analytics](../independent/thoughtspot-analytics.md), [Domo](../independent/domo.md) | [Embedded analytics](../../capabilities/analytics-bi/embedded-analytics.md) |

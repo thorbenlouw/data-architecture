@@ -60,3 +60,4 @@ Analysts and engineers can process large volumes of text without building separa
 | [Oracle](../../platforms/platform-oracle.md) |  | [Oracle Analytics Cloud AI Assistant, AI Data Agents and MCP Server](../../technologies/oracle/oracle-analytics-cloud-ai.md), [Oracle Select AI](../../technologies/oracle/oracle-select-ai.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Confluent Intelligence](../../technologies/ibm/confluent-intelligence.md) (preview) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [AIP Logic and AIP Evals](../../technologies/palantir/palantir-aip-logic.md), [Palantir Pipeline Builder](../../technologies/palantir/palantir-pipeline-builder.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Prompt Studios](../../technologies/dataiku/dataiku-prompt-studios.md) |

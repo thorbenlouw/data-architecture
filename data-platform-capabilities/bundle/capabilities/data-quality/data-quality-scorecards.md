@@ -56,4 +56,5 @@ Scorecards turn individual results into management information: they show trends
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake data quality monitoring (data metric functions)](../../technologies/snowflake/snowflake-data-quality-monitoring.md) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica Cloud Data Governance and Catalog (CDGC)](../../technologies/informatica/informatica-cloud-data-governance-and-catalog.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Data quality in IBM watsonx.data intelligence](../../technologies/ibm/ibm-watsonx-data-intelligence-quality.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Data Quality rules](../../technologies/dataiku/dataiku-data-quality.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra Data Quality & Observability](../../technologies/independent/collibra-data-quality-observability.md), [Experian Aperture Data Studio](../../technologies/independent/experian-aperture-data-studio.md), [GX Cloud](../../technologies/independent/gx-cloud.md) |

@@ -60,5 +60,7 @@ Notebooks suit exploration, data science, prototyping and explaining an analysis
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata AI Studio](../../technologies/teradata/teradata-ai-studio.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.ai](../../technologies/ibm/ibm-watsonx-ai.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Code Workspaces](../../technologies/palantir/palantir-code-workspaces.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Viya Workbench](../../technologies/sas/sas-viya-workbench.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku code recipes and notebooks](../../technologies/dataiku/dataiku-code-recipes-notebooks.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Kubeflow](../../technologies/open-source/kubeflow.md), [marimo](../../technologies/open-source/marimo.md), [Project Jupyter (JupyterLab, Notebook, JupyterHub)](../../technologies/open-source/jupyter.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Hex](../../technologies/independent/hex.md), [ThoughtSpot Analyst Studio](../../technologies/independent/thoughtspot-analyst-studio.md) |

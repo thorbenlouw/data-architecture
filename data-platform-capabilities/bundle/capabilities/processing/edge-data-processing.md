@@ -51,4 +51,5 @@ It is worth doing when bandwidth is expensive or limited, when decisions must be
 | [Amazon Web Services](../../platforms/platform-aws.md) |  | [AWS IoT SiteWise](../../technologies/aws/aws-iot-sitewise.md) |
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) |  | [Azure IoT Operations](../../technologies/microsoft/azure-iot-operations.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Data Flow](../../technologies/cloudera/cloudera-data-flow.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Event Stream Processing](../../technologies/sas/sas-event-stream-processing.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache NiFi](../../technologies/open-source/apache-nifi.md) |

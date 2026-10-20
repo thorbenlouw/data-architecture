@@ -52,4 +52,4 @@ Incremental processing and declarative pipelines reduce cost and effort by recom
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 157 technologies; see their pages.
+Narrower capabilities are realised by a further 168 technologies; see their pages.

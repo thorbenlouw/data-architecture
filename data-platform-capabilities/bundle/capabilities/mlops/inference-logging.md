@@ -55,4 +55,5 @@ Almost everything after deployment depends on these logs. Drift detection reads 
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Agent Platform Endpoints](../../technologies/google-cloud/gcp-agent-platform-endpoints.md) |
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake ML Observability (model monitors)](../../technologies/snowflake/snowflake-ml-observability.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks inference tables](../../technologies/databricks/databricks-inference-tables.md), [MLflow Tracing on Databricks](../../technologies/databricks/databricks-mlflow-tracing.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Deployer and API nodes](../../technologies/dataiku/dataiku-deployer.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [KServe](../../technologies/open-source/kserve.md), [OpenTelemetry semantic conventions for generative AI](../../technologies/open-source/opentelemetry-genai-semantic-conventions.md) (preview) |

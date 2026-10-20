@@ -62,5 +62,6 @@ It becomes necessary once several teams and providers are involved, because othe
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Generative AI (OCI Enterprise AI)](../../technologies/oracle/oracle-oci-generative-ai.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP AI Foundation (SAP AI Core and generative AI hub)](../../technologies/sap/sap-ai-foundation.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir AIP and AIP Model Catalog](../../technologies/palantir/palantir-aip.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | LLM Mesh | [Dataiku LLM Mesh](../../technologies/dataiku/dataiku-llm-mesh.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [LiteLLM](../../technologies/open-source/litellm.md) |
-| [Independent vendors](../../platforms/platform-independent.md) |  | [Dataiku LLM Mesh](../../technologies/independent/dataiku-llm-mesh.md), [Kong Konnect](../../technologies/independent/kong-konnect.md), [LangSmith](../../technologies/independent/langsmith.md), [Redpanda Agentic Data Plane](../../technologies/independent/redpanda-agentic-data-plane.md) (unconfirmed) |
+| [Independent vendors](../../platforms/platform-independent.md) |  | [Kong Konnect](../../technologies/independent/kong-konnect.md), [LangSmith](../../technologies/independent/langsmith.md), [Redpanda Agentic Data Plane](../../technologies/independent/redpanda-agentic-data-plane.md) (unconfirmed) |

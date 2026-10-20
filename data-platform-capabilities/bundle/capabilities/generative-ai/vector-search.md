@@ -65,4 +65,4 @@ It underpins retrieval-augmented generation, semantic search, recommendations an
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Lance](../../technologies/open-source/lance.md), [Milvus](../../technologies/open-source/milvus.md), [OpenSearch](../../technologies/open-source/opensearch.md), [pgvector](../../technologies/open-source/pgvector.md), [Qdrant](../../technologies/open-source/qdrant.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Elastic Cloud](../../technologies/independent/elastic-cloud.md), [MongoDB Atlas](../../technologies/independent/mongodb-atlas.md), [Neo4j Aura](../../technologies/independent/neo4j-aura.md), [Pinecone](../../technologies/independent/pinecone.md), [Redis Cloud](../../technologies/independent/redis-cloud.md), [Weaviate Cloud](../../technologies/independent/weaviate-cloud.md) |
 
-Narrower capabilities are realised by a further 20 technologies; see their pages.
+Narrower capabilities are realised by a further 21 technologies; see their pages.

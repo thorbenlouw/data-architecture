@@ -59,4 +59,4 @@ Models fail quietly. An upstream change that switches a currency field from poun
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Model Monitoring on Agent Platform](../../technologies/google-cloud/gcp-model-monitoring.md) |
 | [Snowflake](../../platforms/platform-snowflake.md) | ML Observability (model monitors) | [Snowflake ML Observability (model monitors)](../../technologies/snowflake/snowflake-ml-observability.md) |
 
-Narrower capabilities are realised by a further 20 technologies; see their pages.
+Narrower capabilities are realised by a further 24 technologies; see their pages.

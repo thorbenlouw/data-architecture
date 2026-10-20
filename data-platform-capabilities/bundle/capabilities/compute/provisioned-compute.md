@@ -56,4 +56,5 @@ It suits steady, heavy or performance-sensitive work, jobs that need special set
 | [Oracle](../../platforms/platform-oracle.md) |  | [Oracle Exadata](../../technologies/oracle/oracle-exadata.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Cloud](../../technologies/teradata/teradata-cloud.md), [Teradata Factory](../../technologies/teradata/teradata-factory.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM Netezza Performance Server](../../technologies/ibm/ibm-netezza.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Managed Cloud Services](../../technologies/sas/sas-managed-cloud-services.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Hadoop (HDFS and YARN)](../../technologies/open-source/apache-hadoop.md) |

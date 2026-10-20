@@ -4,7 +4,7 @@ okf_version: "0.2"
 
 # Data platform capabilities
 
-A vendor-neutral map of what a data platform can do, how vendors provide it, which use cases need it and how maturity grows. It holds 338 capabilities in 20 domains, 1090 technologies across 15 platform groups, 25 use cases, 16 personas, 21 patterns, 27 maturity tracks and 16 frameworks.
+A vendor-neutral map of what a data platform can do, how vendors provide it, which use cases need it and how maturity grows. It holds 338 capabilities in 20 domains, 1143 technologies across 17 platform groups, 25 use cases, 16 personas, 21 patterns, 27 maturity tracks and 16 frameworks.
 
 Every concept is a Markdown file with YAML frontmatter. Relationships are written in frontmatter on one side only; the section below the `dpc:generated` line in each file is derived from them. All content is an unreviewed draft (`status: draft`).
 
@@ -48,8 +48,8 @@ Every concept is a Markdown file with YAML frontmatter. Relationships are writte
 * [Personas](personas/) - 16 personas
 * [Patterns](patterns/) - 21 patterns
 * [Maturity tracks](maturity/) - 27 maturity tracks
-* [Platforms](platforms/) - 15 platform groups
-* [Technologies](technologies/) - 1090 technologies
+* [Platforms](platforms/) - 17 platform groups
+* [Technologies](technologies/) - 1143 technologies
 * [Frameworks, standards and regulations](frameworks/) - 16 frameworks
 
 # Machine-readable exports

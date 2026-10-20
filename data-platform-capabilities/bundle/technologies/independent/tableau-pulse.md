@@ -39,3 +39,4 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Snowflake](../../platforms/platform-snowflake.md) | [Snowflake ML Functions](../snowflake/snowflake-ml-functions.md) | [Augmented analytics](../../capabilities/analytics-bi/augmented-analytics.md) |
 | [Oracle](../../platforms/platform-oracle.md) | [Oracle Analytics Cloud](../oracle/oracle-analytics-cloud.md) | [Augmented analytics](../../capabilities/analytics-bi/augmented-analytics.md) |
 | [SAP](../../platforms/platform-sap.md) | [SAP Analytics Cloud](../sap/sap-analytics-cloud.md) | [Augmented analytics](../../capabilities/analytics-bi/augmented-analytics.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Visual Analytics](../sas/sas-visual-analytics.md) | [Augmented analytics](../../capabilities/analytics-bi/augmented-analytics.md) |

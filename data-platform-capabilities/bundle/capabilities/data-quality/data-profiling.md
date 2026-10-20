@@ -60,5 +60,6 @@ It is the first step when taking on a new source, planning a migration, writing 
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica Data Profiling](../../technologies/informatica/informatica-data-profiling.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Data Catalog](../../technologies/cloudera/cloudera-data-catalog.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Data quality in IBM watsonx.data intelligence](../../technologies/ibm/ibm-watsonx-data-intelligence-quality.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data Engineering](../../technologies/sas/sas-data-engineering.md), [SAS Data Governance](../../technologies/sas/sas-data-governance.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Evidently](../../technologies/open-source/evidently.md), [GX Core (Great Expectations)](../../technologies/open-source/great-expectations.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Ataccama ONE](../../technologies/independent/ataccama-one.md), [Collibra Data Quality & Observability](../../technologies/independent/collibra-data-quality-observability.md), [Experian Aperture Data Studio](../../technologies/independent/experian-aperture-data-studio.md), [GX Cloud](../../technologies/independent/gx-cloud.md) |

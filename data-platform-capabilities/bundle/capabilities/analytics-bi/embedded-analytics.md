@@ -57,5 +57,6 @@ It matters when analytics is part of a product or partner service rather than an
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Data Visualization](../../technologies/cloudera/cloudera-data-visualization.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Analytics Cloud](../../technologies/sap/sap-analytics-cloud.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Workshop](../../technologies/palantir/palantir-workshop.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Visual Analytics](../../technologies/sas/sas-visual-analytics.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Superset](../../technologies/open-source/apache-superset.md), [Metabase](../../technologies/open-source/metabase.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Domo](../../technologies/independent/domo.md), [Omni Analytics](../../technologies/independent/omni.md), [Sigma Computing](../../technologies/independent/sigma.md), [Sisense](../../technologies/independent/sisense.md), [Tableau Cloud](../../technologies/independent/tableau-cloud.md), [ThoughtSpot Analytics](../../technologies/independent/thoughtspot-analytics.md) |

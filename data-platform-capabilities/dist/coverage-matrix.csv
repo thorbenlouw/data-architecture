@@ -1,339 +1,339 @@
-capability,title,domain,platform-aws,platform-microsoft,platform-google-cloud,platform-snowflake,platform-databricks,platform-clickhouse,platform-informatica,platform-cloudera,platform-oracle,platform-sap,platform-teradata,platform-ibm,platform-palantir,platform-open-source,platform-independent
-ingestion-integration,Ingestion and integration,ingestion-integration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-api-ingestion,API ingestion,ingestion-integration,0,0,1,1,0,0,1,1,0,0,0,0,0,3,0
-application-integration,Application integration,ingestion-integration,2,3,3,1,0,0,2,0,0,1,0,0,0,0,2
-b2b-edi-integration,B2B and EDI integration,ingestion-integration,0,1,0,0,0,0,1,0,0,1,0,0,0,0,2
-batch-ingestion,Batch ingestion,ingestion-integration,0,3,1,1,0,0,1,0,1,0,0,1,1,0,0
-behavioural-event-collection,Behavioural event collection,ingestion-integration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-bulk-data-transfer,Bulk and offline transfer,ingestion-integration,1,1,2,0,0,0,0,1,0,0,0,0,0,0,0
-change-data-capture,Change data capture,ingestion-integration,2,3,3,2,1,2,2,0,1,2,0,2,1,5,8
-custom-connectors,Custom connector development,ingestion-integration,2,1,1,2,1,0,0,0,0,0,0,1,0,3,2
-database-extraction,Database extraction,ingestion-integration,1,2,3,0,1,2,2,1,1,0,0,0,1,2,2
-database-replication,Database replication and mirroring,ingestion-integration,1,3,1,2,1,1,1,0,1,2,0,1,0,2,4
-idempotent-loading,Deduplication and idempotent loading,ingestion-integration,0,0,1,2,0,2,0,0,0,0,0,0,0,12,3
-event-streaming,Event streaming,ingestion-integration,2,1,2,0,0,0,0,1,1,1,0,3,0,3,2
-file-ingestion,File ingestion,ingestion-integration,2,1,3,2,1,2,1,1,0,0,0,0,0,1,0
-iot-ingestion,IoT and telemetry ingestion,ingestion-integration,2,3,0,1,1,1,1,0,0,0,0,0,0,0,0
-mainframe-integration,Mainframe data integration,ingestion-integration,0,0,0,0,0,0,1,0,0,0,0,1,0,0,3
-managed-file-transfer,Managed file transfer,ingestion-integration,1,1,0,0,0,0,1,0,0,1,0,0,0,1,1
-message-queuing,Message queuing,ingestion-integration,0,0,1,0,0,0,0,0,0,1,0,0,0,2,1
-saas-connectors,SaaS application connectors,ingestion-integration,3,3,4,2,1,0,3,0,1,3,0,0,1,1,8
-stream-to-table,Stream-to-table materialisation,ingestion-integration,1,1,0,0,0,0,0,0,0,0,0,1,0,1,3
-streaming-ingestion,Streaming ingestion,ingestion-integration,4,3,5,3,1,2,1,1,2,0,0,2,1,6,5
-unstructured-ingestion,Unstructured data ingestion,ingestion-integration,2,0,2,2,3,0,0,0,0,0,0,1,1,2,1
-storage,Storage and table management,storage,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-acid-transactions,ACID transactions,storage,1,2,1,2,1,0,0,0,0,0,0,0,0,4,0
-catalogue-federation,Catalogue federation,storage,3,1,0,1,1,1,0,0,1,0,0,0,0,2,0
-columnar-storage,Columnar storage,storage,1,1,1,1,0,1,0,0,1,0,1,1,0,5,0
-data-branching,Data branching and tagging,storage,0,0,0,0,1,0,0,0,0,0,0,0,1,2,0
-data-versioning,Data versioning,storage,0,0,1,0,0,0,0,0,0,0,0,0,1,2,0
-object-file-access,File-system access to object storage,storage,1,2,1,1,1,0,0,0,0,0,0,0,0,1,0
-multimodal-data-formats,Multimodal data formats,storage,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0
-object-storage,Object storage,storage,1,2,1,1,0,0,0,1,0,1,1,0,0,1,0
-file-formats,Open file formats,storage,1,0,1,2,0,2,0,0,0,0,0,0,0,5,0
-open-table-formats,Open table formats,storage,1,2,1,2,2,1,0,1,1,0,1,2,1,5,4
-partitioning-clustering,Partitioning and clustering,storage,0,0,1,1,1,1,0,1,0,0,0,0,0,1,0
-managed-storage,Platform-managed storage,storage,2,1,1,1,1,1,0,0,1,1,0,0,1,0,0
-row-level-updates,Row-level updates and deletes,storage,1,1,2,2,1,2,0,1,0,0,0,0,0,4,0
-schema-evolution,Schema enforcement and evolution,storage,1,1,1,2,2,1,0,1,0,0,0,1,0,5,0
-semi-structured-data,Semi-structured data,storage,1,3,1,1,1,1,1,0,1,1,1,0,0,3,1
-credential-vending,Storage credential vending,storage,2,0,1,1,1,0,0,1,0,1,0,0,0,4,0
-storage-tiering,Storage tiering and lifecycle,storage,1,2,2,1,0,1,0,0,0,1,0,0,0,0,0
-table-catalogue,Table catalogue,storage,1,1,2,1,1,0,0,1,2,1,0,2,1,7,1
-table-format-conversion,Table format conversion,storage,0,1,0,1,1,0,0,0,1,0,0,0,0,3,1
-table-maintenance,Table maintenance and optimisation,storage,2,1,2,1,3,2,0,1,0,0,0,2,0,1,2
-time-travel,Time travel,storage,1,1,1,1,1,1,0,1,0,0,0,0,0,3,0
-zero-copy-cloning,Zero-copy cloning,storage,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1
-processing,Processing and transformation,processing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-ai-functions,AI functions in SQL,processing,1,1,3,1,1,1,0,0,2,0,0,1,2,0,0
-data-enrichment,Data enrichment,processing,0,1,1,0,0,1,1,0,0,0,0,0,0,4,3
-dataframe-apis,DataFrame APIs,processing,2,2,2,3,2,1,0,1,1,0,1,1,0,5,0
-declarative-pipelines,Declarative pipelines,processing,0,1,1,1,1,0,0,0,0,0,0,0,1,2,0
-distributed-processing,Distributed processing,processing,5,2,3,2,1,1,1,2,2,0,1,1,1,7,0
-document-processing,Document processing,processing,2,2,1,1,1,0,0,0,0,0,0,1,1,1,3
-edge-data-processing,Edge data processing,processing,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0
-event-time-windowing,Event-time windowing,processing,1,1,1,0,0,0,0,1,0,0,0,1,0,4,0
-incremental-processing,Incremental processing,processing,3,4,3,2,3,1,0,0,0,0,0,0,2,5,2
-low-code-transformation,Low-code transformation,processing,1,2,3,0,1,0,4,1,1,1,0,1,1,1,5
-data-preparation,Self-service data preparation,processing,2,1,2,0,1,0,0,0,1,0,0,0,1,1,4
-single-node-processing,Single-node processing,processing,0,1,0,1,0,2,0,0,0,0,0,0,1,4,2
-sql-transformation,SQL transformation,processing,1,1,0,1,1,2,1,0,0,4,0,0,0,1,2
-stream-processing,Stream processing,processing,1,3,2,0,0,0,0,1,1,0,0,2,1,4,1
-streaming-sql,Streaming SQL,processing,1,2,1,0,1,0,0,1,0,0,0,1,0,2,2
-transformation-as-code,Transformation as code,processing,0,1,1,1,0,1,0,0,0,0,0,0,1,3,3
-user-defined-functions,User-defined functions and procedures,processing,0,1,1,2,1,1,0,0,0,0,1,1,0,2,0
-orchestration,Orchestration,orchestration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-backfill-replay,Backfill and reprocessing,orchestration,2,0,1,0,1,0,0,0,0,0,0,0,0,3,0
-asset-based-orchestration,Data-aware orchestration,orchestration,1,0,1,1,1,0,0,0,0,0,0,0,0,2,2
-event-driven-triggering,Event-driven triggering,orchestration,3,4,3,2,1,1,1,0,0,0,0,0,1,3,2
-workflow-orchestration,Workflow orchestration,orchestration,3,3,3,1,1,1,2,1,2,1,0,0,0,4,6
-compute,Query and compute,compute,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-approximate-query-processing,Approximate query processing,compute,2,2,1,0,0,1,0,1,1,0,0,0,0,8,2
-compute-options,Compute provisioning options,compute,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-container-services,Container services,compute,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0
-decoupled-storage-compute,Decoupled storage and compute,compute,2,1,1,1,1,2,0,2,0,0,1,2,1,3,0
-elastic-scaling,Elastic scaling,compute,3,1,1,3,2,3,2,1,2,0,1,0,0,1,0
-gpu-compute,GPU and accelerated compute,compute,2,1,3,2,2,0,0,3,0,0,2,0,0,2,1
-data-skipping-indexes,Indexes and data skipping,compute,0,0,1,1,1,4,0,0,1,0,0,0,0,1,0
-materialised-views,Materialised views,compute,2,1,1,1,2,3,0,1,0,0,0,0,0,4,2
-engine-interoperability,Multi-engine interoperability,compute,3,5,3,5,4,2,0,1,1,1,2,1,1,6,2
-provisioned-compute,Provisioned compute,compute,2,2,2,3,1,0,0,2,1,0,2,1,0,1,0
-query-acceleration,Query acceleration,compute,0,2,1,1,0,2,0,0,1,1,0,0,0,1,3
-query-federation,Query federation,compute,4,2,4,1,1,4,0,1,2,2,2,1,1,4,4
-real-time-analytics,Real-time analytical database,compute,2,3,0,1,1,2,0,0,1,0,0,0,0,5,3
-reserved-capacity,Reserved and committed capacity,compute,5,2,3,0,1,0,1,0,1,0,0,0,0,0,0
-result-caching,Result caching,compute,1,0,1,1,1,1,0,1,0,0,0,0,0,0,2
-serverless-compute,Serverless compute,compute,6,1,4,1,3,1,1,1,2,0,1,1,0,0,4
-interruptible-compute,Spot and interruptible compute,compute,2,1,3,0,1,0,0,1,0,0,0,0,0,0,0
-sql-query-engine,SQL query engine,compute,2,3,1,2,2,1,0,2,2,3,1,3,0,6,2
-native-execution-acceleration,Vectorised native execution,compute,0,1,2,0,1,0,0,0,0,0,0,1,0,3,0
-workload-isolation,Workload isolation,compute,2,1,1,1,1,1,0,2,0,0,1,0,0,1,1
-workload-management,Workload management,compute,2,1,1,2,1,2,0,0,0,0,2,0,0,0,0
-serving,Serving and activation,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-audience-activation,Audience building and activation,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-change-feeds,Change feeds,serving,1,1,3,1,1,0,0,0,0,1,0,0,0,4,0
-data-apis,Data APIs,serving,0,3,1,0,0,1,1,0,0,1,0,0,1,1,2
-data-export,Data export,serving,1,1,1,1,0,2,0,0,0,1,0,0,1,1,0
-decision-management,Decision management,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-low-latency-serving,Low-latency serving,serving,1,2,4,3,2,2,0,1,0,0,0,1,1,0,4
-operational-data-store,Operational data store,serving,0,0,0,1,0,0,0,1,0,0,0,0,1,1,2
-operational-database,Operational database integration,serving,2,6,4,2,1,1,0,1,3,1,0,2,0,1,1
-read-optimised-views,Read-optimised views,serving,0,0,0,2,2,0,0,0,0,0,0,0,0,1,0
-regulatory-submission,Regulatory submission,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-reverse-etl,Reverse ETL,serving,1,0,2,0,0,0,1,0,0,0,0,0,0,0,5
-sql-access,SQL and programmatic access,serving,0,1,1,1,1,1,0,0,0,0,0,0,0,3,3
-analytics-bi,Analytics and BI,analytics-bi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-ad-hoc-analysis,Ad hoc analysis,analytics-bi,1,1,3,2,1,1,0,1,0,0,0,0,1,4,6
-data-alerting,Alerts and subscriptions,analytics-bi,1,3,1,2,2,1,0,0,0,0,0,0,1,2,1
-analytical-sandboxes,Analytical sandboxes,analytics-bi,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1
-manual-adjustments,Approved manual adjustments,analytics-bi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-augmented-analytics,Augmented analytics,analytics-bi,0,2,2,1,0,0,0,0,1,1,0,0,0,0,3
-conversational-analytics,Conversational analytics,analytics-bi,2,2,5,3,2,2,1,1,2,3,1,0,1,0,11
-dashboards-reports,Dashboards and interactive reports,analytics-bi,1,5,2,2,2,3,0,1,2,1,0,0,2,4,8
-dashboards-as-code,Dashboards as code,analytics-bi,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1
-data-consumer-portal,Data consumer portal,analytics-bi,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1
-data-writeback,Data entry and write-back,analytics-bi,0,3,0,0,0,0,0,0,0,1,0,0,2,1,1
-embedded-analytics,Embedded analytics,analytics-bi,1,1,2,0,1,0,0,1,0,1,0,0,1,2,6
-experimentation,Experimentation and causal measurement,analytics-bi,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-metric-definitions,Governed metric definitions,analytics-bi,0,1,1,1,1,0,0,0,0,1,0,0,0,3,4
-packaged-analytics,Packaged analytics content,analytics-bi,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-paginated-reports,Paginated reports,analytics-bi,1,2,1,0,0,0,0,0,1,0,0,0,0,0,1
-enterprise-planning,Planning and forecasting,analytics-bi,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
-semantic-layer,Semantic layer,analytics-bi,0,3,1,2,1,0,0,0,2,4,0,0,1,2,8
-semantic-model-interchange,Semantic model interchange,analytics-bi,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0
-spreadsheet-integration,Spreadsheet integration,analytics-bi,0,1,1,0,2,0,0,0,0,1,0,0,0,0,1
-machine-learning,Machine learning development,machine-learning,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-automl,AutoML,machine-learning,2,2,1,1,1,0,0,0,1,0,0,1,0,0,3
-fairness-assessment,Bias and fairness assessment,machine-learning,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1
-data-labelling,Data labelling,machine-learning,0,1,1,0,1,0,0,0,0,0,0,0,0,0,3
-distributed-training,Distributed training,machine-learning,2,1,2,2,2,0,0,0,0,0,1,0,0,2,0
-experiment-tracking,Experiment tracking,machine-learning,1,2,1,1,1,0,0,1,0,0,0,0,0,2,3
-feature-engineering,Feature engineering,machine-learning,1,1,2,1,2,0,0,0,0,0,1,0,0,0,0
-feature-store,Feature store,machine-learning,1,1,1,1,1,0,0,0,1,0,0,0,0,1,0
-hyperparameter-tuning,Hyperparameter tuning,machine-learning,2,1,2,1,1,0,0,0,0,0,0,0,0,2,1
-in-database-ml,In-database machine learning,machine-learning,1,0,1,1,0,0,0,0,2,0,2,0,0,0,0
-ml-pipelines,ML pipelines,machine-learning,1,1,1,1,0,0,0,0,1,0,1,0,0,2,1
-model-evaluation,Model evaluation,machine-learning,2,0,1,0,0,0,0,0,0,0,0,0,1,1,0
-model-explainability,Model explainability,machine-learning,0,1,2,1,1,0,0,0,1,0,0,0,0,0,2
-model-registry,Model registry,machine-learning,1,2,1,1,1,0,0,1,1,0,1,0,1,2,3
-model-training,Model training,machine-learning,1,2,1,3,0,0,0,1,1,0,0,0,1,0,1
-offline-feature-store,Offline feature store,machine-learning,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0
-online-feature-store,Online feature store,machine-learning,2,1,2,1,1,0,0,0,0,0,0,0,0,1,1
-point-in-time-joins,Point-in-time correct joins,machine-learning,1,1,1,1,2,0,0,0,0,0,0,0,0,1,0
-pretrained-predictive-models,Pretrained predictive models,machine-learning,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0
-training-dataset-management,Training and evaluation dataset management,machine-learning,0,0,0,1,1,1,0,0,0,0,0,0,0,2,6
-mlops,ML operations,mlops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-batch-inference,Batch inference,mlops,3,2,3,2,1,0,0,0,0,0,2,0,0,2,0
-canary-ab-testing,Canary and A/B testing,mlops,2,1,1,1,1,0,0,1,0,0,0,0,0,1,0
-champion-challenger,Champion-challenger,mlops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-ml-cicd,CI/CD for machine learning,mlops,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0
-continuous-training,Continuous training,mlops,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
-drift-detection,Drift detection,mlops,0,1,1,1,1,0,0,0,0,0,1,1,0,1,3
-edge-inference,Edge inference,mlops,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-generative-model-serving,Generative model serving,mlops,2,1,1,0,1,0,0,1,1,0,0,1,0,3,0
-inference-logging,Inference logging,mlops,0,1,1,1,2,0,0,0,0,0,0,0,0,2,0
-model-deployment,Model deployment,mlops,0,0,0,0,0,0,0,0,0,1,1,0,1,0,2
-model-governance,Model governance,mlops,1,1,0,1,1,0,1,0,0,0,1,1,0,0,6
-model-monitoring,Model monitoring,mlops,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
-model-performance-monitoring,Model performance monitoring,mlops,0,1,0,1,1,0,0,0,0,0,1,1,0,1,3
-model-release-strategies,Model release strategies,mlops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-real-time-inference,Real-time inference,mlops,1,1,1,1,1,0,0,1,1,0,0,1,0,3,0
-shadow-deployment,Shadow deployment,mlops,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
-streaming-inference,Streaming inference,mlops,1,1,3,0,1,0,0,0,0,0,0,1,0,2,0
-generative-ai,Generative AI,generative-ai,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-agent-registry,Agent and tool registry,generative-ai,1,1,1,0,2,0,1,0,0,1,0,1,0,0,7
-agent-runtime,Agent hosting and runtime,generative-ai,1,1,1,1,1,1,0,1,2,0,2,2,1,0,3
-agent-identity,Agent identity and authorisation,generative-ai,2,2,1,0,1,0,0,0,0,0,0,0,0,0,3
-agent-memory,Agent memory,generative-ai,1,1,1,0,1,1,0,0,0,0,1,0,0,1,1
-agent-tool-access,Agent tool and data access,generative-ai,2,5,5,2,2,2,2,1,2,1,2,2,2,2,11
-agent-interoperability,Agent-to-agent interoperability,generative-ai,1,2,2,0,0,0,1,0,0,0,0,1,0,1,1
-ai-agents,AI agents,generative-ai,2,3,3,2,1,1,4,1,3,2,2,2,2,3,10
-ai-content-provenance,AI content marking and provenance,generative-ai,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
-ai-gateway,AI gateway,generative-ai,1,1,2,1,1,0,0,0,1,1,0,0,1,1,4
-ai-guardrails,AI guardrails,generative-ai,2,1,2,1,1,0,0,0,1,1,1,1,0,2,7
-ai-red-teaming,AI red teaming,generative-ai,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2
-embedding-generation,Embedding generation,generative-ai,1,3,4,1,2,1,0,0,1,1,1,1,0,0,4
-enterprise-ai-assistant,Enterprise AI assistant,generative-ai,1,0,1,1,0,0,0,0,0,1,0,1,0,0,2
-foundation-model-access,Foundation model access,generative-ai,2,2,3,2,1,0,0,1,1,1,0,1,1,0,0
-genai-evaluation,Generative AI evaluation,generative-ai,2,1,1,2,1,1,0,0,0,0,0,2,1,2,11
-genai-observability,Generative AI observability,generative-ai,2,2,1,2,2,1,0,0,0,0,1,1,0,2,7
-model-customisation,Model customisation,generative-ai,3,2,1,1,1,0,0,1,2,0,0,1,0,0,2
-permission-aware-retrieval,Permission-aware retrieval,generative-ai,2,2,2,0,0,0,0,0,0,0,0,0,1,0,2
-prompt-management,Prompt management,generative-ai,1,0,1,1,1,1,0,0,0,2,0,1,1,1,4
-retrieval-pipelines,Retrieval pipelines,generative-ai,1,2,4,2,2,0,0,1,0,0,1,1,0,3,2
-retrieval-augmented-generation,Retrieval-augmented generation,generative-ai,1,1,2,1,0,0,1,1,4,2,1,1,1,5,2
-vector-search,Vector search,generative-ai,5,4,7,1,1,1,0,0,2,1,1,3,0,5,6
-metadata,Metadata and discovery,metadata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-active-metadata,Active metadata,metadata,0,0,1,2,1,0,0,0,0,0,0,0,0,1,1
-ai-context-layer,AI context layer,metadata,1,3,2,2,2,0,0,0,0,2,1,1,1,2,10
-ai-generated-documentation,AI-generated documentation,metadata,1,1,1,1,1,0,0,0,0,0,0,1,0,0,4
-business-glossary,Business glossary,metadata,1,1,1,0,0,0,1,0,1,1,0,1,0,2,2
-column-lineage,Column-level lineage,metadata,0,1,1,1,1,0,1,1,0,0,0,1,0,5,6
-data-catalogue,Data catalogue,metadata,1,2,1,2,2,0,1,1,3,1,0,1,0,4,11
-data-certification,Data certification,metadata,0,1,0,0,1,0,0,0,0,0,0,0,0,0,4
-data-lineage,Data lineage,metadata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-data-trust-indicators,Data trust indicators,metadata,1,1,1,0,1,0,0,0,0,0,0,0,0,0,5
-unstructured-lineage,Document and unstructured lineage,metadata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-cross-system-lineage,End-to-end lineage,metadata,1,1,1,1,1,0,2,1,0,0,0,1,0,1,6
-event-api-catalogue,Event and API catalogue,metadata,0,2,1,0,0,0,0,0,0,1,0,1,0,1,2
-impact-analysis,Impact analysis,metadata,1,1,1,1,1,0,1,1,0,0,0,1,1,0,4
-metadata-harvesting,Metadata harvesting,metadata,2,1,1,1,1,0,2,1,1,0,0,2,0,1,1
-metadata-interoperability,Metadata interoperability,metadata,2,1,3,2,2,0,1,1,1,1,0,0,0,3,1
-model-lineage,Model lineage,metadata,1,1,1,1,2,0,0,1,0,0,0,0,1,0,1
-schema-registry,Schema registry,metadata,1,1,1,0,0,0,0,1,0,0,0,2,0,1,0
-table-lineage,Table-level lineage,metadata,1,2,1,1,1,0,1,1,0,1,0,0,1,4,2
-usage-metadata,Usage and popularity metadata,metadata,0,0,0,2,1,0,0,0,0,0,0,0,0,0,2
-data-quality,Data quality and observability,data-quality,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-bad-data-quarantine,Bad-data quarantine,data-quality,1,0,1,0,1,1,1,0,0,0,0,0,0,0,0
-data-anomaly-detection,Data anomaly detection,data-quality,1,0,0,1,1,0,1,0,0,0,0,2,0,0,6
-data-cleansing,Data cleansing and standardisation,data-quality,1,0,1,0,0,0,1,0,0,0,0,0,0,0,4
-data-issue-management,Data issue management,data-quality,0,1,0,0,1,0,0,0,0,0,0,0,0,0,4
-data-observability,Data observability,data-quality,0,0,1,0,0,0,1,0,0,0,0,1,1,0,10
-data-profiling,Data profiling,data-quality,2,1,1,0,1,0,1,1,0,0,0,1,0,2,4
-data-quality-rules,Data quality rules,data-quality,1,2,1,1,1,0,2,0,0,1,0,1,1,4,10
-data-quality-scorecards,Data quality scorecards,data-quality,0,1,1,1,0,0,1,0,0,0,0,1,0,0,3
-data-reconciliation,Data reconciliation,data-quality,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0
-freshness-monitoring,Freshness monitoring,data-quality,1,1,0,2,2,0,1,0,0,0,0,1,1,0,1
-unstructured-data-quality,Unstructured data quality,data-quality,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2
-master-data,Master and reference data,master-data,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-entity-resolution,Entity resolution,master-data,1,0,0,0,0,0,3,0,0,1,0,0,0,0,10
-hierarchy-management,Hierarchy management,master-data,0,0,0,0,0,0,4,0,0,0,0,0,0,0,4
-master-data-management,Master data management,master-data,0,0,0,0,0,0,4,0,0,1,0,0,0,0,9
-survivorship,Merge and survivorship,master-data,0,0,0,0,0,0,1,0,0,1,0,0,0,0,4
-product-information-management,Product information management,master-data,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3
-reference-data-management,Reference data management,master-data,0,0,0,0,0,0,1,0,0,0,0,0,0,0,4
-governance,Governance and compliance,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-ai-governance,AI governance,governance,0,2,0,0,1,0,1,0,0,0,0,1,0,0,4
-ai-impact-assessment,AI impact assessment,governance,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3
-ai-incident-management,AI incident management,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-ai-system-discovery,AI system discovery,governance,1,1,1,0,0,0,1,0,0,1,0,2,0,0,5
-compliance-evidence,Compliance controls and evidence,governance,2,2,2,2,1,0,0,0,0,0,0,1,0,0,5
-consent-management,Consent and purpose management,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-critical-data-elements,Critical data elements,governance,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2
-data-classification,Data classification,governance,2,2,2,3,2,0,2,1,1,0,0,2,1,2,7
-data-domains,Data domains,governance,1,2,0,0,1,0,0,0,0,0,0,0,0,2,3
-data-usage-rights,Data licensing and usage rights,governance,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-data-residency,Data residency and sovereignty,governance,1,1,2,0,1,1,1,0,0,0,0,0,0,0,1
-data-subject-requests,Data subject requests,governance,0,1,0,0,0,0,0,0,0,0,0,0,0,0,3
-deidentification,De-identification,governance,3,1,2,2,1,0,3,0,1,0,0,1,1,1,5
-governance-metrics,Governance coverage metrics,governance,0,2,0,0,1,0,0,0,0,0,0,0,0,1,0
-human-oversight,Human oversight of AI,governance,0,1,0,0,0,0,0,0,0,1,2,0,1,1,1
-data-ownership,Ownership and stewardship,governance,0,3,1,0,0,0,1,0,0,1,0,0,0,1,2
-data-policy-management,Policy management,governance,0,0,0,2,2,0,1,0,0,0,0,1,0,1,5
-privacy-impact-assessment,Privacy impact assessment,governance,0,1,0,0,0,0,0,0,0,0,0,0,0,0,3
-privacy-management,Privacy management,governance,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1
-privacy-enhancing-technologies,Privacy-enhancing technologies,governance,1,1,2,4,1,0,0,0,0,0,0,0,0,0,1
-records-of-processing,Records of processing,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
-data-retention,Retention and disposal,governance,3,1,1,2,0,1,0,0,0,0,0,1,0,0,2
-stewardship-workflows,Stewardship workflows,governance,0,1,0,0,0,0,1,0,0,1,0,1,0,0,7
-security,Security and access,security,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-access-control,Access control,security,2,1,0,0,0,0,0,0,0,0,0,0,0,3,0
-access-requests,Access requests and reviews,security,1,2,1,1,0,0,1,0,0,0,0,1,0,0,4
-ai-supply-chain-security,AI supply chain security,security,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-attribute-based-access,Attribute- and tag-based access control,security,2,0,2,3,1,0,1,1,0,0,0,0,1,2,5
-audit-logging,Audit logging,security,1,1,1,2,1,1,1,1,1,0,1,1,1,1,2
-column-masking,Column security and dynamic masking,security,2,1,2,2,2,1,0,1,1,0,0,1,1,1,5
-crypto-shredding,Crypto-shredding,security,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
-cryptographic-agility,Cryptographic agility,security,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-customer-managed-keys,Customer-managed keys,security,1,2,1,1,1,1,0,0,1,0,0,0,0,0,0
-data-breach-response,Data breach response,security,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
-data-loss-prevention,Data loss prevention,security,1,3,2,0,1,0,0,0,0,0,0,0,0,0,1
-data-security-posture,Data security posture management,security,1,2,2,2,2,0,0,0,1,0,0,1,0,0,4
-data-threat-detection,Data threat detection,security,0,1,1,1,0,0,0,0,1,0,0,1,0,0,1
-encryption,Encryption,security,1,1,1,0,0,0,0,0,1,0,1,0,1,1,1
-external-identity,External user and tenant identity,security,1,2,1,0,0,0,0,0,0,0,0,0,0,1,0
-identity-authentication,Identity and authentication,security,2,2,1,1,1,1,1,0,0,0,0,0,0,1,0
-network-security,Network security,security,1,4,2,2,2,2,0,0,1,0,0,0,0,0,0
-privileged-access,Privileged access management,security,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
-role-based-access,Role-based access control,security,3,3,1,1,1,1,1,1,0,0,1,0,1,2,0
-row-level-security,Row-level security,security,2,2,1,1,2,1,1,1,1,1,1,0,1,2,2
-secrets-management,Secrets management,security,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0
-compute-user-isolation,Shared compute isolation,security,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-data-sharing,Data sharing and collaboration,data-sharing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-cross-region-sharing,Cross-region and cross-cloud sharing,data-sharing,1,0,1,2,1,0,0,0,0,0,0,0,0,1,0
-application-sharing,Data application distribution,data-sharing,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0
-data-clean-rooms,Data clean rooms,data-sharing,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
-data-marketplace,Data marketplace,data-sharing,1,1,1,4,1,0,1,0,0,2,0,1,1,0,3
-external-data-sharing,External data sharing,data-sharing,2,2,1,4,1,0,0,0,0,0,0,0,0,0,1
-internal-data-sharing,Internal data sharing,data-sharing,2,1,1,2,1,0,1,0,0,2,1,0,0,1,0
-open-protocol-sharing,Open-protocol sharing,data-sharing,0,0,1,1,1,0,0,1,1,1,0,0,1,1,0
-data-products,Data products,data-products,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-data-contracts,Data contracts,data-products,0,0,1,0,0,0,0,0,0,0,0,2,0,4,3
-data-product-lifecycle,Data product lifecycle management,data-products,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0
-data-product-specification,Data product specification,data-products,1,1,1,2,0,0,0,0,0,2,0,1,0,2,1
-data-product-metering,Data product usage metering,data-products,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0
-data-slas,Data service levels,data-products,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1
-application-data-products,Vendor-supplied application data products,data-products,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-development-lifecycle,Development and DataOps,development-lifecycle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-ai-assisted-development,AI-assisted development,development-lifecycle,3,3,3,3,2,1,2,0,0,0,1,0,1,0,2
-ci-cd,CI/CD,development-lifecycle,1,2,2,4,1,0,0,0,0,0,0,0,3,4,2
-data-applications,Data application hosting,development-lifecycle,1,1,1,3,1,0,0,1,0,0,0,0,1,2,4
-data-engineering-agents,Data engineering agents,development-lifecycle,1,0,2,1,1,0,1,1,0,0,1,1,0,0,3
-data-modelling,Data modelling and design,development-lifecycle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-data-testing,Data pipeline testing,development-lifecycle,0,1,2,1,0,1,1,0,0,0,0,0,1,6,1
-environment-promotion,Environment promotion,development-lifecycle,2,3,1,2,1,1,0,0,0,0,0,0,2,1,2
-ephemeral-environments,Ephemeral development environments,development-lifecycle,0,1,0,1,1,0,0,0,0,0,0,0,1,2,2
-local-development,IDE and local development,development-lifecycle,2,1,1,3,1,2,0,0,0,0,0,0,1,0,1
-notebooks,Notebooks,development-lifecycle,3,1,4,1,2,0,0,1,2,0,1,1,1,3,2
-runtime-management,Runtime and environment management,development-lifecycle,4,2,2,2,2,0,0,1,1,0,0,0,0,0,2
-schema-change-management,Schema change management,development-lifecycle,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0
-synthetic-data,Synthetic data generation,development-lifecycle,0,0,0,1,0,0,1,1,1,0,0,0,0,1,5
-test-data-management,Test data management,development-lifecycle,0,0,1,1,1,0,2,0,1,0,1,1,0,1,3
-version-control,Version control integration,development-lifecycle,2,1,1,2,1,0,0,0,0,0,0,0,2,1,1
-platform-operations,Platform operations,platform-operations,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-ai-spend-controls,AI usage and spend controls,platform-operations,2,1,3,3,2,0,0,0,0,0,0,0,1,1,3
-business-continuity,Backup and disaster recovery,platform-operations,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-backup-restore,Backup and restore,platform-operations,1,2,2,3,3,1,0,1,1,0,1,0,0,0,0
-spend-controls,Budgets and spend controls,platform-operations,1,2,2,3,1,2,0,0,0,0,0,0,1,0,0
-code-translation,Code and SQL translation,platform-operations,1,1,2,1,2,0,1,0,0,0,0,0,0,1,0
-cost-attribution,Cost attribution and chargeback,platform-operations,2,2,2,4,3,1,1,1,0,0,0,0,1,0,1
-cost-management,Cost management,platform-operations,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-cost-optimisation,Cost optimisation,platform-operations,2,2,2,0,1,1,1,1,0,0,0,0,0,0,0
-cross-region-failover,Cross-region replication and failover,platform-operations,5,3,2,1,1,0,0,2,1,0,1,1,0,1,1
-hybrid-data-plane,Customer-hosted data plane,platform-operations,1,2,0,1,2,1,4,1,2,0,0,4,1,0,12
-database-migration,Database migration,platform-operations,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
-deployment-options,Hybrid and multi-cloud deployment,platform-operations,1,2,2,2,0,0,1,3,1,1,2,2,1,0,2
-immutable-backups,Immutable backups,platform-operations,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0
-infrastructure-as-code,Infrastructure as code,platform-operations,2,2,1,2,2,1,0,0,0,0,0,0,1,2,0
-multi-tenancy,Multi-tenancy and workspace isolation,platform-operations,1,1,1,1,0,0,1,1,0,1,0,1,1,2,0
-pipeline-monitoring,Pipeline monitoring and alerting,platform-operations,2,2,1,2,1,0,1,1,0,0,0,1,2,4,2
-platform-incident-management,Platform incident management,platform-operations,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-platform-migration,Platform migration,platform-operations,1,0,1,0,1,0,1,1,0,2,0,0,0,0,0
-platform-observability,Platform observability,platform-operations,1,2,2,1,0,1,1,1,0,0,1,0,0,1,0
-query-performance-analysis,Query and job performance analysis,platform-operations,1,1,1,2,2,1,0,1,0,0,1,0,0,0,0
-resilience-testing,Resilience and recovery testing,platform-operations,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-configuration-guardrails,Resource configuration guardrails,platform-operations,1,1,2,0,2,0,0,0,0,0,0,0,0,1,0
-self-service-provisioning,Self-service provisioning,platform-operations,1,0,0,1,1,0,0,2,0,0,0,1,0,2,0
-cost-forecasting,Spend forecasting and anomaly detection,platform-operations,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0
-sustainability-reporting,Sustainability and carbon management,platform-operations,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
-system-telemetry,Usage and system telemetry,platform-operations,2,3,1,1,1,1,0,0,0,0,0,0,1,0,0
-specialised-data,Specialised data types,specialised-data,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-audio-video-processing,Audio and video processing,specialised-data,1,1,0,1,1,0,0,0,0,0,0,0,1,0,0
-temporal-data,Bitemporal data,specialised-data,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
-full-text-search,Full-text search,specialised-data,1,3,3,2,1,1,0,0,1,0,0,1,0,2,4
-geospatial-data,Geospatial data,specialised-data,1,2,2,1,1,1,0,0,1,1,1,0,0,3,1
-graph-data,Graph data,specialised-data,2,1,2,0,0,0,0,0,1,1,0,0,0,0,1
-knowledge-graphs,Knowledge graphs,specialised-data,1,1,1,0,0,0,0,0,0,2,0,0,1,0,2
-observability-analytics,Observability data analytics,specialised-data,2,3,2,1,0,2,0,0,0,0,0,0,0,1,1
-time-series-data,Time-series data,specialised-data,2,2,1,1,0,3,0,0,0,1,2,0,1,1,0
-unstructured-data,Unstructured data management,specialised-data,4,0,1,1,1,0,1,0,0,0,0,0,1,1,2
+capability,title,domain,platform-aws,platform-microsoft,platform-google-cloud,platform-snowflake,platform-databricks,platform-clickhouse,platform-informatica,platform-cloudera,platform-oracle,platform-sap,platform-teradata,platform-ibm,platform-palantir,platform-sas,platform-dataiku,platform-open-source,platform-independent
+ingestion-integration,Ingestion and integration,ingestion-integration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+api-ingestion,API ingestion,ingestion-integration,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,3,0
+application-integration,Application integration,ingestion-integration,2,3,3,1,0,0,2,0,0,1,0,0,0,0,0,0,2
+b2b-edi-integration,B2B and EDI integration,ingestion-integration,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,2
+batch-ingestion,Batch ingestion,ingestion-integration,0,3,1,1,0,0,1,0,1,0,0,1,1,0,0,0,0
+behavioural-event-collection,Behavioural event collection,ingestion-integration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+bulk-data-transfer,Bulk and offline transfer,ingestion-integration,1,1,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+change-data-capture,Change data capture,ingestion-integration,2,3,3,2,1,2,2,0,1,2,0,2,1,0,0,5,8
+custom-connectors,Custom connector development,ingestion-integration,2,1,1,2,1,0,0,0,0,0,0,1,0,0,1,3,2
+database-extraction,Database extraction,ingestion-integration,1,2,3,0,1,2,2,1,1,0,0,0,1,1,1,2,2
+database-replication,Database replication and mirroring,ingestion-integration,1,3,1,2,1,1,1,0,1,2,0,1,0,0,0,2,4
+idempotent-loading,Deduplication and idempotent loading,ingestion-integration,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,12,3
+event-streaming,Event streaming,ingestion-integration,2,1,2,0,0,0,0,1,1,1,0,3,0,0,0,3,2
+file-ingestion,File ingestion,ingestion-integration,2,1,3,2,1,2,1,1,0,0,0,0,0,0,0,1,0
+iot-ingestion,IoT and telemetry ingestion,ingestion-integration,2,3,0,1,1,1,1,0,0,0,0,0,0,1,0,0,0
+mainframe-integration,Mainframe data integration,ingestion-integration,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,3
+managed-file-transfer,Managed file transfer,ingestion-integration,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1
+message-queuing,Message queuing,ingestion-integration,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,2,1
+saas-connectors,SaaS application connectors,ingestion-integration,3,3,4,2,1,0,3,0,1,3,0,0,1,0,1,1,8
+stream-to-table,Stream-to-table materialisation,ingestion-integration,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,3
+streaming-ingestion,Streaming ingestion,ingestion-integration,4,3,5,3,1,2,1,1,2,0,0,2,1,0,0,6,5
+unstructured-ingestion,Unstructured data ingestion,ingestion-integration,2,0,2,2,3,0,0,0,0,0,0,1,1,0,0,2,1
+storage,Storage and table management,storage,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+acid-transactions,ACID transactions,storage,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,4,0
+catalogue-federation,Catalogue federation,storage,3,1,0,1,1,1,0,0,1,0,0,0,0,0,0,2,0
+columnar-storage,Columnar storage,storage,1,1,1,1,0,1,0,0,1,0,1,1,0,0,0,5,0
+data-branching,Data branching and tagging,storage,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,2,0
+data-versioning,Data versioning,storage,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,2,0
+object-file-access,File-system access to object storage,storage,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+multimodal-data-formats,Multimodal data formats,storage,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0
+object-storage,Object storage,storage,1,2,1,1,0,0,0,1,0,1,1,0,0,0,0,1,0
+file-formats,Open file formats,storage,1,0,1,2,0,2,0,0,0,0,0,0,0,0,0,5,0
+open-table-formats,Open table formats,storage,1,2,1,2,2,1,0,1,1,0,1,2,1,0,0,5,4
+partitioning-clustering,Partitioning and clustering,storage,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,1,0
+managed-storage,Platform-managed storage,storage,2,1,1,1,1,1,0,0,1,1,0,0,1,0,0,0,0
+row-level-updates,Row-level updates and deletes,storage,1,1,2,2,1,2,0,1,0,0,0,0,0,0,0,4,0
+schema-evolution,Schema enforcement and evolution,storage,1,1,1,2,2,1,0,1,0,0,0,1,0,0,0,5,0
+semi-structured-data,Semi-structured data,storage,1,3,1,1,1,1,1,0,1,1,1,0,0,0,0,3,1
+credential-vending,Storage credential vending,storage,2,0,1,1,1,0,0,1,0,1,0,0,0,0,0,4,0
+storage-tiering,Storage tiering and lifecycle,storage,1,2,2,1,0,1,0,0,0,1,0,0,0,0,0,0,0
+table-catalogue,Table catalogue,storage,1,1,2,1,1,0,0,1,2,1,0,2,1,0,0,7,1
+table-format-conversion,Table format conversion,storage,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,3,1
+table-maintenance,Table maintenance and optimisation,storage,2,1,2,1,3,2,0,1,0,0,0,2,0,0,0,1,2
+time-travel,Time travel,storage,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,3,0
+zero-copy-cloning,Zero-copy cloning,storage,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1
+processing,Processing and transformation,processing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ai-functions,AI functions in SQL,processing,1,1,3,1,1,1,0,0,2,0,0,1,2,0,1,0,0
+data-enrichment,Data enrichment,processing,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,4,3
+dataframe-apis,DataFrame APIs,processing,2,2,2,3,2,1,0,1,1,0,1,1,0,1,0,5,0
+declarative-pipelines,Declarative pipelines,processing,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,2,0
+distributed-processing,Distributed processing,processing,5,2,3,2,1,1,1,2,2,0,1,1,1,1,1,7,0
+document-processing,Document processing,processing,2,2,1,1,1,0,0,0,0,0,0,1,1,2,1,1,3
+edge-data-processing,Edge data processing,processing,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0
+event-time-windowing,Event-time windowing,processing,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,4,0
+incremental-processing,Incremental processing,processing,3,4,3,2,3,1,0,0,0,0,0,0,2,0,1,5,2
+low-code-transformation,Low-code transformation,processing,1,2,3,0,1,0,4,1,1,1,0,1,1,1,1,1,5
+data-preparation,Self-service data preparation,processing,2,1,2,0,1,0,0,0,1,0,0,0,1,1,1,1,3
+single-node-processing,Single-node processing,processing,0,1,0,1,0,2,0,0,0,0,0,0,1,2,0,4,2
+sql-transformation,SQL transformation,processing,1,1,0,1,1,2,1,0,0,4,0,0,0,1,1,1,2
+stream-processing,Stream processing,processing,1,3,2,0,0,0,0,1,1,0,0,2,1,1,0,4,1
+streaming-sql,Streaming SQL,processing,1,2,1,0,1,0,0,1,0,0,0,1,0,0,0,2,2
+transformation-as-code,Transformation as code,processing,0,1,1,1,0,1,0,0,0,0,0,0,1,0,0,3,3
+user-defined-functions,User-defined functions and procedures,processing,0,1,1,2,1,1,0,0,0,0,1,1,0,0,0,2,0
+orchestration,Orchestration,orchestration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+backfill-replay,Backfill and reprocessing,orchestration,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0,3,0
+asset-based-orchestration,Data-aware orchestration,orchestration,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,2,2
+event-driven-triggering,Event-driven triggering,orchestration,3,4,3,2,1,1,1,0,0,0,0,0,1,0,1,3,2
+workflow-orchestration,Workflow orchestration,orchestration,3,3,3,1,1,1,2,1,2,1,0,0,0,0,1,4,6
+compute,Query and compute,compute,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+approximate-query-processing,Approximate query processing,compute,2,2,1,0,0,1,0,1,1,0,0,0,0,0,0,8,2
+compute-options,Compute provisioning options,compute,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+container-services,Container services,compute,1,0,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0
+decoupled-storage-compute,Decoupled storage and compute,compute,2,1,1,1,1,2,0,2,0,0,1,2,1,0,0,3,0
+elastic-scaling,Elastic scaling,compute,3,1,1,3,2,3,2,1,2,0,1,0,0,0,0,1,0
+gpu-compute,GPU and accelerated compute,compute,2,1,3,2,2,0,0,3,0,0,2,0,0,1,0,2,1
+data-skipping-indexes,Indexes and data skipping,compute,0,0,1,1,1,4,0,0,1,0,0,0,0,0,0,1,0
+materialised-views,Materialised views,compute,2,1,1,1,2,3,0,1,0,0,0,0,0,0,0,4,2
+engine-interoperability,Multi-engine interoperability,compute,3,5,3,5,4,2,0,1,1,1,2,1,1,0,1,6,2
+provisioned-compute,Provisioned compute,compute,2,2,2,3,1,0,0,2,1,0,2,1,0,1,0,1,0
+query-acceleration,Query acceleration,compute,0,2,1,1,0,2,0,0,1,1,0,0,0,0,0,1,3
+query-federation,Query federation,compute,4,2,4,1,1,4,0,1,2,2,2,1,1,1,0,4,4
+real-time-analytics,Real-time analytical database,compute,2,3,0,1,1,2,0,0,1,0,0,0,0,1,0,5,3
+reserved-capacity,Reserved and committed capacity,compute,5,2,3,0,1,0,1,0,1,0,0,0,0,0,0,0,0
+result-caching,Result caching,compute,1,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,2
+serverless-compute,Serverless compute,compute,6,1,4,1,3,1,1,1,2,0,1,1,0,0,0,0,4
+interruptible-compute,Spot and interruptible compute,compute,2,1,3,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+sql-query-engine,SQL query engine,compute,2,3,1,2,2,1,0,2,2,3,1,3,0,2,0,6,2
+native-execution-acceleration,Vectorised native execution,compute,0,1,2,0,1,0,0,0,0,0,0,1,0,0,0,3,0
+workload-isolation,Workload isolation,compute,2,1,1,1,1,1,0,2,0,0,1,0,0,0,0,1,1
+workload-management,Workload management,compute,2,1,1,2,1,2,0,0,0,0,2,0,0,1,0,0,0
+serving,Serving and activation,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+audience-activation,Audience building and activation,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+change-feeds,Change feeds,serving,1,1,3,1,1,0,0,0,0,1,0,0,0,0,0,4,0
+data-apis,Data APIs,serving,0,3,1,0,0,1,1,0,0,1,0,0,1,0,0,1,2
+data-export,Data export,serving,1,1,1,1,0,2,0,0,0,1,0,0,1,0,0,1,0
+decision-management,Decision management,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+low-latency-serving,Low-latency serving,serving,1,2,4,3,2,2,0,1,0,0,0,1,1,0,0,0,4
+operational-data-store,Operational data store,serving,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,2
+operational-database,Operational database integration,serving,2,6,4,2,1,1,0,1,3,1,0,2,0,1,0,1,1
+read-optimised-views,Read-optimised views,serving,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,1,0
+regulatory-submission,Regulatory submission,serving,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+reverse-etl,Reverse ETL,serving,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,5
+sql-access,SQL and programmatic access,serving,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,3,3
+analytics-bi,Analytics and BI,analytics-bi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ad-hoc-analysis,Ad hoc analysis,analytics-bi,1,1,3,2,1,1,0,1,0,0,0,0,1,1,1,4,6
+data-alerting,Alerts and subscriptions,analytics-bi,1,3,1,2,2,1,0,0,0,0,0,0,1,0,1,2,1
+analytical-sandboxes,Analytical sandboxes,analytics-bi,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+manual-adjustments,Approved manual adjustments,analytics-bi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+augmented-analytics,Augmented analytics,analytics-bi,0,2,2,1,0,0,0,0,1,1,0,0,0,1,0,0,3
+conversational-analytics,Conversational analytics,analytics-bi,2,2,5,3,2,2,1,1,2,3,1,0,1,0,1,0,11
+dashboards-reports,Dashboards and interactive reports,analytics-bi,1,5,2,2,2,3,0,1,2,1,0,0,2,1,1,4,8
+dashboards-as-code,Dashboards as code,analytics-bi,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1
+data-consumer-portal,Data consumer portal,analytics-bi,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+data-writeback,Data entry and write-back,analytics-bi,0,3,0,0,0,0,0,0,0,1,0,0,2,0,0,1,1
+embedded-analytics,Embedded analytics,analytics-bi,1,1,2,0,1,0,0,1,0,1,0,0,1,1,0,2,6
+experimentation,Experimentation and causal measurement,analytics-bi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+metric-definitions,Governed metric definitions,analytics-bi,0,1,1,1,1,0,0,0,0,1,0,0,0,0,1,3,4
+packaged-analytics,Packaged analytics content,analytics-bi,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+paginated-reports,Paginated reports,analytics-bi,1,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+enterprise-planning,Planning and forecasting,analytics-bi,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+semantic-layer,Semantic layer,analytics-bi,0,3,1,2,1,0,0,0,2,4,0,0,1,0,0,2,8
+semantic-model-interchange,Semantic model interchange,analytics-bi,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0
+spreadsheet-integration,Spreadsheet integration,analytics-bi,0,1,1,0,2,0,0,0,0,1,0,0,0,1,0,0,1
+machine-learning,Machine learning development,machine-learning,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+automl,AutoML,machine-learning,2,2,1,1,1,0,0,0,1,0,0,1,0,2,1,0,2
+fairness-assessment,Bias and fairness assessment,machine-learning,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1
+data-labelling,Data labelling,machine-learning,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,3
+distributed-training,Distributed training,machine-learning,2,1,2,2,2,0,0,0,0,0,1,0,0,1,0,2,0
+experiment-tracking,Experiment tracking,machine-learning,1,2,1,1,1,0,0,1,0,0,0,0,0,0,1,2,3
+feature-engineering,Feature engineering,machine-learning,1,1,2,1,2,0,0,0,0,0,1,0,0,1,0,0,0
+feature-store,Feature store,machine-learning,1,1,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0
+hyperparameter-tuning,Hyperparameter tuning,machine-learning,2,1,2,1,1,0,0,0,0,0,0,0,0,1,1,2,1
+in-database-ml,In-database machine learning,machine-learning,1,0,1,1,0,0,0,0,2,0,2,0,0,0,0,0,0
+ml-pipelines,ML pipelines,machine-learning,1,1,1,1,0,0,0,0,1,0,1,0,0,2,1,2,0
+model-evaluation,Model evaluation,machine-learning,2,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0
+model-explainability,Model explainability,machine-learning,0,1,2,1,1,0,0,0,1,0,0,0,0,1,1,0,2
+model-registry,Model registry,machine-learning,1,2,1,1,1,0,0,1,1,0,1,0,1,1,1,2,3
+model-training,Model training,machine-learning,1,2,1,3,0,0,0,1,1,0,0,0,1,0,0,0,1
+offline-feature-store,Offline feature store,machine-learning,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+online-feature-store,Online feature store,machine-learning,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,1,1
+point-in-time-joins,Point-in-time correct joins,machine-learning,1,1,1,1,2,0,0,0,0,0,0,0,0,0,0,1,0
+pretrained-predictive-models,Pretrained predictive models,machine-learning,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+training-dataset-management,Training and evaluation dataset management,machine-learning,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,2,6
+mlops,ML operations,mlops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+batch-inference,Batch inference,mlops,3,2,3,2,1,0,0,0,0,0,2,0,0,1,1,2,0
+canary-ab-testing,Canary and A/B testing,mlops,2,1,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0
+champion-challenger,Champion-challenger,mlops,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+ml-cicd,CI/CD for machine learning,mlops,1,1,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0
+continuous-training,Continuous training,mlops,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+drift-detection,Drift detection,mlops,0,1,1,1,1,0,0,0,0,0,1,1,0,1,1,1,3
+edge-inference,Edge inference,mlops,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+generative-model-serving,Generative model serving,mlops,2,1,1,0,1,0,0,1,1,0,0,1,0,1,0,3,0
+inference-logging,Inference logging,mlops,0,1,1,1,2,0,0,0,0,0,0,0,0,0,1,2,0
+model-deployment,Model deployment,mlops,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,2
+model-governance,Model governance,mlops,1,1,0,1,1,0,1,0,0,0,1,1,0,1,1,0,5
+model-monitoring,Model monitoring,mlops,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+model-performance-monitoring,Model performance monitoring,mlops,0,1,0,1,1,0,0,0,0,0,1,1,0,1,1,1,3
+model-release-strategies,Model release strategies,mlops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+real-time-inference,Real-time inference,mlops,1,1,1,1,1,0,0,1,1,0,0,1,0,1,1,3,0
+shadow-deployment,Shadow deployment,mlops,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+streaming-inference,Streaming inference,mlops,1,1,3,0,1,0,0,0,0,0,0,1,0,1,0,2,0
+generative-ai,Generative AI,generative-ai,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+agent-registry,Agent and tool registry,generative-ai,1,1,1,0,2,0,1,0,0,1,0,1,0,0,2,0,6
+agent-runtime,Agent hosting and runtime,generative-ai,1,1,1,1,1,1,0,1,2,0,2,2,1,0,0,0,3
+agent-identity,Agent identity and authorisation,generative-ai,2,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,3
+agent-memory,Agent memory,generative-ai,1,1,1,0,1,1,0,0,0,0,1,0,0,0,0,1,1
+agent-tool-access,Agent tool and data access,generative-ai,2,5,5,2,2,2,2,1,2,1,2,2,2,1,1,2,11
+agent-interoperability,Agent-to-agent interoperability,generative-ai,1,2,2,0,0,0,1,0,0,0,0,1,0,0,1,1,1
+ai-agents,AI agents,generative-ai,2,3,3,2,1,1,4,1,3,2,2,2,2,2,1,3,9
+ai-content-provenance,AI content marking and provenance,generative-ai,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ai-gateway,AI gateway,generative-ai,1,1,2,1,1,0,0,0,1,1,0,0,1,0,1,1,3
+ai-guardrails,AI guardrails,generative-ai,2,1,2,1,1,0,0,0,1,1,1,1,0,0,1,2,6
+ai-red-teaming,AI red teaming,generative-ai,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+embedding-generation,Embedding generation,generative-ai,1,3,4,1,2,1,0,0,1,1,1,1,0,0,1,0,4
+enterprise-ai-assistant,Enterprise AI assistant,generative-ai,1,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,2
+foundation-model-access,Foundation model access,generative-ai,2,2,3,2,1,0,0,1,1,1,0,1,1,0,0,0,0
+genai-evaluation,Generative AI evaluation,generative-ai,2,1,1,2,1,1,0,0,0,0,0,2,1,1,2,2,11
+genai-observability,Generative AI observability,generative-ai,2,2,1,2,2,1,0,0,0,0,1,1,0,0,2,2,7
+model-customisation,Model customisation,generative-ai,3,2,1,1,1,0,0,1,2,0,0,1,0,0,1,0,2
+permission-aware-retrieval,Permission-aware retrieval,generative-ai,2,2,2,0,0,0,0,0,0,0,0,0,1,1,0,0,2
+prompt-management,Prompt management,generative-ai,1,0,1,1,1,1,0,0,0,2,0,1,1,1,1,1,4
+retrieval-pipelines,Retrieval pipelines,generative-ai,1,2,4,2,2,0,0,1,0,0,1,1,0,1,1,3,2
+retrieval-augmented-generation,Retrieval-augmented generation,generative-ai,1,1,2,1,0,0,1,1,4,2,1,1,1,0,0,5,2
+vector-search,Vector search,generative-ai,5,4,7,1,1,1,0,0,2,1,1,3,0,0,0,5,6
+metadata,Metadata and discovery,metadata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+active-metadata,Active metadata,metadata,0,0,1,2,1,0,0,0,0,0,0,0,0,0,0,1,1
+ai-context-layer,AI context layer,metadata,1,3,2,2,2,0,0,0,0,2,1,1,1,0,1,2,10
+ai-generated-documentation,AI-generated documentation,metadata,1,1,1,1,1,0,0,0,0,0,0,1,0,0,1,0,4
+business-glossary,Business glossary,metadata,1,1,1,0,0,0,1,0,1,1,0,1,0,1,0,2,2
+column-lineage,Column-level lineage,metadata,0,1,1,1,1,0,1,1,0,0,0,1,0,0,1,5,6
+data-catalogue,Data catalogue,metadata,1,2,1,2,2,0,1,1,3,1,0,1,0,1,1,4,11
+data-certification,Data certification,metadata,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,4
+data-lineage,Data lineage,metadata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+data-trust-indicators,Data trust indicators,metadata,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,5
+unstructured-lineage,Document and unstructured lineage,metadata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cross-system-lineage,End-to-end lineage,metadata,1,1,1,1,1,0,2,1,0,0,0,1,0,0,0,1,6
+event-api-catalogue,Event and API catalogue,metadata,0,2,1,0,0,0,0,0,0,1,0,1,0,0,0,1,2
+impact-analysis,Impact analysis,metadata,1,1,1,1,1,0,1,1,0,0,0,1,1,1,1,0,4
+metadata-harvesting,Metadata harvesting,metadata,2,1,1,1,1,0,2,1,1,0,0,2,0,1,0,1,1
+metadata-interoperability,Metadata interoperability,metadata,2,1,3,2,2,0,1,1,1,1,0,0,0,0,0,3,1
+model-lineage,Model lineage,metadata,1,1,1,1,2,0,0,1,0,0,0,0,1,1,0,0,1
+schema-registry,Schema registry,metadata,1,1,1,0,0,0,0,1,0,0,0,2,0,0,0,1,0
+table-lineage,Table-level lineage,metadata,1,2,1,1,1,0,1,1,0,1,0,0,1,1,0,4,2
+usage-metadata,Usage and popularity metadata,metadata,0,0,0,2,1,0,0,0,0,0,0,0,0,0,1,0,2
+data-quality,Data quality and observability,data-quality,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bad-data-quarantine,Bad-data quarantine,data-quality,1,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0
+data-anomaly-detection,Data anomaly detection,data-quality,1,0,0,1,1,0,1,0,0,0,0,2,0,0,1,0,6
+data-cleansing,Data cleansing and standardisation,data-quality,1,0,1,0,0,0,1,0,0,0,0,0,0,2,1,0,4
+data-issue-management,Data issue management,data-quality,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,4
+data-observability,Data observability,data-quality,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,10
+data-profiling,Data profiling,data-quality,2,1,1,0,1,0,1,1,0,0,0,1,0,2,0,2,4
+data-quality-rules,Data quality rules,data-quality,1,2,1,1,1,0,2,0,0,1,0,1,1,0,1,4,10
+data-quality-scorecards,Data quality scorecards,data-quality,0,1,1,1,0,0,1,0,0,0,0,1,0,0,1,0,3
+data-reconciliation,Data reconciliation,data-quality,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+freshness-monitoring,Freshness monitoring,data-quality,1,1,0,2,2,0,1,0,0,0,0,1,1,0,0,0,1
+unstructured-data-quality,Unstructured data quality,data-quality,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2
+master-data,Master and reference data,master-data,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+entity-resolution,Entity resolution,master-data,1,0,0,0,0,0,3,0,0,1,0,0,0,2,0,0,10
+hierarchy-management,Hierarchy management,master-data,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,4
+master-data-management,Master data management,master-data,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0,0,9
+survivorship,Merge and survivorship,master-data,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,4
+product-information-management,Product information management,master-data,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3
+reference-data-management,Reference data management,master-data,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,4
+governance,Governance and compliance,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ai-governance,AI governance,governance,0,2,0,0,1,0,1,0,0,0,0,1,0,1,1,0,4
+ai-impact-assessment,AI impact assessment,governance,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3
+ai-incident-management,AI incident management,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ai-system-discovery,AI system discovery,governance,1,1,1,0,0,0,1,0,0,1,0,2,0,0,1,0,5
+compliance-evidence,Compliance controls and evidence,governance,2,2,2,2,1,0,0,0,0,0,0,1,0,0,0,0,5
+consent-management,Consent and purpose management,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+critical-data-elements,Critical data elements,governance,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+data-classification,Data classification,governance,2,2,2,3,2,0,2,1,1,0,0,2,1,1,0,2,7
+data-domains,Data domains,governance,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,2,3
+data-usage-rights,Data licensing and usage rights,governance,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+data-residency,Data residency and sovereignty,governance,1,1,2,0,1,1,1,0,0,0,0,0,0,0,0,0,1
+data-subject-requests,Data subject requests,governance,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+deidentification,De-identification,governance,3,1,2,2,1,0,3,0,1,0,0,1,1,0,0,1,5
+governance-metrics,Governance coverage metrics,governance,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+human-oversight,Human oversight of AI,governance,0,1,0,0,0,0,0,0,0,1,2,0,1,0,1,1,1
+data-ownership,Ownership and stewardship,governance,0,3,1,0,0,0,1,0,0,1,0,0,0,0,0,1,2
+data-policy-management,Policy management,governance,0,0,0,2,2,0,1,0,0,0,0,1,0,1,0,1,5
+privacy-impact-assessment,Privacy impact assessment,governance,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+privacy-management,Privacy management,governance,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+privacy-enhancing-technologies,Privacy-enhancing technologies,governance,1,1,2,4,1,0,0,0,0,0,0,0,0,0,0,0,1
+records-of-processing,Records of processing,governance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+data-retention,Retention and disposal,governance,3,1,1,2,0,1,0,0,0,0,0,1,0,0,0,0,2
+stewardship-workflows,Stewardship workflows,governance,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,7
+security,Security and access,security,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+access-control,Access control,security,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0
+access-requests,Access requests and reviews,security,1,2,1,1,0,0,1,0,0,0,0,1,0,0,0,0,4
+ai-supply-chain-security,AI supply chain security,security,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+attribute-based-access,Attribute- and tag-based access control,security,2,0,2,3,1,0,1,1,0,0,0,0,1,0,0,2,5
+audit-logging,Audit logging,security,1,1,1,2,1,1,1,1,1,0,1,1,1,1,1,1,2
+column-masking,Column security and dynamic masking,security,2,1,2,2,2,1,0,1,1,0,0,1,1,0,0,1,5
+crypto-shredding,Crypto-shredding,security,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cryptographic-agility,Cryptographic agility,security,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+customer-managed-keys,Customer-managed keys,security,1,2,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0
+data-breach-response,Data breach response,security,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+data-loss-prevention,Data loss prevention,security,1,3,2,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+data-security-posture,Data security posture management,security,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,4
+data-threat-detection,Data threat detection,security,0,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,1
+encryption,Encryption,security,1,1,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1
+external-identity,External user and tenant identity,security,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+identity-authentication,Identity and authentication,security,2,2,1,1,1,1,1,0,0,0,0,0,0,1,0,1,0
+network-security,Network security,security,1,4,2,2,2,2,0,0,1,0,0,0,0,0,0,0,0
+privileged-access,Privileged access management,security,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+role-based-access,Role-based access control,security,3,3,1,1,1,1,1,1,0,0,1,0,1,1,0,2,0
+row-level-security,Row-level security,security,2,2,1,1,2,1,1,1,1,1,1,0,1,1,0,2,2
+secrets-management,Secrets management,security,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0
+compute-user-isolation,Shared compute isolation,security,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+data-sharing,Data sharing and collaboration,data-sharing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cross-region-sharing,Cross-region and cross-cloud sharing,data-sharing,1,0,1,2,1,0,0,0,0,0,0,0,0,0,0,1,0
+application-sharing,Data application distribution,data-sharing,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0
+data-clean-rooms,Data clean rooms,data-sharing,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+data-marketplace,Data marketplace,data-sharing,1,1,1,4,1,0,1,0,0,2,0,1,1,0,0,0,3
+external-data-sharing,External data sharing,data-sharing,2,2,1,4,1,0,0,0,0,0,0,0,0,0,0,0,1
+internal-data-sharing,Internal data sharing,data-sharing,2,1,1,2,1,0,1,0,0,2,1,0,0,0,0,1,0
+open-protocol-sharing,Open-protocol sharing,data-sharing,0,0,1,1,1,0,0,1,1,1,0,0,1,0,0,1,0
+data-products,Data products,data-products,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+data-contracts,Data contracts,data-products,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,4,3
+data-product-lifecycle,Data product lifecycle management,data-products,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0
+data-product-specification,Data product specification,data-products,1,1,1,2,0,0,0,0,0,2,0,1,0,0,0,2,1
+data-product-metering,Data product usage metering,data-products,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+data-slas,Data service levels,data-products,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+application-data-products,Vendor-supplied application data products,data-products,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+development-lifecycle,Development and DataOps,development-lifecycle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ai-assisted-development,AI-assisted development,development-lifecycle,3,3,3,3,2,1,2,0,0,0,1,0,1,1,1,0,2
+ci-cd,CI/CD,development-lifecycle,1,2,2,4,1,0,0,0,0,0,0,0,3,0,0,4,2
+data-applications,Data application hosting,development-lifecycle,1,1,1,3,1,0,0,1,0,0,0,0,1,0,1,2,4
+data-engineering-agents,Data engineering agents,development-lifecycle,1,0,2,1,1,0,1,1,0,0,1,1,0,0,1,0,3
+data-modelling,Data modelling and design,development-lifecycle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+data-testing,Data pipeline testing,development-lifecycle,0,1,2,1,0,1,1,0,0,0,0,0,1,0,1,6,1
+environment-promotion,Environment promotion,development-lifecycle,2,3,1,2,1,1,0,0,0,0,0,0,2,0,1,1,2
+ephemeral-environments,Ephemeral development environments,development-lifecycle,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,2,2
+local-development,IDE and local development,development-lifecycle,2,1,1,3,1,2,0,0,0,0,0,0,1,1,1,0,1
+notebooks,Notebooks,development-lifecycle,3,1,4,1,2,0,0,1,2,0,1,1,1,1,1,3,2
+runtime-management,Runtime and environment management,development-lifecycle,4,2,2,2,2,0,0,1,1,0,0,0,0,0,1,0,1
+schema-change-management,Schema change management,development-lifecycle,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0
+synthetic-data,Synthetic data generation,development-lifecycle,0,0,0,1,0,0,1,1,1,0,0,0,0,1,0,1,5
+test-data-management,Test data management,development-lifecycle,0,0,1,1,1,0,2,0,1,0,1,1,0,0,0,1,3
+version-control,Version control integration,development-lifecycle,2,1,1,2,1,0,0,0,0,0,0,0,2,1,1,1,1
+platform-operations,Platform operations,platform-operations,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ai-spend-controls,AI usage and spend controls,platform-operations,2,1,3,3,2,0,0,0,0,0,0,0,1,0,1,1,2
+business-continuity,Backup and disaster recovery,platform-operations,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+backup-restore,Backup and restore,platform-operations,1,2,2,3,3,1,0,1,1,0,1,0,0,0,1,0,0
+spend-controls,Budgets and spend controls,platform-operations,1,2,2,3,1,2,0,0,0,0,0,0,1,0,0,0,0
+code-translation,Code and SQL translation,platform-operations,1,1,2,1,2,0,1,0,0,0,0,0,0,0,0,1,0
+cost-attribution,Cost attribution and chargeback,platform-operations,2,2,2,4,3,1,1,1,0,0,0,0,1,0,0,0,1
+cost-management,Cost management,platform-operations,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+cost-optimisation,Cost optimisation,platform-operations,2,2,2,0,1,1,1,1,0,0,0,0,0,0,0,0,0
+cross-region-failover,Cross-region replication and failover,platform-operations,5,3,2,1,1,0,0,2,1,0,1,1,0,0,0,1,1
+hybrid-data-plane,Customer-hosted data plane,platform-operations,1,2,0,1,2,1,4,1,2,0,0,4,1,0,0,0,12
+database-migration,Database migration,platform-operations,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+deployment-options,Hybrid and multi-cloud deployment,platform-operations,1,2,2,2,0,0,1,3,1,1,2,2,1,1,2,0,2
+immutable-backups,Immutable backups,platform-operations,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+infrastructure-as-code,Infrastructure as code,platform-operations,2,2,1,2,2,1,0,0,0,0,0,0,1,0,0,2,0
+multi-tenancy,Multi-tenancy and workspace isolation,platform-operations,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,2,0
+pipeline-monitoring,Pipeline monitoring and alerting,platform-operations,2,2,1,2,1,0,1,1,0,0,0,1,2,0,0,4,2
+platform-incident-management,Platform incident management,platform-operations,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+platform-migration,Platform migration,platform-operations,1,0,1,0,1,0,1,1,0,2,0,0,0,0,0,0,0
+platform-observability,Platform observability,platform-operations,1,2,2,1,0,1,1,1,0,0,1,0,0,0,0,1,0
+query-performance-analysis,Query and job performance analysis,platform-operations,1,1,1,2,2,1,0,1,0,0,1,0,0,0,0,0,0
+resilience-testing,Resilience and recovery testing,platform-operations,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+configuration-guardrails,Resource configuration guardrails,platform-operations,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,1,0
+self-service-provisioning,Self-service provisioning,platform-operations,1,0,0,1,1,0,0,2,0,0,0,1,0,0,0,2,0
+cost-forecasting,Spend forecasting and anomaly detection,platform-operations,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+sustainability-reporting,Sustainability and carbon management,platform-operations,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+system-telemetry,Usage and system telemetry,platform-operations,2,3,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0
+specialised-data,Specialised data types,specialised-data,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+audio-video-processing,Audio and video processing,specialised-data,1,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0
+temporal-data,Bitemporal data,specialised-data,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0
+full-text-search,Full-text search,specialised-data,1,3,3,2,1,1,0,0,1,0,0,1,0,0,0,2,4
+geospatial-data,Geospatial data,specialised-data,1,2,2,1,1,1,0,0,1,1,1,0,0,0,0,3,1
+graph-data,Graph data,specialised-data,2,1,2,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+knowledge-graphs,Knowledge graphs,specialised-data,1,1,1,0,0,0,0,0,0,2,0,0,1,0,0,0,2
+observability-analytics,Observability data analytics,specialised-data,2,3,2,1,0,2,0,0,0,0,0,0,0,0,0,1,1
+time-series-data,Time-series data,specialised-data,2,2,1,1,0,3,0,0,0,1,2,0,1,0,0,1,0
+unstructured-data,Unstructured data management,specialised-data,4,0,1,1,1,0,1,0,0,0,0,0,1,0,0,1,2

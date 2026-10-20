@@ -61,4 +61,5 @@ Role-based access control (RBAC) is supported by almost every database and tool 
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Shared Data Experience (SDX)](../../technologies/cloudera/cloudera-sdx.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Database security (roles, row-level security, encryption)](../../technologies/teradata/teradata-security.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Foundry security controls](../../technologies/palantir/palantir-security-controls.md) |
+| [SAS](../../platforms/platform-sas.md) | General authorization rules | [SAS Viya security controls](../../technologies/sas/sas-viya-security.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Polaris](../../technologies/open-source/apache-polaris.md), [Keycloak](../../technologies/open-source/keycloak.md) |

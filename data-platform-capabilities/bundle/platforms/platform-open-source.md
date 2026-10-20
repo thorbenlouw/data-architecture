@@ -4,7 +4,7 @@ id: platform-open-source
 title: Open-source ecosystem
 description: Open-source projects and open standards that underpin or complement commercial platforms.
 folder: open-source
-order: 14
+order: 16
 status: draft
 stale_after: '2027-04-16T00:00:00Z'
 generated: {by: claude/opus-5.5, at: '2026-10-16T12:00:00Z'}

@@ -52,4 +52,4 @@ Some capabilities move data the other way. Write-back and planning let users ent
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 122 technologies; see their pages.
+Narrower capabilities are realised by a further 128 technologies; see their pages.

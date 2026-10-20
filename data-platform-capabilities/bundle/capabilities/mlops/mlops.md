@@ -52,4 +52,4 @@ Models differ from ordinary software because they can fail silently: the service
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 70 technologies; see their pages.
+Narrower capabilities are realised by a further 81 technologies; see their pages.

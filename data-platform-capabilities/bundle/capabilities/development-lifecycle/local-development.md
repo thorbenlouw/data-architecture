@@ -55,4 +55,6 @@ This is where most software-style engineering happens: refactoring across files,
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Connect](../../technologies/databricks/databricks-connect.md) |
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [chDB](../../technologies/clickhouse/clickhouse-chdb.md), [clickhouse-local](../../technologies/clickhouse/clickhouse-local.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Code Repositories](../../technologies/palantir/palantir-code-repositories.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS 9.4 and SAS Enterprise Guide](../../technologies/sas/sas-9.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Code Studios | [Dataiku Code Studios](../../technologies/dataiku/dataiku-code-studios.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [dbt v2 engine](../../technologies/independent/dbt-fusion-engine.md) |

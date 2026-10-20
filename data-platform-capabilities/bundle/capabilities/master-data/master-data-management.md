@@ -58,4 +58,4 @@ MDM supports accurate customer counts, single customer views, supplier spend ana
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Master Data Governance](../../technologies/sap/sap-master-data-governance.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Ataccama ONE Master Data Management](../../technologies/independent/ataccama-one-mdm.md), [K2view Data Product Platform](../../technologies/independent/k2view-data-product-platform.md), [Precisely EnterWorks](../../technologies/independent/precisely-enterworks.md), [Profisee MDM](../../technologies/independent/profisee-mdm.md), [Reltio Multidomain MDM](../../technologies/independent/reltio-multidomain-mdm.md), [Semarchy Data Platform](../../technologies/independent/semarchy-data-platform.md), [Stibo Systems STEP](../../technologies/independent/stibo-systems-step.md), [Syndigo MDM](../../technologies/independent/syndigo-mdm.md), [Tamr](../../technologies/independent/tamr.md) |
 
-Narrower capabilities are realised by a further 19 technologies; see their pages.
+Narrower capabilities are realised by a further 21 technologies; see their pages.

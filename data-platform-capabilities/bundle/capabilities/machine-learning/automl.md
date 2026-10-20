@@ -54,4 +54,6 @@ It gives analysts a usable model with little code and gives data scientists a qu
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks AutoML](../../technologies/databricks/databricks-automl.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [MySQL HeatWave AutoML and HeatWave GenAI](../../technologies/oracle/oracle-heatwave-automl-genai.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.ai](../../technologies/ibm/ibm-watsonx-ai.md) |
-| [Independent vendors](../../platforms/platform-independent.md) |  | [Dataiku](../../technologies/independent/dataiku.md), [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md), [H2O.ai Platform (Driverless AI and h2oGPTe)](../../technologies/independent/h2o-ai.md) |
+| [SAS](../../platforms/platform-sas.md) | Automated pipeline generation | [SAS Model Studio](../../technologies/sas/sas-model-studio.md), [SAS Visual Forecasting](../../technologies/sas/sas-visual-forecasting.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Visual ML | [Dataiku Visual ML](../../technologies/dataiku/dataiku-visual-ml.md) |
+| [Independent vendors](../../platforms/platform-independent.md) |  | [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md), [H2O.ai Platform (Driverless AI and h2oGPTe)](../../technologies/independent/h2o-ai.md) |

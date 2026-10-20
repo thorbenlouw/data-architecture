@@ -57,4 +57,5 @@ A canary asks whether the new version is safe; an A/B test asks whether it is be
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Model Serving in Snowpark Container Services](../../technologies/snowflake/snowflake-model-serving.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Model Serving](../../technologies/databricks/databricks-model-serving.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Inference service](../../technologies/cloudera/cloudera-ai-inference-service.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Deployer and API nodes](../../technologies/dataiku/dataiku-deployer.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [KServe](../../technologies/open-source/kserve.md) |

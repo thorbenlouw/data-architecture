@@ -58,4 +58,4 @@ Lineage supports impact analysis before changes, root-cause analysis during inci
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 42 technologies; see their pages.
+Narrower capabilities are realised by a further 44 technologies; see their pages.

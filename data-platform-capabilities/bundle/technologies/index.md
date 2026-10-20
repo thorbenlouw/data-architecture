@@ -13,5 +13,7 @@
 * [Teradata](teradata/) - 18 technologies. An enterprise analytics database and platform for large-scale warehousing, on premises and in the cloud.
 * [IBM](ibm/) - 27 technologies. IBM's watsonx data, AI and governance products, with integration tools and Confluent streaming.
 * [Palantir](palantir/) - 25 technologies. A platform that models enterprise data as an operational ontology for analytics, applications and AI agents.
+* [SAS](sas/) - 28 technologies. An analytics and AI platform, SAS Viya, for preparing and governing data, building and managing models, and running automated decisions, alongside the long-standing SAS 9 software.
+* [Dataiku](dataiku/) - 27 technologies. A platform for building data pipelines, machine learning models, generative AI applications and AI agents visually or in code, on top of an organisation's existing data platforms.
 * [Open-source ecosystem](open-source/) - 119 technologies. Open-source projects and open standards that underpin or complement commercial platforms.
-* [Independent vendors](independent/) - 131 technologies. Commercial tools from vendors that work across platforms rather than offering a complete platform.
+* [Independent vendors](independent/) - 129 technologies. Commercial tools from vendors that work across platforms rather than offering a complete platform.

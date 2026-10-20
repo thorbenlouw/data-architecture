@@ -40,4 +40,5 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Cloudera](../../platforms/platform-cloudera.md) | [Cloudera Shared Data Experience (SDX)](../cloudera/cloudera-sdx.md) | [Role-based access control](../../capabilities/security/role-based-access.md) |
 | [Teradata](../../platforms/platform-teradata.md) | [Teradata Database security (roles, row-level security, encryption)](../teradata/teradata-security.md) | [Role-based access control](../../capabilities/security/role-based-access.md) |
 | [Palantir](../../platforms/platform-palantir.md) | [Palantir Foundry security controls](../palantir/palantir-security-controls.md) | [Role-based access control](../../capabilities/security/role-based-access.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Viya security controls](../sas/sas-viya-security.md) | [Role-based access control](../../capabilities/security/role-based-access.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) | [Keycloak](../open-source/keycloak.md), [Apache Polaris](../open-source/apache-polaris.md) | [Role-based access control](../../capabilities/security/role-based-access.md) |

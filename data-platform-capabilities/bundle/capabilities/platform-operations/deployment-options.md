@@ -66,6 +66,8 @@ The usual drivers are data residency and sovereignty rules, existing on-premises
 | [Teradata](../../platforms/platform-teradata.md) | Teradata Cloud / Teradata Factory | [Teradata Autonomous Knowledge Platform](../../technologies/teradata/teradata-autonomous-knowledge-platform.md), [Teradata Factory](../../technologies/teradata/teradata-factory.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Confluent Platform](../../technologies/ibm/confluent-platform.md), [IBM Software Hub (Cloud Pak for Data)](../../technologies/ibm/ibm-software-hub.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Apollo](../../technologies/palantir/palantir-apollo.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Viya](../../technologies/sas/sas-viya.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Cloud](../../technologies/dataiku/dataiku-cloud.md), [Dataiku Cloud Stacks and Fleet Manager](../../technologies/dataiku/dataiku-cloud-stacks.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Fivetran HVR](../../technologies/independent/fivetran-hvr.md), [Starburst Enterprise](../../technologies/independent/starburst-enterprise.md) |
 
 Narrower capabilities are realised by a further 31 technologies; see their pages.

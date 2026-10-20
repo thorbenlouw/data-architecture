@@ -55,4 +55,5 @@ It fits event-driven processes where no user waits for a reply but results are n
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [BigQuery continuous queries](../../technologies/google-cloud/gcp-bigquery-continuous-queries.md), [Dataflow ML](../../technologies/google-cloud/gcp-dataflow-ml.md), [Google Cloud Pub/Sub](../../technologies/google-cloud/gcp-pubsub.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Lakeflow pipelines](../../technologies/databricks/databricks-lakeflow-pipelines.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Confluent Intelligence](../../technologies/ibm/confluent-intelligence.md) (preview) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Event Stream Processing](../../technologies/sas/sas-event-stream-processing.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Beam](../../technologies/open-source/apache-beam.md), [Spark Structured Streaming](../../technologies/open-source/apache-spark-structured-streaming.md) |

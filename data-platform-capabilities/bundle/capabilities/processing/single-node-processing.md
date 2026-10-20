@@ -58,5 +58,6 @@ Most analytical datasets are small enough for this, and skipping the cluster rem
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [pandas on Snowflake](../../technologies/snowflake/snowflake-pandas-on-snowflake.md) |
 | [ClickHouse](../../platforms/platform-clickhouse.md) | clickhouse-local, chDB | [chDB](../../technologies/clickhouse/clickhouse-chdb.md), [clickhouse-local](../../technologies/clickhouse/clickhouse-local.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Code Repositories](../../technologies/palantir/palantir-code-repositories.md) |
+| [SAS](../../platforms/platform-sas.md) | SAS Compute Server | [SAS 9.4 and SAS Enterprise Guide](../../technologies/sas/sas-9.md), [SAS Compute Server](../../technologies/sas/sas-compute-server.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache DataFusion](../../technologies/open-source/apache-datafusion.md), [DuckDB](../../technologies/open-source/duckdb.md), [pandas](../../technologies/open-source/pandas.md), [Polars](../../technologies/open-source/polars.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [dbt Lake Compute](../../technologies/independent/dbt-lake-compute.md) (preview), [MotherDuck](../../technologies/independent/motherduck.md) |

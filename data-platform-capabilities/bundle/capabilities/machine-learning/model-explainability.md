@@ -55,4 +55,6 @@ Explanations help teams debug models and help users trust them, and law or regul
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Model Registry](../../technologies/snowflake/snowflake-model-registry.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Managed MLflow on Databricks](../../technologies/databricks/databricks-managed-mlflow.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [MySQL HeatWave AutoML and HeatWave GenAI](../../technologies/oracle/oracle-heatwave-automl-genai.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Studio](../../technologies/sas/sas-model-studio.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual ML](../../technologies/dataiku/dataiku-visual-ml.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Fiddler AI Control Plane](../../technologies/independent/fiddler-ai-control-plane.md), [H2O.ai Platform (Driverless AI and h2oGPTe)](../../technologies/independent/h2o-ai.md) |

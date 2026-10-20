@@ -58,4 +58,5 @@ It supports reproducing results, explaining individual decisions, model risk man
 | [Databricks](../../platforms/platform-databricks.md) |  | [Managed MLflow on Databricks](../../technologies/databricks/databricks-managed-mlflow.md), [Unity Catalog data lineage](../../technologies/databricks/databricks-unity-catalog-lineage.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Registry](../../technologies/cloudera/cloudera-ai-registry.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Modeling Objectives and model assets](../../technologies/palantir/palantir-modeling-objectives.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data Governance](../../technologies/sas/sas-data-governance.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Weights & Biases](../../technologies/independent/weights-and-biases.md) |

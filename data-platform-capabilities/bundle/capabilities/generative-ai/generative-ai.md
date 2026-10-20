@@ -52,4 +52,4 @@ Packaged forms such as an enterprise assistant, AI functions in SQL and conversa
 
 No technology in this bundle realises this capability directly yet.
 
-Narrower capabilities are realised by a further 260 technologies; see their pages.
+Narrower capabilities are realised by a further 273 technologies; see their pages.

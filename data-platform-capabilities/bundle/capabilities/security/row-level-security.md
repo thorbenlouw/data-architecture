@@ -65,5 +65,6 @@ It suits any dataset that serves audiences with different scope: regions, busine
 | [SAP](../../platforms/platform-sap.md) | Data access controls | [SAP Datasphere](../../technologies/sap/sap-datasphere.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Database security (roles, row-level security, encryption)](../../technologies/teradata/teradata-security.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Foundry security controls](../../technologies/palantir/palantir-security-controls.md) |
+| [SAS](../../platforms/platform-sas.md) | Row-level permissions | [SAS Viya security controls](../../technologies/sas/sas-viya-security.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Ranger](../../technologies/open-source/apache-ranger.md), [PostgreSQL](../../technologies/open-source/postgresql.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra Data Access](../../technologies/independent/collibra-data-access.md), [Immuta Data Authorization Platform](../../technologies/independent/immuta-data-authorization-platform.md) |

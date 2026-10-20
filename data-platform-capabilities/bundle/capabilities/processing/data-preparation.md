@@ -56,5 +56,7 @@ This serves analysts who need data shaped for a particular question and cannot w
 | [Databricks](../../platforms/platform-databricks.md) |  | [Lakeflow Designer](../../technologies/databricks/databricks-lakeflow-designer.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [Oracle Analytics Cloud](../../technologies/oracle/oracle-analytics-cloud.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Contour and Quiver](../../technologies/palantir/palantir-contour-quiver.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data Engineering](../../technologies/sas/sas-data-engineering.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Prepare recipe | [Dataiku Flow and visual recipes](../../technologies/dataiku/dataiku-flow-visual-recipes.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [pandas](../../technologies/open-source/pandas.md) |
-| [Independent vendors](../../platforms/platform-independent.md) |  | [Alteryx One](../../technologies/independent/alteryx-one.md), [Dataiku](../../technologies/independent/dataiku.md), [Tableau Cloud](../../technologies/independent/tableau-cloud.md), [ThoughtSpot Analyst Studio](../../technologies/independent/thoughtspot-analyst-studio.md) |
+| [Independent vendors](../../platforms/platform-independent.md) |  | [Alteryx One](../../technologies/independent/alteryx-one.md), [Tableau Cloud](../../technologies/independent/tableau-cloud.md), [ThoughtSpot Analyst Studio](../../technologies/independent/thoughtspot-analyst-studio.md) |

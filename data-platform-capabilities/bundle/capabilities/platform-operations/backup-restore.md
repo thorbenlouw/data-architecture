@@ -60,5 +60,6 @@ Time travel restores recent versions, but only for a limited period and within t
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Replication Manager](../../technologies/cloudera/cloudera-replication-manager.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [Oracle Autonomous AI Database](../../technologies/oracle/oracle-autonomous-ai-database.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Backup, Archive and Restore and Data Mover](../../technologies/teradata/teradata-bar-data-mover.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Cloud Stacks and Fleet Manager](../../technologies/dataiku/dataiku-cloud-stacks.md) |
 
 Narrower capabilities are realised by a further 5 technologies; see their pages.

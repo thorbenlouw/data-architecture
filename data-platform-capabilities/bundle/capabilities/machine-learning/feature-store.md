@@ -57,6 +57,7 @@ The benefits are consistency between training and serving, reuse across models, 
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Feature Store](../../technologies/snowflake/snowflake-feature-store.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Feature Store](../../technologies/databricks/databricks-feature-store.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Science](../../technologies/oracle/oracle-oci-data-science.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Feature Store](../../technologies/dataiku/dataiku-feature-store.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Feast](../../technologies/open-source/feast.md) |
 
 Narrower capabilities are realised by a further 12 technologies; see their pages.

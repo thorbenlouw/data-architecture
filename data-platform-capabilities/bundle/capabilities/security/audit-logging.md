@@ -66,5 +66,7 @@ Audit logs are the evidence behind investigations, breach notifications, access 
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Database security (roles, row-level security, encryption)](../../technologies/teradata/teradata-security.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM Guardium Data Security Center](../../technologies/ibm/ibm-guardium-data-security-center.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Foundry security controls](../../technologies/palantir/palantir-security-controls.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Viya security controls](../../technologies/sas/sas-viya-security.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku DSS](../../technologies/dataiku/dataiku.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache Ranger](../../technologies/open-source/apache-ranger.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Privacera](../../technologies/independent/privacera.md), [Varonis Data Security Platform](../../technologies/independent/varonis-data-security-platform.md) |

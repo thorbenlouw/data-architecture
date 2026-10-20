@@ -63,6 +63,8 @@ Assistants shorten routine work and help people writing in a dialect they know l
 | [Informatica](../../platforms/platform-informatica.md) | CLAIRE Copilot | [CLAIRE Copilot for Data Integration](../../technologies/informatica/informatica-claire-copilot-data-integration.md), [CLAIRE GPT](../../technologies/informatica/informatica-claire-gpt.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Tera](../../technologies/teradata/teradata-tera.md) (preview) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir MCP and Ontology MCP](../../technologies/palantir/palantir-mcp.md) |
+| [SAS](../../platforms/platform-sas.md) | SAS Viya Copilot | [SAS Viya Copilot](../../technologies/sas/sas-viya-copilot.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Code Studios](../../technologies/dataiku/dataiku-code-studios.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [dbt Copilot](../../technologies/independent/dbt-copilot.md), [Hex](../../technologies/independent/hex.md) |
 
-Narrower capabilities are realised by a further 12 technologies; see their pages.
+Narrower capabilities are realised by a further 13 technologies; see their pages.

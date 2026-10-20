@@ -60,4 +60,4 @@ Batch remains the default for most analytical data because it is cheap and easy 
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.data integration](../../technologies/ibm/ibm-watsonx-data-integration.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Data Connection](../../technologies/palantir/palantir-data-connection.md) |
 
-Narrower capabilities are realised by a further 57 technologies; see their pages.
+Narrower capabilities are realised by a further 59 technologies; see their pages.

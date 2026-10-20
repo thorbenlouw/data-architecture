@@ -53,5 +53,6 @@ Every estate has a long tail of sources no vendor will support, and ad hoc scrip
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake native connectors (Snowflake Connectors for ServiceNow, Google Analytics, SharePoint, PostgreSQL and MySQL)](../../technologies/snowflake/snowflake-native-connectors.md), [Snowflake Openflow](../../technologies/snowflake/snowflake-openflow.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Lakeflow Connect](../../technologies/databricks/databricks-lakeflow-connect.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM StreamSets](../../technologies/ibm/ibm-streamsets.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku connections](../../technologies/dataiku/dataiku-connections.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Airbyte](../../technologies/open-source/airbyte.md), [dlt (data load tool)](../../technologies/open-source/dlt.md), [Kafka Connect](../../technologies/open-source/apache-kafka-connect.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Airbyte Cloud](../../technologies/independent/airbyte-cloud.md), [Fivetran](../../technologies/independent/fivetran.md) |

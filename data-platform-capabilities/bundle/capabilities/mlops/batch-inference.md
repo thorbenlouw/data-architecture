@@ -55,4 +55,6 @@ It is the cheapest and simplest serving pattern, and it suits any decision that 
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Model Registry](../../technologies/snowflake/snowflake-model-registry.md), [Snowflake Model Serving in Snowpark Container Services](../../technologies/snowflake/snowflake-model-serving.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks AI Functions](../../technologies/databricks/databricks-ai-functions.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Bring Your Own Model (BYOM)](../../technologies/teradata/teradata-byom.md), [Teradata Elastic Python Compute](../../technologies/teradata/teradata-elastic-python-compute.md) |
+| [SAS](../../platforms/platform-sas.md) | In-database scoring | [SAS Data Accelerator](../../technologies/sas/sas-data-accelerator.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual ML](../../technologies/dataiku/dataiku-visual-ml.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Ray](../../technologies/open-source/ray.md), [vLLM](../../technologies/open-source/vllm.md) |

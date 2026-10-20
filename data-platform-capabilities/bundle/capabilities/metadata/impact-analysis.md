@@ -60,4 +60,6 @@ It turns lineage into decisions: avoiding broken consumers, scoping incidents an
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Data Lineage](../../technologies/cloudera/cloudera-data-lineage.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM Manta Data Lineage](../../technologies/ibm/ibm-manta-data-lineage.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Data Lineage](../../technologies/palantir/palantir-data-lineage.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data Governance](../../technologies/sas/sas-data-governance.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Data Lineage](../../technologies/dataiku/dataiku-data-lineage.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra Data Lineage](../../technologies/independent/collibra-data-lineage.md), [dbt Catalog](../../technologies/independent/dbt-catalog.md), [Monte Carlo Data + AI Observability](../../technologies/independent/monte-carlo-data-observability.md), [Solidatus](../../technologies/independent/solidatus.md) |

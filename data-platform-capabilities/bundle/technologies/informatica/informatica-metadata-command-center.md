@@ -42,5 +42,6 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Cloudera](../../platforms/platform-cloudera.md) | [Cloudera Data Lineage](../cloudera/cloudera-data-lineage.md) | [Metadata harvesting](../../capabilities/metadata/metadata-harvesting.md) |
 | [Oracle](../../platforms/platform-oracle.md) | [OCI Data Catalog](../oracle/oracle-oci-data-catalog.md) | [Metadata harvesting](../../capabilities/metadata/metadata-harvesting.md) |
 | [IBM](../../platforms/platform-ibm.md) | [IBM Manta Data Lineage](../ibm/ibm-manta-data-lineage.md), [IBM watsonx.data intelligence](../ibm/ibm-watsonx-data-intelligence.md) | [Metadata harvesting](../../capabilities/metadata/metadata-harvesting.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Data Governance](../sas/sas-data-governance.md) | [Metadata harvesting](../../capabilities/metadata/metadata-harvesting.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) | [DataHub](../open-source/datahub.md) | [Metadata harvesting](../../capabilities/metadata/metadata-harvesting.md) |
 | [Independent vendors](../../platforms/platform-independent.md) | [Collibra Data Catalog](../independent/collibra-data-catalog.md) | [Metadata harvesting](../../capabilities/metadata/metadata-harvesting.md) |

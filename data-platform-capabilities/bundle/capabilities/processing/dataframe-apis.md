@@ -57,4 +57,5 @@ DataFrames suit logic that is awkward in SQL: reusable functions, operations rep
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Flow](../../technologies/oracle/oracle-oci-data-flow.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Elastic Python Compute](../../technologies/teradata/teradata-elastic-python-compute.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Spark engine in IBM watsonx.data](../../technologies/ibm/ibm-watsonx-data-spark.md) |
+| [SAS](../../platforms/platform-sas.md) | SWAT | [SAS Cloud Analytic Services (CAS)](../../technologies/sas/sas-cloud-analytic-services.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Apache DataFusion](../../technologies/open-source/apache-datafusion.md), [Apache Spark](../../technologies/open-source/apache-spark.md), [Dask](../../technologies/open-source/dask.md), [pandas](../../technologies/open-source/pandas.md), [Polars](../../technologies/open-source/polars.md) |

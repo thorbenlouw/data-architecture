@@ -56,5 +56,7 @@ Much business information sits in documents: claims, contracts, delivery notes, 
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks ai_parse_document](../../technologies/databricks/databricks-ai-parse-document.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [OpenSearch and OpenRAG in IBM watsonx.data](../../technologies/ibm/ibm-watsonx-data-opensearch-openrag.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir media sets and AIP Document Intelligence](../../technologies/palantir/palantir-media-sets.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Retrieval Agent Manager](../../technologies/sas/sas-retrieval-agent-manager.md), [SAS Visual Text Analytics](../../technologies/sas/sas-visual-text-analytics.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Knowledge Banks](../../technologies/dataiku/dataiku-knowledge-banks.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Docling](../../technologies/open-source/docling.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [LlamaParse](../../technologies/independent/llamaparse.md), [MuleSoft Anypoint Platform](../../technologies/independent/mulesoft-anypoint-platform.md), [Unstructured.io](../../technologies/independent/unstructured.md) |

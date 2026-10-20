@@ -6196,28 +6196,283 @@ dpc:datahub-cloud a dpc:Technology ;
   rdfs:seeAlso <https://docs.datahub.com/docs/managed-datahub/managed-datahub-overview> .
 
 dpc:dataiku a dpc:Technology ;
-  skos:prefLabel "Dataiku"@en ;
-  dcterms:description "Collaborative platform for data preparation, visual and code-based machine learning, AutoML, deployment, monitoring and building AI agents, used by both analysts and data scientists."@en ;
-  skos:altLabel "Dataiku DSS"@en ;
-  dpc:realises dpc:data-preparation ;
-  dpc:realises dpc:automl ;
-  dpc:realises dpc:ml-pipelines ;
-  dpc:realises dpc:model-governance ;
-  dpc:realises dpc:ai-agents ;
-  dpc:realises dpc:data-consumer-portal ;
-  dpc:realises dpc:agent-registry ;
+  skos:prefLabel "Dataiku DSS"@en ;
+  dcterms:description "Platform in which teams build data pipelines, models, generative AI applications and agents as shared projects, with managed code environments, Git-based version control, containerised execution and per-user security."@en ;
+  skos:altLabel "Dataiku"@en ;
+  skos:altLabel "Data Science Studio"@en ;
+  skos:altLabel "Platform for AI Success"@en ;
+  skos:altLabel "Universal AI Platform"@en ;
   dpc:realises dpc:runtime-management ;
-  dpc:platform dpc:platform-independent ;
+  dpc:realises dpc:version-control ;
+  dpc:realises dpc:container-services ;
+  dpc:realises dpc:compute-user-isolation ;
+  dpc:realises dpc:secrets-management ;
+  dpc:realises dpc:audit-logging ;
+  dpc:realises dpc:data-consumer-portal ;
+  dpc:platform dpc:platform-dataiku ;
   rdfs:seeAlso <https://www.dataiku.com/product/> .
+
+dpc:dataiku-agent-hub a dpc:Technology ;
+  skos:prefLabel "Dataiku Agent Hub"@en ;
+  dcterms:description "Portal in which business users chat with the agents an organisation publishes and build their own quick agents over documents and data."@en ;
+  skos:altLabel "Agent Chat"@en ;
+  skos:altLabel "Quick Agents"@en ;
+  dpc:realises dpc:enterprise-ai-assistant ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/generative-ai/chat-ui/index.html> .
+
+dpc:dataiku-agent-management a dpc:Technology ;
+  skos:prefLabel "Dataiku Agent Management"@en ;
+  dcterms:description "Standalone product that finds AI agents running on Dataiku and other vendors' platforms, maps the tools and models they use, and tracks their performance, risk and certification status."@en ;
+  dpc:realises dpc:ai-system-discovery ;
+  dpc:realises dpc:agent-registry ;
+  dpc:realises dpc:genai-observability ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://www.dataiku.com/company/news/dataiku-agent-management-general-availability> .
+
+dpc:dataiku-agents a dpc:Technology ;
+  skos:prefLabel "Dataiku Visual Agents and Code Agents"@en ;
+  dcterms:description "Agents built visually or in Python on the LLM Mesh, using managed tools, knowledge banks, semantic models and MCP tools, with human approval steps, tracing, evaluation and MCP and A2A servers for other systems."@en ;
+  skos:altLabel "Visual Agents"@en ;
+  skos:altLabel "Code Agents"@en ;
+  skos:altLabel "Structured Visual Agents"@en ;
+  skos:altLabel "Agent Skills"@en ;
+  dpc:realises dpc:ai-agents ;
+  dpc:realises dpc:agent-tool-access ;
+  dpc:realises dpc:human-oversight ;
+  dpc:realises dpc:genai-observability ;
+  dpc:realises dpc:genai-evaluation ;
+  dpc:realises dpc:agent-interoperability ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/agents/index.html> .
+
+dpc:dataiku-catalog a dpc:Technology ;
+  skos:prefLabel "Dataiku Catalog"@en ;
+  dcterms:description "Instance-wide catalogue for finding datasets, models, agents, knowledge banks and other project assets, with curated collections, a most-used datasets view and AI-generated descriptions."@en ;
+  skos:altLabel "Dataiku Data Catalog"@en ;
+  dpc:realises dpc:data-catalogue ;
+  dpc:realises dpc:usage-metadata ;
+  dpc:realises dpc:ai-generated-documentation ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/catalog/index.html> .
+
+dpc:dataiku-cloud a dpc:Technology ;
+  skos:prefLabel "Dataiku Cloud"@en ;
+  dcterms:description "Edition of Dataiku that Dataiku hosts, operates and upgrades as a service, administered through a Launchpad and connected to the customer's own data sources."@en ;
+  dpc:realises dpc:deployment-options ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://knowledge.dataiku.com/latest/kb/dataiku-cloud-offer/launchpad.html> .
+
+dpc:dataiku-cloud-stacks a dpc:Technology ;
+  skos:prefLabel "Dataiku Cloud Stacks and Fleet Manager"@en ;
+  dcterms:description "Self-managed deployment of Dataiku in the customer's AWS, Azure or Google Cloud account, where Fleet Manager creates, upgrades, backs up and configures the Dataiku instances."@en ;
+  skos:altLabel "Fleet Manager"@en ;
+  skos:altLabel "Dataiku Cloud Stacks"@en ;
+  dpc:realises dpc:deployment-options ;
+  dpc:realises dpc:backup-restore ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/installation/cloudstacks-aws/index.html> .
+
+dpc:dataiku-cobuild a dpc:Technology ;
+  skos:prefLabel "Dataiku Cobuild"@en ;
+  dcterms:description "Agent inside a Dataiku project that builds and edits Flows, recipes, models, knowledge banks, agents, dashboards, notebooks and scenarios from natural-language requests."@en ;
+  dpc:realises dpc:data-engineering-agents ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/ai-assistants/cobuild.html> .
+
+dpc:dataiku-code-recipes-notebooks a dpc:Technology ;
+  skos:prefLabel "Dataiku code recipes and notebooks"@en ;
+  dcterms:description "Python, R, SQL, Hive, Impala, PySpark, SparkR, SparkSQL, Spark Scala and shell recipes and Jupyter and SQL notebooks that run inside the Flow alongside visual recipes."@en ;
+  dpc:realises dpc:notebooks ;
+  dpc:realises dpc:sql-transformation ;
+  dpc:realises dpc:distributed-processing ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/code-recipes/index.html> .
+
+dpc:dataiku-code-studios a dpc:Technology ;
+  skos:prefLabel "Dataiku Code Studios"@en ;
+  dcterms:description "Browser-based development environments such as VS Code, JupyterLab and RStudio that run in containers next to a project, with coding agents such as Claude Code, OpenAI Codex and GitHub Copilot."@en ;
+  dpc:realises dpc:local-development ;
+  dpc:realises dpc:ai-assisted-development ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/code-studios/index.html> .
+
+dpc:dataiku-connections a dpc:Technology ;
+  skos:prefLabel "Dataiku connections"@en ;
+  dcterms:description "Connectors that read and write data in SQL databases, cloud warehouses, object storage, Iceberg tables, NoSQL stores and business applications, and let recipes run inside the connected engine."@en ;
+  dpc:realises dpc:database-extraction ;
+  dpc:realises dpc:saas-connectors ;
+  dpc:realises dpc:engine-interoperability ;
+  dpc:realises dpc:custom-connectors ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/connecting/index.html> .
+
+dpc:dataiku-dashboards-stories a dpc:Technology ;
+  skos:prefLabel "Dataiku dashboards and Stories"@en ;
+  dcterms:description "Charts, dashboards with filters, cross-filtering and drill-down, and Stories, slide-style presentations of live data that an assistant can draft from instructions."@en ;
+  skos:altLabel "Dataiku Stories"@en ;
+  dpc:realises dpc:dashboards-reports ;
+  dpc:realises dpc:ad-hoc-analysis ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/dashboards/index.html> .
+
+dpc:dataiku-data-lineage a dpc:Technology ;
+  skos:prefLabel "Dataiku Data Lineage"@en ;
+  dcterms:description "Column-level lineage across datasets and projects in a Dataiku instance, with manual lineage entries and exports of the lineage graph."@en ;
+  dpc:realises dpc:column-lineage ;
+  dpc:realises dpc:impact-analysis ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/data-lineage/index.html> .
+
+dpc:dataiku-data-quality a dpc:Technology ;
+  skos:prefLabel "Dataiku Data Quality rules"@en ;
+  dcterms:description "Rules on dataset contents, such as value ranges, uniqueness, record counts, schema and values within their usual range, that can run automatically after each build and roll up into dataset, project and instance views."@en ;
+  skos:altLabel "Metrics and checks"@en ;
+  skos:altLabel "Data Quality Templates"@en ;
+  dpc:realises dpc:data-quality-rules ;
+  dpc:realises dpc:data-quality-scorecards ;
+  dpc:realises dpc:data-anomaly-detection ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/metrics-check-data-quality/index.html> .
+
+dpc:dataiku-deployer a dpc:Technology ;
+  skos:prefLabel "Dataiku Deployer and API nodes"@en ;
+  dcterms:description "Deployment of project bundles to automation nodes and of models and functions as real-time API services on API nodes, Kubernetes or external machine learning platforms, with several endpoint versions able to share traffic."@en ;
+  skos:altLabel "Project Deployer"@en ;
+  skos:altLabel "API Deployer"@en ;
+  skos:altLabel "API node"@en ;
+  skos:altLabel "Automation node"@en ;
+  dpc:realises dpc:environment-promotion ;
+  dpc:realises dpc:real-time-inference ;
+  dpc:realises dpc:canary-ab-testing ;
+  dpc:realises dpc:ml-cicd ;
+  dpc:realises dpc:inference-logging ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/deployment/index.html> .
+
+dpc:dataiku-feature-store a dpc:Technology ;
+  skos:prefLabel "Dataiku Feature Store"@en ;
+  dcterms:description "Registry of curated feature groups, shared datasets that other projects join in batch or look up from API services in real time."@en ;
+  dpc:realises dpc:feature-store ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/mlops/feature-store/index.html> .
+
+dpc:dataiku-flow-visual-recipes a dpc:Technology ;
+  skos:prefLabel "Dataiku Flow and visual recipes"@en ;
+  dcterms:description "Visual pipeline of datasets and recipes, in which the Prepare recipe and recipes such as join, group, window, pivot and fuzzy join transform data without code and can run in the underlying database or Spark."@en ;
+  skos:altLabel "Prepare recipe"@en ;
+  skos:altLabel "Flow"@en ;
+  dpc:realises dpc:low-code-transformation ;
+  dpc:realises dpc:data-preparation ;
+  dpc:realises dpc:data-cleansing ;
+  dpc:realises dpc:incremental-processing ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/visual-recipes/index.html> .
+
+dpc:dataiku-govern a dpc:Technology ;
+  skos:prefLabel "Dataiku Govern"@en ;
+  dcterms:description "Separate governance node that keeps registries of projects, bundles, models and agents, with sign-off workflows, deployment policies and custom governance templates."@en ;
+  dpc:realises dpc:model-governance ;
+  dpc:realises dpc:ai-governance ;
+  dpc:realises dpc:model-registry ;
+  dpc:realises dpc:agent-registry ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/governance/index.html> .
+
+dpc:dataiku-knowledge-banks a dpc:Technology ;
+  skos:prefLabel "Dataiku Knowledge Banks"@en ;
+  dcterms:description "Retrieval stores built by recipes that extract text and fields from documents, split and embed them, and index them for retrieval-augmented generation and agents."@en ;
+  skos:altLabel "Embed documents recipe"@en ;
+  skos:altLabel "Extract Content recipe"@en ;
+  dpc:realises dpc:retrieval-pipelines ;
+  dpc:realises dpc:embedding-generation ;
+  dpc:realises dpc:document-processing ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/generative-ai/knowledge/index.html> .
+
+dpc:dataiku-labeling a dpc:Technology ;
+  skos:prefLabel "Dataiku labeling"@en ;
+  dcterms:description "Labeling recipe in which people classify or annotate images, text and tabular records to create training data."@en ;
+  skos:altLabel "Labeling recipe"@en ;
+  dpc:realises dpc:data-labelling ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/machine-learning/labeling.html> .
 
 dpc:dataiku-llm-mesh a dpc:Technology ;
   skos:prefLabel "Dataiku LLM Mesh"@en ;
-  dcterms:description "Abstraction layer that routes calls from Dataiku projects to many LLM providers, with quotas, cost tracking, PII screening and monitoring."@en ;
+  dcterms:description "Gateway through which Dataiku projects, agents and applications call commercial, cloud-hosted and self-hosted LLMs, with guardrails, cost quotas, rate limits, evaluation and logging."@en ;
+  skos:altLabel "LLM Guard Services"@en ;
+  skos:altLabel "Cost Guard"@en ;
+  skos:altLabel "Safe Guard"@en ;
+  skos:altLabel "Quality Guard"@en ;
   dpc:realises dpc:ai-gateway ;
   dpc:realises dpc:ai-guardrails ;
   dpc:realises dpc:ai-spend-controls ;
-  dpc:platform dpc:platform-independent ;
-  rdfs:seeAlso <https://www.dataiku.com/product/> .
+  dpc:realises dpc:genai-evaluation ;
+  dpc:realises dpc:model-customisation ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/generative-ai/index.html> .
+
+dpc:dataiku-model-monitoring a dpc:Technology ;
+  skos:prefLabel "Dataiku model evaluation stores and Unified Monitoring"@en ;
+  dcterms:description "Stores of repeated model evaluations with drift and performance metrics, and dashboards that show the health of deployed projects, Dataiku API endpoints and external endpoints."@en ;
+  skos:altLabel "Model evaluation stores"@en ;
+  skos:altLabel "Unified Monitoring"@en ;
+  dpc:realises dpc:model-performance-monitoring ;
+  dpc:realises dpc:drift-detection ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/mlops/model-evaluations/index.html> .
+
+dpc:dataiku-prompt-studios a dpc:Technology ;
+  skos:prefLabel "Dataiku Prompt Studios"@en ;
+  dcterms:description "Workspace for writing, testing and comparing prompts across LLMs, and the Prompt recipe that applies a saved prompt to every row of a dataset."@en ;
+  skos:altLabel "Prompt recipe"@en ;
+  dpc:realises dpc:prompt-management ;
+  dpc:realises dpc:ai-functions ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/generative-ai/prompt-studio.html> .
+
+dpc:dataiku-scenarios a dpc:Technology ;
+  skos:prefLabel "Dataiku scenarios"@en ;
+  dcterms:description "Automation that builds datasets, verifies data quality rules, retrains models and runs other steps on schedules or triggers, and reports results by email, chat or webhook."@en ;
+  dpc:realises dpc:workflow-orchestration ;
+  dpc:realises dpc:event-driven-triggering ;
+  dpc:realises dpc:continuous-training ;
+  dpc:realises dpc:data-testing ;
+  dpc:realises dpc:data-alerting ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/scenarios/index.html> .
+
+dpc:dataiku-semantic-models a dpc:Technology ;
+  skos:prefLabel "Dataiku Semantic Models"@en ;
+  dcterms:description "Business models of tables, columns, relationships and metrics that agents use to turn natural-language questions into correct SQL."@en ;
+  dpc:realises dpc:ai-context-layer ;
+  dpc:realises dpc:metric-definitions ;
+  dpc:realises dpc:conversational-analytics ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/semantic-models/index.html> .
+
+dpc:dataiku-visual-ml a dpc:Technology ;
+  skos:prefLabel "Dataiku Visual ML"@en ;
+  dcterms:description "Visual and code-assisted model building for prediction, clustering, time series forecasting and causal prediction, with automatic feature handling, algorithm search, explanations and stress tests."@en ;
+  skos:altLabel "Dataiku AutoML"@en ;
+  skos:altLabel "Visual AutoML"@en ;
+  dpc:realises dpc:automl ;
+  dpc:realises dpc:hyperparameter-tuning ;
+  dpc:realises dpc:model-explainability ;
+  dpc:realises dpc:model-evaluation ;
+  dpc:realises dpc:ml-pipelines ;
+  dpc:realises dpc:experiment-tracking ;
+  dpc:realises dpc:batch-inference ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/machine-learning/index.html> .
+
+dpc:dataiku-webapps a dpc:Technology ;
+  skos:prefLabel "Dataiku webapps and Dataiku Applications"@en ;
+  dcterms:description "Hosted web applications written in HTML and JavaScript, Python (Dash, Streamlit, Bokeh, FastAPI) or R Shiny, and Dataiku Applications, which package a project as a reusable form-driven tool."@en ;
+  dpc:realises dpc:data-applications ;
+  dpc:platform dpc:platform-dataiku ;
+  rdfs:seeAlso <https://doc.dataiku.com/dss/latest/webapps/index.html> .
 
 dpc:datarobot-ai-platform a dpc:Technology ;
   skos:prefLabel "DataRobot AI Platform"@en ;
@@ -13253,6 +13508,11 @@ dpc:platform-databricks a dpc:Platform ;
   dcterms:description "A multi-cloud data and AI platform built on Apache Spark, Delta Lake and Unity Catalog."@en ;
   rdfs:seeAlso <https://www.databricks.com/> .
 
+dpc:platform-dataiku a dpc:Platform ;
+  skos:prefLabel "Dataiku"@en ;
+  dcterms:description "A platform for building data pipelines, machine learning models, generative AI applications and AI agents visually or in code, on top of an organisation's existing data platforms."@en ;
+  rdfs:seeAlso <https://www.dataiku.com/product/> .
+
 dpc:platform-google-cloud a dpc:Platform ;
   skos:prefLabel "Google Cloud"@en ;
   dcterms:description "Google's cloud, centred on BigQuery for analytics and its agent platform for AI."@en ;
@@ -13341,6 +13601,11 @@ dpc:platform-sap a dpc:Platform ;
   skos:prefLabel "SAP"@en ;
   dcterms:description "SAP's data and analytics services for data from SAP business applications and other sources."@en ;
   rdfs:seeAlso <https://www.sap.com/> .
+
+dpc:platform-sas a dpc:Platform ;
+  skos:prefLabel "SAS"@en ;
+  dcterms:description "An analytics and AI platform, SAS Viya, for preparing and governing data, building and managing models, and running automated decisions, alongside the long-standing SAS 9 software."@en ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/viya.html> .
 
 dpc:platform-snowflake a dpc:Platform ;
   skos:prefLabel "Snowflake"@en ;
@@ -14560,6 +14825,311 @@ dpc:sap-snowflake a dpc:Technology ;
   dpc:platform dpc:platform-sap ;
   dpc:distributionOf dpc:platform-snowflake ;
   rdfs:seeAlso <https://www.sap.com/products/data-cloud/snowflake.html> .
+
+dpc:sas-9 a dpc:Technology ;
+  skos:prefLabel "SAS 9.4 and SAS Enterprise Guide"@en ;
+  dcterms:description "Earlier SAS platform of Base SAS, SAS/STAT and other products running on Windows and Linux servers, with the SAS Enterprise Guide desktop client for code and point-and-click tasks."@en ;
+  skos:altLabel "SAS 9"@en ;
+  skos:altLabel "SAS9"@en ;
+  skos:altLabel "Base SAS"@en ;
+  skos:altLabel "SAS Enterprise Guide"@en ;
+  skos:altLabel "SAS EG"@en ;
+  skos:altLabel "SAS Grid Manager"@en ;
+  dpc:realises dpc:single-node-processing ;
+  dpc:realises dpc:local-development ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://support.sas.com/en/software/base-sas-support.html> .
+
+dpc:sas-agentic-ai-accelerator a dpc:Technology ;
+  skos:prefLabel "SAS Agentic AI Accelerator"@en ;
+  dcterms:description "Open-source kit of code, deployment recipes and interfaces for building, governing and deploying AI agents on SAS Viya, including a no-code prompt engineering interface and recipes for hosting LLMs and embedding models."@en ;
+  dpc:realises dpc:ai-agents ;
+  dpc:realises dpc:prompt-management ;
+  dpc:realises dpc:generative-model-serving ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://github.com/sassoftware/sas-agentic-ai-accelerator> .
+
+dpc:sas-ai-navigator a dpc:Technology ;
+  skos:prefLabel "SAS AI Navigator"@en ;
+  dcterms:description "SaaS application that keeps an inventory of an organisation's AI models, agents and use cases, from SAS or elsewhere, and checks them against internal policies and imported regulatory policy packs."@en ;
+  dpc:realises dpc:ai-governance ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/ai-navigator.html> .
+
+dpc:sas-cloud-analytic-services a dpc:Technology ;
+  skos:prefLabel "SAS Cloud Analytic Services (CAS)"@en ;
+  dcterms:description "In-memory engine in SAS Viya that loads tables across a cluster of workers and runs data preparation, SQL, statistics and machine learning on them in parallel."@en ;
+  skos:altLabel "CAS"@en ;
+  skos:altLabel "CAS server"@en ;
+  skos:altLabel "Cloud Analytic Services"@en ;
+  dpc:realises dpc:distributed-processing ;
+  dpc:realises dpc:sql-query-engine ;
+  dpc:realises dpc:dataframe-apis ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://go.documentation.sas.com/doc/en/pgmsascdc/default/casfun/titlepage.htm> .
+
+dpc:sas-compute-server a dpc:Technology ;
+  skos:prefLabel "SAS Compute Server"@en ;
+  dcterms:description "Single-machine server in SAS Viya that runs traditional SAS programs, such as DATA step and procedures, and Python code in sessions started for each user or job."@en ;
+  skos:altLabel "SAS Programming Runtime Environment"@en ;
+  skos:altLabel "SPRE"@en ;
+  skos:altLabel "compute service"@en ;
+  dpc:realises dpc:single-node-processing ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://developer.sas.com/rest-apis/compute/docs/overview> .
+
+dpc:sas-container-runtime a dpc:Technology ;
+  skos:prefLabel "SAS Container Runtime"@en ;
+  dcterms:description "Packaging of SAS and Python models and decisions as lightweight OCI containers with a REST scoring endpoint that run on any container platform without a SAS Viya deployment."@en ;
+  skos:altLabel "SCR"@en ;
+  dpc:realises dpc:real-time-inference ;
+  dpc:realises dpc:edge-inference ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://support.sas.com/en/software/container-runtime.html> .
+
+dpc:sas-data-accelerator a dpc:Technology ;
+  skos:prefLabel "SAS Data Accelerator"@en ;
+  dcterms:description "Capability of SAS Viya that runs SAS model scoring, data quality functions and some analytics inside external databases and cloud data platforms instead of moving the data to SAS."@en ;
+  skos:altLabel "SAS Scoring Accelerator"@en ;
+  skos:altLabel "SAS Code Accelerator"@en ;
+  skos:altLabel "SAS Data Quality Accelerator"@en ;
+  skos:altLabel "SAS In-Database Technologies"@en ;
+  dpc:realises dpc:batch-inference ;
+  dpc:realises dpc:data-cleansing ;
+  dpc:realises dpc:entity-resolution ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/data-accelerator.html> .
+
+dpc:sas-data-and-ai-studio a dpc:Technology ;
+  skos:prefLabel "SAS Data and AI Studio"@en ;
+  dcterms:description "Browser-based development environment in SAS Viya for writing SAS and Python code and building visual flows that extract, transform and load data and run analytics."@en ;
+  skos:altLabel "SAS Data and AI Studio Advanced"@en ;
+  skos:altLabel "SAS Data and AI Studio Enterprise"@en ;
+  skos:altLabel "SAS Studio flows"@en ;
+  skos:altLabel "SAS Studio"@en ;
+  skos:altLabel "SAS Studio Analyst"@en ;
+  skos:altLabel "SAS Studio Engineer"@en ;
+  dpc:realises dpc:low-code-transformation ;
+  dpc:realises dpc:sql-transformation ;
+  dpc:realises dpc:version-control ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/data-and-ai-studio.html> .
+
+dpc:sas-data-engineering a dpc:Technology ;
+  skos:prefLabel "SAS Data Engineering"@en ;
+  dcterms:description "Packaged SAS Viya offering for building data pipelines that bundles visual and code-based development, data connectivity, data profiling, data quality, entity resolution and governance."@en ;
+  skos:altLabel "SAS Data Engineering Advanced"@en ;
+  dpc:realises dpc:data-cleansing ;
+  dpc:realises dpc:data-profiling ;
+  dpc:realises dpc:entity-resolution ;
+  dpc:realises dpc:data-preparation ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/data-engineering.html> .
+
+dpc:sas-data-governance a dpc:Technology ;
+  skos:prefLabel "SAS Data Governance"@en ;
+  dcterms:description "Catalogue and governance product in SAS Viya that discovers and profiles data assets, detects personal data, records lineage from data to reports and models, and holds a business glossary."@en ;
+  skos:altLabel "SAS Data Governance Advanced"@en ;
+  skos:altLabel "SAS Information Catalog"@en ;
+  skos:altLabel "SAS Information Governance"@en ;
+  dpc:realises dpc:data-catalogue ;
+  dpc:realises dpc:metadata-harvesting ;
+  dpc:realises dpc:data-classification ;
+  dpc:realises dpc:table-lineage ;
+  dpc:realises dpc:model-lineage ;
+  dpc:realises dpc:impact-analysis ;
+  dpc:realises dpc:business-glossary ;
+  dpc:realises dpc:data-profiling ;
+  dpc:realises dpc:data-policy-management ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/data-governance.html> .
+
+dpc:sas-data-hub a dpc:Technology ;
+  skos:prefLabel "SAS Data Hub"@en ;
+  dcterms:description "Data connectivity application in SAS Viya for defining and monitoring connections to databases, cloud data platforms and file stores, and for browsing and previewing their data."@en ;
+  skos:altLabel "SAS Data Explorer"@en ;
+  dpc:realises dpc:database-extraction ;
+  dpc:realises dpc:query-federation ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/data-hub.html> .
+
+dpc:sas-data-maker a dpc:Technology ;
+  skos:prefLabel "SAS Data Maker"@en ;
+  dcterms:description "Low-code application that generates synthetic tables, including related tables and time series, which keep the statistical patterns of real data, and reports the quality and privacy of the result."@en ;
+  dpc:realises dpc:synthetic-data ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/data-maker.html> .
+
+dpc:sas-event-stream-processing a dpc:Technology ;
+  skos:prefLabel "SAS Event Stream Processing"@en ;
+  dcterms:description "Streaming engine that filters, aggregates, joins and scores events in continuous queries, running from edge devices to Kubernetes clusters, with a low-code designer."@en ;
+  skos:altLabel "SAS ESP"@en ;
+  skos:altLabel "ESP"@en ;
+  skos:altLabel "SAS Event Stream Processing Studio"@en ;
+  skos:altLabel "SAS Event Stream Manager"@en ;
+  dpc:realises dpc:stream-processing ;
+  dpc:realises dpc:streaming-inference ;
+  dpc:realises dpc:edge-data-processing ;
+  dpc:realises dpc:iot-ingestion ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/event-stream-processing.html> .
+
+dpc:sas-intelligent-decisioning a dpc:Technology ;
+  skos:prefLabel "SAS Intelligent Decisioning"@en ;
+  dcterms:description "Application in SAS Viya for building decision flows that combine business rules, model scores, code and calls to external APIs such as LLMs, then testing them and publishing them as batch, API or real-time services."@en ;
+  dpc:realises dpc:decision-management ;
+  dpc:realises dpc:ai-agents ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/intelligent-decisioning.html> .
+
+dpc:sas-managed-cloud-services a dpc:Technology ;
+  skos:prefLabel "SAS Managed Cloud Services"@en ;
+  dcterms:description "SAS-operated hosting and management of SAS software on Microsoft Azure or AWS, or in a customer's own cloud, including SAS Viya Essentials, a fixed-price set of SAS Viya products on Azure."@en ;
+  skos:altLabel "SAS Cloud"@en ;
+  skos:altLabel "SAS Managed Services"@en ;
+  skos:altLabel "SAS Viya Essentials"@en ;
+  skos:altLabel "SAS Software as a Service"@en ;
+  dpc:realises dpc:provisioned-compute ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/solutions/cloud/sas-managed-cloud-services.html> .
+
+dpc:sas-model-manager a dpc:Technology ;
+  skos:prefLabel "SAS Model Manager"@en ;
+  dcterms:description "Model lifecycle application in SAS Viya that registers and versions SAS, Python and R models, documents them with model cards, publishes them to run-time destinations and monitors their performance and drift."@en ;
+  dpc:realises dpc:model-registry ;
+  dpc:realises dpc:model-governance ;
+  dpc:realises dpc:model-deployment ;
+  dpc:realises dpc:model-performance-monitoring ;
+  dpc:realises dpc:drift-detection ;
+  dpc:realises dpc:champion-challenger ;
+  dpc:realises dpc:ml-cicd ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/model-manager.html> .
+
+dpc:sas-model-studio a dpc:Technology ;
+  skos:prefLabel "SAS Model Studio"@en ;
+  dcterms:description "Browser-based machine learning application in SAS Viya that builds, compares and explains pipelines of data preparation, feature engineering and models, with automated pipeline generation and tuning."@en ;
+  skos:altLabel "Model Studio"@en ;
+  skos:altLabel "SAS Viya Machine Learning"@en ;
+  skos:altLabel "VDMML"@en ;
+  skos:altLabel "SAS Visual Data Mining and Machine Learning"@en ;
+  dpc:realises dpc:automl ;
+  dpc:realises dpc:hyperparameter-tuning ;
+  dpc:realises dpc:ml-pipelines ;
+  dpc:realises dpc:feature-engineering ;
+  dpc:realises dpc:model-evaluation ;
+  dpc:realises dpc:model-explainability ;
+  dpc:realises dpc:fairness-assessment ;
+  dpc:realises dpc:distributed-training ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/model-studio.html> .
+
+dpc:sas-retrieval-agent-manager a dpc:Technology ;
+  skos:prefLabel "SAS Retrieval Agent Manager"@en ;
+  dcterms:description "No-code retrieval-augmented generation product that ingests documents, tests and selects retrieval configurations, and serves cited answers through an API, chatbot or retrieval agents."@en ;
+  skos:altLabel "RAM"@en ;
+  skos:altLabel "SAS RAM"@en ;
+  dpc:realises dpc:retrieval-pipelines ;
+  dpc:realises dpc:genai-evaluation ;
+  dpc:realises dpc:document-processing ;
+  dpc:realises dpc:permission-aware-retrieval ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/retrieval-agent-manager.html> .
+
+dpc:sas-speedystore a dpc:Technology ;
+  skos:prefLabel "SAS SpeedyStore"@en ;
+  dcterms:description "SingleStore database embedded in SAS Viya, so that transactional and analytical workloads and SAS analytics run against one copy of the data."@en ;
+  skos:altLabel "SAS Viya with SingleStore Premium"@en ;
+  dpc:realises dpc:real-time-analytics ;
+  dpc:realises dpc:operational-database ;
+  dpc:realises dpc:sql-query-engine ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/viya/singlestore.html> .
+
+dpc:sas-visual-analytics a dpc:Technology ;
+  skos:prefLabel "SAS Visual Analytics"@en ;
+  dcterms:description "Web application in SAS Viya for building interactive reports and dashboards, exploring data, and running automated explanations, forecasts and scenario analysis without code."@en ;
+  skos:altLabel "SAS VA"@en ;
+  dpc:realises dpc:dashboards-reports ;
+  dpc:realises dpc:ad-hoc-analysis ;
+  dpc:realises dpc:augmented-analytics ;
+  dpc:realises dpc:embedded-analytics ;
+  dpc:realises dpc:spreadsheet-integration ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/visual-analytics.html> .
+
+dpc:sas-visual-forecasting a dpc:Technology ;
+  skos:prefLabel "SAS Visual Forecasting"@en ;
+  dcterms:description "Forecasting application in SAS Viya that builds pipelines of time series, machine learning and hybrid models for each level of a hierarchy, selects the best model for each series and reconciles forecasts across levels."@en ;
+  dpc:realises dpc:ml-pipelines ;
+  dpc:realises dpc:automl ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/visual-forecasting.html> .
+
+dpc:sas-visual-text-analytics a dpc:Technology ;
+  skos:prefLabel "SAS Visual Text Analytics"@en ;
+  dcterms:description "Natural language processing application in SAS Viya that parses text, discovers topics, classifies documents, analyses sentiment and extracts information with linguistic rules, machine learning and LLMs."@en ;
+  dpc:realises dpc:document-processing ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/visual-text-analytics.html> .
+
+dpc:sas-viya a dpc:Technology ;
+  skos:prefLabel "SAS Viya"@en ;
+  dcterms:description "Cloud-native analytics and AI platform on Kubernetes that hosts SAS's data management, visual analytics, machine learning, model management, decisioning and streaming products."@en ;
+  skos:altLabel "Viya"@en ;
+  skos:altLabel "Viya 4"@en ;
+  skos:altLabel "SAS Viya Platform"@en ;
+  skos:altLabel "SAS Viya Advanced"@en ;
+  skos:altLabel "SAS Viya Enterprise"@en ;
+  skos:altLabel "SAS Viya Programming"@en ;
+  dpc:realises dpc:deployment-options ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/viya.html> .
+
+dpc:sas-viya-copilot a dpc:Technology ;
+  skos:prefLabel "SAS Viya Copilot"@en ;
+  dcterms:description "Family of AI assistants embedded in SAS Viya applications that generate and explain SAS and Python code, guide model pipeline building and help manage models and decisions from natural-language requests."@en ;
+  skos:altLabel "Viya Copilot"@en ;
+  skos:altLabel "SAS Viya Copilot for Code Assistance"@en ;
+  dpc:realises dpc:ai-assisted-development ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/viya/copilot.html> .
+
+dpc:sas-viya-mcp-server a dpc:Technology ;
+  skos:prefLabel "SAS Viya MCP Server"@en ;
+  dcterms:description "Self-hosted Model Context Protocol server that lets external AI agents and coding assistants run SAS code, train AutoML projects, score models and work with SAS Viya content as tools, under the user's Viya permissions."@en ;
+  dpc:realises dpc:agent-tool-access ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://github.com/sassoftware/sas-mcp-server> .
+
+dpc:sas-viya-security a dpc:Technology ;
+  skos:prefLabel "SAS Viya security controls"@en ;
+  dcterms:description "Authentication through SAS Logon with OpenID Connect, SAML or LDAP, rule-based permissions on folders, reports and services, row-level permissions on CAS tables, and audit records of user activity."@en ;
+  skos:altLabel "SAS Logon"@en ;
+  skos:altLabel "SAS Viya authorization"@en ;
+  dpc:realises dpc:role-based-access ;
+  dpc:realises dpc:row-level-security ;
+  dpc:realises dpc:identity-authentication ;
+  dpc:realises dpc:audit-logging ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://go.documentation.sas.com/doc/en/sasadmincdc/default/calauthzgen/titlepage.htm> .
+
+dpc:sas-viya-workbench a dpc:Technology ;
+  skos:prefLabel "SAS Viya Workbench"@en ;
+  dcterms:description "Self-service cloud development environment in which data scientists code in SAS, Python or R through Jupyter, Visual Studio Code or SAS Enterprise Guide on CPU or GPU compute that scales and stops on demand."@en ;
+  dpc:realises dpc:notebooks ;
+  dpc:realises dpc:gpu-compute ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/viya/workbench.html> .
+
+dpc:sas-workload-management a dpc:Technology ;
+  skos:prefLabel "SAS Workload Management"@en ;
+  dcterms:description "Scheduler for SAS Viya compute sessions and jobs on Kubernetes that routes work through rule-based queues and priorities, balances it across nodes by capacity and restarts pre-empted jobs."@en ;
+  skos:altLabel "SAS Workload Orchestrator"@en ;
+  skos:altLabel "SWO"@en ;
+  dpc:realises dpc:workload-management ;
+  dpc:platform dpc:platform-sas ;
+  rdfs:seeAlso <https://www.sas.com/en_us/software/workload-management.html> .
 
 dpc:scale-data-engine a dpc:Technology ;
   skos:prefLabel "Scale Data Engine"@en ;

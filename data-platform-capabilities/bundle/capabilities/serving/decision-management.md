@@ -55,4 +55,5 @@ It suits decisions taken at volume that must be consistent, explainable to custo
 
 | Platform | Name used | Technologies |
 |---|---|---|
+| [SAS](../../platforms/platform-sas.md) | Decisions | [SAS Intelligent Decisioning](../../technologies/sas/sas-intelligent-decisioning.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Hightouch](../../technologies/independent/hightouch.md) |

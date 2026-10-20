@@ -66,4 +66,4 @@ Most organisations cannot send sensitive data to consumer AI services, so govern
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.ai](../../technologies/ibm/ibm-watsonx-ai.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir AIP and AIP Model Catalog](../../technologies/palantir/palantir-aip.md) |
 
-Narrower capabilities are realised by a further 24 technologies; see their pages.
+Narrower capabilities are realised by a further 25 technologies; see their pages.

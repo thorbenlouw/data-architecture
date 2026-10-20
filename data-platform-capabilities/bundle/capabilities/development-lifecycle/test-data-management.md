@@ -61,4 +61,4 @@ This matters wherever production holds personal, financial or health data, becau
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [lakeFS](../../technologies/open-source/lakefs.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [K2view Data Product Platform](../../technologies/independent/k2view-data-product-platform.md), [Perforce Delphix](../../technologies/independent/perforce-delphix.md), [Tonic Structural](../../technologies/independent/tonic-structural.md) |
 
-Narrower capabilities are realised by a further 11 technologies; see their pages.
+Narrower capabilities are realised by a further 12 technologies; see their pages.

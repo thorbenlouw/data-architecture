@@ -52,4 +52,4 @@ Designs follow from those objectives. A reporting mart may tolerate a day's loss
 |---|---|---|
 | [ClickHouse](../../platforms/platform-clickhouse.md) |  | [ClickHouse Keeper](../../technologies/clickhouse/clickhouse-keeper.md) |
 
-Narrower capabilities are realised by a further 28 technologies; see their pages.
+Narrower capabilities are realised by a further 29 technologies; see their pages.

@@ -54,4 +54,5 @@ Credentials in code, notebooks, configuration files and environment variables ar
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Google Cloud Secret Manager](../../technologies/google-cloud/gcp-secret-manager.md) |
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake secrets](../../technologies/snowflake/snowflake-secrets.md) |
 | [Databricks](../../platforms/platform-databricks.md) | Secrets in Unity Catalog | [Secrets in Unity Catalog](../../technologies/databricks/databricks-secrets-in-unity-catalog.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku DSS](../../technologies/dataiku/dataiku.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [OpenBao](../../technologies/open-source/openbao.md) |

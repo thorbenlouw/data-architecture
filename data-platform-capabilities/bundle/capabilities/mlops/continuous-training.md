@@ -54,3 +54,4 @@ It matters where conditions change quickly, as with demand, fraud, pricing or re
 | [Amazon Web Services](../../platforms/platform-aws.md) |  | [Amazon SageMaker Pipelines](../../technologies/aws/aws-sagemaker-pipelines.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [Agent Platform Pipelines](../../technologies/google-cloud/gcp-agent-platform-pipelines.md) |
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake ML Jobs](../../technologies/snowflake/snowflake-ml-jobs.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku scenarios](../../technologies/dataiku/dataiku-scenarios.md) |

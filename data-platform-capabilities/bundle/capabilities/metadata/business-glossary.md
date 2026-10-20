@@ -57,5 +57,6 @@ It bridges the language of the business and the names in the data. Glossaries ra
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Catalog](../../technologies/oracle/oracle-oci-data-catalog.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Datasphere catalog and Data Marketplace](../../technologies/sap/sap-datasphere-catalog.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.data intelligence](../../technologies/ibm/ibm-watsonx-data-intelligence.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Data Governance](../../technologies/sas/sas-data-governance.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [DataHub](../../technologies/open-source/datahub.md), [OpenMetadata](../../technologies/open-source/openmetadata.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Collibra Data Governance](../../technologies/independent/collibra-data-governance.md), [data.world](../../technologies/independent/data-world.md) |

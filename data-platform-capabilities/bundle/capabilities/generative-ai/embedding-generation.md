@@ -60,4 +60,5 @@ The model choice sets retrieval quality, vector size and running cost. Embedding
 | [SAP](../../platforms/platform-sap.md) |  | [SAP HANA Cloud vector engine](../../technologies/sap/sap-hana-cloud-vector-engine.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Enterprise Vector Store](../../technologies/teradata/teradata-enterprise-vector-store.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [Confluent Intelligence](../../technologies/ibm/confluent-intelligence.md) (preview) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Knowledge Banks](../../technologies/dataiku/dataiku-knowledge-banks.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [MongoDB Atlas](../../technologies/independent/mongodb-atlas.md), [Pinecone](../../technologies/independent/pinecone.md), [Unstructured.io](../../technologies/independent/unstructured.md), [Weaviate Cloud](../../technologies/independent/weaviate-cloud.md) |

@@ -38,4 +38,5 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Databricks](../../platforms/platform-databricks.md) | [Databricks Apps](../databricks/databricks-apps.md) | [Data application hosting](../../capabilities/development-lifecycle/data-applications.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) | [Cloudera AI Workbench](../cloudera/cloudera-ai-workbench.md) | [Data application hosting](../../capabilities/development-lifecycle/data-applications.md) |
 | [Palantir](../../platforms/platform-palantir.md) | [Palantir Workshop](../palantir/palantir-workshop.md) | [Data application hosting](../../capabilities/development-lifecycle/data-applications.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | [Dataiku webapps and Dataiku Applications](../dataiku/dataiku-webapps.md) | [Data application hosting](../../capabilities/development-lifecycle/data-applications.md) |
 | [Independent vendors](../../platforms/platform-independent.md) | [Sisense](../independent/sisense.md), [Domo](../independent/domo.md), [Hex](../independent/hex.md) | [Data application hosting](../../capabilities/development-lifecycle/data-applications.md) |

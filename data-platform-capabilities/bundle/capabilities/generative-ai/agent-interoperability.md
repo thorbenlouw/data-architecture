@@ -54,5 +54,6 @@ This matters once agents are spread across business applications, cloud platform
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [BigQuery Data Engineering Agent](../../technologies/google-cloud/gcp-bigquery-data-engineering-agent.md), [Google Agent Development Kit](../../technologies/google-cloud/gcp-agent-development-kit.md) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [CLAIRE Agents](../../technologies/informatica/informatica-claire-agents.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx Orchestrate](../../technologies/ibm/ibm-watsonx-orchestrate.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual Agents and Code Agents](../../technologies/dataiku/dataiku-agents.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Agent2Agent (A2A) protocol](../../technologies/open-source/agent2agent-protocol.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [MuleSoft Anypoint Platform](../../technologies/independent/mulesoft-anypoint-platform.md) |

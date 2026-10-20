@@ -52,4 +52,5 @@ It is needed when one machine would take too long or cannot hold the model. Spee
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake Container Runtime for ML](../../technologies/snowflake/snowflake-container-runtime.md), [Snowflake ML Jobs](../../technologies/snowflake/snowflake-ml-jobs.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks AI Runtime](../../technologies/databricks/databricks-ai-runtime.md) (preview), [Databricks classic compute (Databricks Runtime clusters)](../../technologies/databricks/databricks-classic-compute.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Elastic Python Compute](../../technologies/teradata/teradata-elastic-python-compute.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Studio](../../technologies/sas/sas-model-studio.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Kubeflow](../../technologies/open-source/kubeflow.md), [Ray](../../technologies/open-source/ray.md) |

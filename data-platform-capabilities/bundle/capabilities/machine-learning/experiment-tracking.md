@@ -55,5 +55,6 @@ Without tracking, results live in notebook output and memory, and the best model
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake ML Experiments](../../technologies/snowflake/snowflake-ml-experiments.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Managed MLflow on Databricks](../../technologies/databricks/databricks-managed-mlflow.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) | Experiments | [Cloudera AI Workbench](../../technologies/cloudera/cloudera-ai-workbench.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Visual ML](../../technologies/dataiku/dataiku-visual-ml.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [DVC (Data Version Control)](../../technologies/open-source/dvc.md), [MLflow](../../technologies/open-source/mlflow.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Comet ML](../../technologies/independent/comet.md), [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md), [Weights & Biases](../../technologies/independent/weights-and-biases.md) |

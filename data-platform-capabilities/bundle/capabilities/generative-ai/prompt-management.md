@@ -56,5 +56,7 @@ Small wording changes can shift behaviour widely, and without versioning nobody 
 | [SAP](../../platforms/platform-sap.md) |  | [SAP AI Foundation (SAP AI Core and generative AI hub)](../../technologies/sap/sap-ai-foundation.md), [SAP Joule Studio](../../technologies/sap/sap-joule-studio.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.ai](../../technologies/ibm/ibm-watsonx-ai.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [AIP Logic and AIP Evals](../../technologies/palantir/palantir-aip-logic.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Agentic AI Accelerator](../../technologies/sas/sas-agentic-ai-accelerator.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Prompt Studios | [Dataiku Prompt Studios](../../technologies/dataiku/dataiku-prompt-studios.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [MLflow](../../technologies/open-source/mlflow.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Arize AX](../../technologies/independent/arize-ax.md), [Braintrust](../../technologies/independent/braintrust.md), [Comet ML](../../technologies/independent/comet.md), [LangSmith](../../technologies/independent/langsmith.md) |

@@ -57,3 +57,4 @@ Edge inference matters when a round trip to the cloud is too slow, sending raw d
 | Platform | Name used | Technologies |
 |---|---|---|
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) |  | [Azure Machine Learning online and batch endpoints](../../technologies/microsoft/azure-ml-endpoints.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Container Runtime](../../technologies/sas/sas-container-runtime.md) |

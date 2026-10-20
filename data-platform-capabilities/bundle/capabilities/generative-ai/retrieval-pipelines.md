@@ -66,5 +66,7 @@ The index sets the upper limit on answer quality, so pipeline choices have large
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera AI Studios (RAG, Fine Tuning and Synthetic Data Studios)](../../technologies/cloudera/cloudera-ai-studios.md) (preview) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata Enterprise Vector Store](../../technologies/teradata/teradata-enterprise-vector-store.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [OpenSearch and OpenRAG in IBM watsonx.data](../../technologies/ibm/ibm-watsonx-data-opensearch-openrag.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Retrieval Agent Manager](../../technologies/sas/sas-retrieval-agent-manager.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Knowledge Banks | [Dataiku Knowledge Banks](../../technologies/dataiku/dataiku-knowledge-banks.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Docling](../../technologies/open-source/docling.md), [LangChain](../../technologies/open-source/langchain.md), [LlamaIndex](../../technologies/open-source/llamaindex.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [LlamaParse](../../technologies/independent/llamaparse.md), [Unstructured.io](../../technologies/independent/unstructured.md) |

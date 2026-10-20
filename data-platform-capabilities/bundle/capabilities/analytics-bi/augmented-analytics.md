@@ -58,4 +58,5 @@ It helps when there are more metrics and segments than anyone can watch, and cha
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake ML Functions](../../technologies/snowflake/snowflake-ml-functions.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [Oracle Analytics Cloud](../../technologies/oracle/oracle-analytics-cloud.md) |
 | [SAP](../../platforms/platform-sap.md) |  | [SAP Analytics Cloud](../../technologies/sap/sap-analytics-cloud.md) |
+| [SAS](../../platforms/platform-sas.md) | Automated explanation | [SAS Visual Analytics](../../technologies/sas/sas-visual-analytics.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Qlik Cloud Analytics](../../technologies/independent/qlik-cloud-analytics.md), [Tableau Pulse](../../technologies/independent/tableau-pulse.md), [ThoughtSpot Spotter](../../technologies/independent/thoughtspot-spotter.md) |

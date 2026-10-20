@@ -51,3 +51,4 @@ They cover what SQL and notebooks cannot: open-source tools with no managed vers
 | [Snowflake](../../platforms/platform-snowflake.md) | Snowpark Container Services (SPCS), compute pools | [Snowpark Container Services](../../technologies/snowflake/snowflake-snowpark-container-services.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Apps](../../technologies/databricks/databricks-apps.md) |
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Data Services on premises](../../technologies/cloudera/cloudera-data-services-on-premises.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Elastic AI computation | [Dataiku DSS](../../technologies/dataiku/dataiku.md) |

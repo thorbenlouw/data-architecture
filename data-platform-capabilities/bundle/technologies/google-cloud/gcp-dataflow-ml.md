@@ -38,4 +38,5 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Microsoft Azure and Fabric](../../platforms/platform-microsoft.md) | [Azure Stream Analytics](../microsoft/azure-stream-analytics.md) | [Streaming inference](../../capabilities/mlops/streaming-inference.md) |
 | [Databricks](../../platforms/platform-databricks.md) | [Lakeflow pipelines](../databricks/databricks-lakeflow-pipelines.md) | [Streaming inference](../../capabilities/mlops/streaming-inference.md) |
 | [IBM](../../platforms/platform-ibm.md) | [Confluent Intelligence](../ibm/confluent-intelligence.md) (preview) | [Streaming inference](../../capabilities/mlops/streaming-inference.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Event Stream Processing](../sas/sas-event-stream-processing.md) | [Streaming inference](../../capabilities/mlops/streaming-inference.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) | [Apache Beam](../open-source/apache-beam.md), [Spark Structured Streaming](../open-source/apache-spark-structured-streaming.md) | [Streaming inference](../../capabilities/mlops/streaming-inference.md) |

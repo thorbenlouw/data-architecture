@@ -56,5 +56,7 @@ This is the only direct measure of whether a model still works; drift and output
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks data profiling](../../technologies/databricks/databricks-data-profiling.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata ModelOps](../../technologies/teradata/teradata-modelops.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.governance](../../technologies/ibm/ibm-watsonx-governance.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Manager](../../technologies/sas/sas-model-manager.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | Model evaluation stores | [Dataiku model evaluation stores and Unified Monitoring](../../technologies/dataiku/dataiku-model-monitoring.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Evidently](../../technologies/open-source/evidently.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Arize AX](../../technologies/independent/arize-ax.md), [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md), [Fiddler AI Control Plane](../../technologies/independent/fiddler-ai-control-plane.md) |

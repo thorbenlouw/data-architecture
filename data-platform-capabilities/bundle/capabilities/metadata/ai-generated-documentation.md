@@ -54,4 +54,5 @@ Large estates hold thousands of undocumented assets that manual effort never cat
 | [Snowflake](../../platforms/platform-snowflake.md) |  | [Snowflake AI-generated descriptions](../../technologies/snowflake/snowflake-cortex-descriptions.md) |
 | [Databricks](../../platforms/platform-databricks.md) |  | [Databricks Catalog Explorer](../../technologies/databricks/databricks-catalog-explorer.md) |
 | [IBM](../../platforms/platform-ibm.md) |  | [IBM watsonx.data intelligence](../../technologies/ibm/ibm-watsonx-data-intelligence.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Catalog](../../technologies/dataiku/dataiku-catalog.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Anomalo](../../technologies/independent/anomalo.md), [Collibra Data Catalog](../../technologies/independent/collibra-data-catalog.md), [DataHub Cloud](../../technologies/independent/datahub-cloud.md), [dbt Copilot](../../technologies/independent/dbt-copilot.md) |

@@ -54,6 +54,7 @@ The serving pattern follows from how predictions are used. Nightly propensity sc
 | [SAP](../../platforms/platform-sap.md) |  | [SAP AI Foundation (SAP AI Core and generative AI hub)](../../technologies/sap/sap-ai-foundation.md) |
 | [Teradata](../../platforms/platform-teradata.md) |  | [Teradata ModelOps](../../technologies/teradata/teradata-modelops.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Modeling Objectives and model assets](../../technologies/palantir/palantir-modeling-objectives.md) |
+| [SAS](../../platforms/platform-sas.md) |  | [SAS Model Manager](../../technologies/sas/sas-model-manager.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [DataRobot AI Platform](../../technologies/independent/datarobot-ai-platform.md), [Domino Enterprise AI Platform](../../technologies/independent/domino-enterprise-ai-platform.md) |
 
-Narrower capabilities are realised by a further 31 technologies; see their pages.
+Narrower capabilities are realised by a further 37 technologies; see their pages.

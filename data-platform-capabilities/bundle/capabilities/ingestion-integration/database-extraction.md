@@ -56,5 +56,7 @@ It is the simplest way to bring operational data into analytics and needs no acc
 | [Cloudera](../../platforms/platform-cloudera.md) |  | [Cloudera Data Flow](../../technologies/cloudera/cloudera-data-flow.md) |
 | [Oracle](../../platforms/platform-oracle.md) |  | [OCI Data Integration](../../technologies/oracle/oracle-oci-data-integration.md) |
 | [Palantir](../../platforms/platform-palantir.md) |  | [Palantir Data Connection](../../technologies/palantir/palantir-data-connection.md) |
+| [SAS](../../platforms/platform-sas.md) | SAS/ACCESS engines | [SAS Data Hub](../../technologies/sas/sas-data-hub.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku connections](../../technologies/dataiku/dataiku-connections.md) |
 | [Open-source ecosystem](../../platforms/platform-open-source.md) |  | [Airbyte](../../technologies/open-source/airbyte.md), [dlt (data load tool)](../../technologies/open-source/dlt.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Airbyte Cloud](../../technologies/independent/airbyte-cloud.md), [Fivetran](../../technologies/independent/fivetran.md) |

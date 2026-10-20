@@ -43,4 +43,6 @@ The closest technologies on each other platform, ranked by how many of the same 
 | [Teradata](../../platforms/platform-teradata.md) | [Teradata AI Studio](../teradata/teradata-ai-studio.md) | [Notebooks](../../capabilities/development-lifecycle/notebooks.md) |
 | [IBM](../../platforms/platform-ibm.md) | [IBM watsonx.ai](../ibm/ibm-watsonx-ai.md) | [Notebooks](../../capabilities/development-lifecycle/notebooks.md) |
 | [Palantir](../../platforms/platform-palantir.md) | [Palantir Code Workspaces](../palantir/palantir-code-workspaces.md) | [Notebooks](../../capabilities/development-lifecycle/notebooks.md) |
+| [SAS](../../platforms/platform-sas.md) | [SAS Viya Workbench](../sas/sas-viya-workbench.md) | [Notebooks](../../capabilities/development-lifecycle/notebooks.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) | [Dataiku code recipes and notebooks](../dataiku/dataiku-code-recipes-notebooks.md) | [Notebooks](../../capabilities/development-lifecycle/notebooks.md) |
 | [Independent vendors](../../platforms/platform-independent.md) | [Hex](../independent/hex.md), [ThoughtSpot Analyst Studio](../independent/thoughtspot-analyst-studio.md) | [Ad hoc analysis](../../capabilities/analytics-bi/ad-hoc-analysis.md), [Notebooks](../../capabilities/development-lifecycle/notebooks.md) |

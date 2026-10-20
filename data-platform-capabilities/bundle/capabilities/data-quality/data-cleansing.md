@@ -57,4 +57,6 @@ Cleansing matters before matching and mastering, where small differences stop re
 | [Amazon Web Services](../../platforms/platform-aws.md) |  | [AWS Glue DataBrew](../../technologies/aws/aws-glue-databrew.md) |
 | [Google Cloud](../../platforms/platform-google-cloud.md) |  | [BigQuery data preparation](../../technologies/google-cloud/gcp-bigquery-data-preparation.md) (preview) |
 | [Informatica](../../platforms/platform-informatica.md) |  | [Informatica Cloud Data Quality (CDQ)](../../technologies/informatica/informatica-cloud-data-quality.md) |
+| [SAS](../../platforms/platform-sas.md) | Quality Knowledge Base | [SAS Data Accelerator](../../technologies/sas/sas-data-accelerator.md), [SAS Data Engineering](../../technologies/sas/sas-data-engineering.md) |
+| [Dataiku](../../platforms/platform-dataiku.md) |  | [Dataiku Flow and visual recipes](../../technologies/dataiku/dataiku-flow-visual-recipes.md) |
 | [Independent vendors](../../platforms/platform-independent.md) |  | [Ataccama ONE](../../technologies/independent/ataccama-one.md), [Experian Aperture Data Studio](../../technologies/independent/experian-aperture-data-studio.md), [Precisely Data Integrity Suite](../../technologies/independent/precisely-data-integrity-suite.md), [Tamr](../../technologies/independent/tamr.md) |
